@@ -99,17 +99,16 @@ generate_e<-function(l) {
   return(e)
 }
 
-build_edges<-function(level,v,e){
+build_edges<-function(v,e){
   e <- e %>% filter(weight>1)
   e <- e %>% filter(pvalue<0.01)
-  ef <- e %>% filter(weight>quantile(weight,level))
-  ef<-mutate(ef,width=weight/mean(weight))
-  names(ef)[1]<-"from"
-  names(ef)[2]<-"to"
-  ef<-ef[ef$from %in% v$id | ef$to %in% v$id,]
-  ef$id<-NULL
-  ef$label<-round(ef$weight,1)
-  return(ef)
+  e<-mutate(e,width=weight/mean(weight))
+  names(e)[1]<-"from"
+  names(e)[2]<-"to"
+  e<-e[e$from %in% v$id | e$to %in% v$id,]
+  e$id<-NULL
+  e$label<-round(e$weight,1)
+  return(e)
 }
 
 build_nodes<-function(edges,original_nodes,cie10){
@@ -133,7 +132,7 @@ cmbd<-generate_cmbd(1,30,40,"~/Documents/diseasomeCMBD2016/CMBD_HOS_ANONIMO_2016
 l<-generate_l(cmbd)
 v<-generate_v(l)
 e<-generate_e(l)
-edges<-build_edges(0,v,e)
+edges<-build_edges(v,e)
 vertex<-build_nodes(edges,v,cie10)
 g<-graph.data.frame(edges,vertices=vertex)
 g.sym <- as.undirected(g, mode= "collapse")
