@@ -68,7 +68,7 @@ generate_v<-function(l){
   return(v)
 }
 
-generate_e<-function(l) {
+generate_e<-function(l,v) {
   e <- l %>%
     lapply(function(x) {
       expand.grid(x, x, weight = 1, stringsAsFactors = FALSE)
@@ -126,16 +126,164 @@ build_nodes<-function(edges,original_nodes,cie10){
 }
 
 
+build_igraph<-function(sex,age_min,age_max,cie10,cmbd_file="~/Documents/diseasomeCMBD2016/CMBD_HOS_ANONIMO_20160101_20161231.csv"){
+  cmbd<-generate_cmbd(sex,age_min,age_max,cmbd_file)
+  l<-generate_l(cmbd)
+  v<-generate_v(l)
+  e<-generate_e(l,v)
+  edges<-build_edges(v,e)
+  vertex<-build_nodes(edges,v,cie10)
+  g<-graph.data.frame(edges,vertices=vertex)
+  g.sym <- as.undirected(g, mode= "collapse")
+  return(g.sym)
+}
 
-cie10<-generate_cie10("~/Documents/diseasomeCMBD2016/CIE10.txt")
-cmbd<-generate_cmbd(1,30,40,"~/Documents/diseasomeCMBD2016/CMBD_HOS_ANONIMO_20160101_20161231.csv")
-l<-generate_l(cmbd)
-v<-generate_v(l)
-e<-generate_e(l)
-edges<-build_edges(v,e)
-vertex<-build_nodes(edges,v,cie10)
-g<-graph.data.frame(edges,vertices=vertex)
-g.sym <- as.undirected(g, mode= "collapse")
+
+build_summary_edges<-function(sex,age_min,age_max,g.sym){
+  r.degree <- degree(g.sym)
+  r.degree <- data.frame(id=names(r.degree),degree=r.degree)
+  r.strength <- strength(g.sym)
+  r.strength <- data.frame(id=names(r.strength),strength=r.strength)
+  r.closeness <- closeness(g.sym,normalized=TRUE)
+  r.closeness <- data.frame(id=names(r.closeness),closeness=r.closeness)
+  r.betweenness <- betweenness(g.sym)
+  r.betweenness <- data.frame(id=names(r.betweenness),betweenness=r.betweenness)
+  r.summary <- merge(cie10,r.strength,by="id")
+  r.summary <- merge(r.summary,r.degree,by="id")
+  r.summary <- merge(r.summary,r.closeness,by="id")
+  r.summary <- merge(r.summary,r.betweenness,by="id")
+  return(r.summary)
+}
+
+
+build_summary_global<-function(sex,age_min,age_max,g.sym){
+  return(data.frame(sex=sex,
+                    age_min=age_min,
+                    age_max=age_max,
+                    num_vertex=length(V(g.sym)),
+                    num_edges=length(E(g.sym)),
+                    w_diameter=diameter(g.sym,directed=F),
+                    diameter=diameter(g.sym,directed=F,weights=NA),
+                    mean_distance=mean_distance(g.sym,directed=F),
+                    edge_density=edge_density(g.sym),
+                    transitivity=transitivity(g.sym)))
+}
+
+cie10_file<-"~/Documents/diseasomeCMBD2016/CIE10.txt"
+cie10<-generate_cie10(cie10_file)
+
+m0009.igraph<-build_igraph(1,0,9,cie10)
+m1019.igraph<-build_igraph(1,10,19,cie10)
+m2029.igraph<-build_igraph(1,20,29,cie10)
+m3039.igraph<-build_igraph(1,30,39,cie10)
+m4049.igraph<-build_igraph(1,40,49,cie10)
+m5059.igraph<-build_igraph(1,50,59,cie10)
+m6069.igraph<-build_igraph(1,60,69,cie10)
+m7079.igraph<-build_igraph(1,70,79,cie10)
+m8099.igraph<-build_igraph(1,80,120,cie10)
+
+m0009.igraph.main<-decompose.graph(m0009.igraph)[[1]]
+m1019.igraph.main<-decompose.graph(m1019.igraph)[[1]]
+m2029.igraph.main<-decompose.graph(m2029.igraph)[[1]]
+m3039.igraph.main<-decompose.graph(m3039.igraph)[[1]]
+m4049.igraph.main<-decompose.graph(m4049.igraph)[[1]]
+m5059.igraph.main<-decompose.graph(m5059.igraph)[[1]]
+m6069.igraph.main<-decompose.graph(m6069.igraph)[[1]]
+m7079.igraph.main<-decompose.graph(m7079.igraph)[[1]]
+m8099.igraph.main<-decompose.graph(m8099.igraph)[[1]]
+
+
+m0009.summary.edges<-build_summary_edges(1,0,9,m0009.igraph)
+m1019.summary.edges<-build_summary_edges(1,10,19,m1019.igraph)
+m2029.summary.edges<-build_summary_edges(1,20,29,m2029.igraph)
+m3039.summary.edges<-build_summary_edges(1,30,39,m3039.igraph)
+m4049.summary.edges<-build_summary_edges(1,40,49,m4049.igraph)
+m5059.summary.edges<-build_summary_edges(1,50,59,m5059.igraph)
+m6069.summary.edges<-build_summary_edges(1,60,69,m6069.igraph)
+m7079.summary.edges<-build_summary_edges(1,70,79,m7079.igraph)
+m8099.summary.edges<-build_summary_edges(1,80,89,m8099.igraph)
+
+m7099.summary.edges<-merge(m7079.summary.edges,m8099.summary.edges,by=c("id","str"),suffixes = c(".m7079", ".m8099"))
+m6099.summary.edges<-merge(m6069.summary.edges,m7099.summary.edges,by=c("id","str"))
+m5099.summary.edges<-merge(m5059.summary.edges,m6099.summary.edges,by=c("id","str"),suffixes = c(".m5059", ".m6069"))
+
+
+m0009.summary.global<-build_summary_global(1,0,9,m0009.igraph)
+m1019.summary.global<-build_summary_global(1,10,19,m1019.igraph)
+m2029.summary.global<-build_summary_global(1,20,29,m2029.igraph)
+m3039.summary.global<-build_summary_global(1,30,39,m3039.igraph)
+m4049.summary.global<-build_summary_global(1,40,49,m4049.igraph)
+m5059.summary.global<-build_summary_global(1,50,59,m5059.igraph)
+m6069.summary.global<-build_summary_global(1,60,69,m6069.igraph)
+m7079.summary.global<-build_summary_global(1,70,79,m7079.igraph)
+m8099.summary.global<-build_summary_global(1,80,120,m8099.igraph)
+
+m0099.summary.global<-rbind(m0009.summary.global,
+      m1019.summary.global,
+      m2029.summary.global,
+      m3039.summary.global,
+      m4049.summary.global,
+      m5059.summary.global,
+      m6069.summary.global,
+      m7079.summary.global,
+      m8099.summary.global)
+
+m0009.summary.main.global<-build_summary_global(1,0,9,m0009.igraph.main)
+m1019.summary.main.global<-build_summary_global(1,10,19,m1019.igraph.main)
+m2029.summary.main.global<-build_summary_global(1,20,29,m2029.igraph.main)
+m3039.summary.main.global<-build_summary_global(1,30,39,m3039.igraph.main)
+m4049.summary.main.global<-build_summary_global(1,40,49,m4049.igraph.main)
+m5059.summary.main.global<-build_summary_global(1,50,59,m5059.igraph.main)
+m6069.summary.main.global<-build_summary_global(1,60,69,m6069.igraph.main)
+m7079.summary.main.global<-build_summary_global(1,70,79,m7079.igraph.main)
+m8099.summary.main.global<-build_summary_global(1,80,120,m8099.igraph.main)
+
+m0099.summary.main.global<-rbind(m0009.summary.main.global,
+                            m1019.summary.main.global,
+                            m2029.summary.main.global,
+                            m3039.summary.main.global,
+                            m4049.summary.main.global,
+                            m5059.summary.main.global,
+                            m6069.summary.main.global,
+                            m7079.summary.main.global,
+                            m8099.summary.main.global)
+
+plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,smooth) {
+  if(size_by=="betweenness"){
+    
+    #V(my_igraph)$size<-betweenness(my_igraph)
+    vector<-betweenness(my_igraph)
+    V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
+    # y = N + ((M-N)*((x-a)/(b-a)))
+    # N = min_size
+    # M = max_size
+    # x = value
+    # a = min(value)
+    # b = max(value)
+    print("betweenness")
+  } else {
+    print("no")
+    #V(my_igraph)$size<-degree(my_igraph)
+    vector<-degree(my_igraph)
+    V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
+  }
+  V(my_igraph)$size[V(my_igraph)$size<min_size]<-min_size
+  V(my_igraph)$size[V(my_igraph)$size>max_size]<-max_size
+  visIgraph(my_igraph, layout=layout, physics=physics, smooth=smooth) %>%
+    visPhysics(solver="barnesHut",
+               barnesHut=list(
+                 gravitationalConstant=-10000,
+                 centralGravity=0.5,
+                 springLength=95,
+                 springConstant=0.01,
+                 damping=0.05,
+                 avoidOverlap=0.8
+               ),
+               stabilization=F)
+}
+
+plot_commorbidity(m5059.igraph.main,"layout_nicely","betweenness",10,100,T,T)
+
 
 
 visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>% 
@@ -150,23 +298,12 @@ visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>%
                damping=0.5,
                avoidOverlap=0.8
              ),
-             stabilization=T) %>%
+             stabilization=F) %>%
   visNodes(shadow=T) %>%
-  visConfigure(enabled=T) %>%
   visOptions(highlightNearest = list(enabled = T, degree = 1, hover = F),
-            selectedBy="group",
-            collapse=FALSE)
+             selectedBy="group",
+             collapse=FALSE)
   
 
-sort(degree(g.sym))
-edge_density(g.sym,loops=F)
-transitivity(g,type="global")
-transitivity(g,type="local")
-triad_census(g)
-diameter(g,directed=F,weights=NA)
-get_diameter(g,directed=F)
-deg<-degree(g,mode="all")
-hist(deg)
-centr_degree(g,mode="all",normalized="T")
-largest_cliques(g.sym)
+
 
