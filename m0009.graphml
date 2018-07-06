@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">E86.0</data>
+      <data key="v_Freq">81</data>
+      <data key="v_str">Deshidratación</data>
+      <data key="v_label">Deshidratación</data>
+      <data key="v_title">Deshidratación</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">E87.2</data>
+      <data key="v_Freq">64</data>
+      <data key="v_str">Acidosis</data>
+      <data key="v_label">Acidosis</data>
+      <data key="v_title">Acidosis</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">J35.1</data>
+      <data key="v_Freq">47</data>
+      <data key="v_str">Hipertrofia de las amígdalas</data>
+      <data key="v_label">Hipertrofia de las amígdalas</data>
+      <data key="v_title">Hipertrofia de las amígdalas</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">J35.3</data>
+      <data key="v_Freq">101</data>
+      <data key="v_str">Hipertrofia de las amígdalas con hipertrofia de las adenoides</data>
+      <data key="v_label">Hipertrofia de las amígdalas </data>
+      <data key="v_title">Hipertrofia de las amígdalas con hipertrofia de las adenoides</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">J90</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Derrame pleural, no clasificable bajo otro concepto</data>
+      <data key="v_label">Derrame pleural, no clasificab</data>
+      <data key="v_title">Derrame pleural, no clasificable bajo otro concepto</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">J96.00</data>
+      <data key="v_Freq">215</data>
+      <data key="v_str">Insuficiencia respiratoria aguda no especificada si con hipoxia o con hipercapnia</data>
+      <data key="v_label">Insuficiencia respiratoria agu</data>
+      <data key="v_title">Insuficiencia respiratoria aguda no especificada si con hipoxia o con hipercapnia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">J96.01</data>
+      <data key="v_Freq">114</data>
+      <data key="v_str">Insuficiencia respiratoria aguda con hipoxia</data>
+      <data key="v_label">Insuficiencia respiratoria agu</data>
+      <data key="v_title">Insuficiencia respiratoria aguda con hipoxia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">J96.90</data>
+      <data key="v_Freq">81</data>
+      <data key="v_str">Insuficiencia respiratoria, no especificada, sin especificar si con hipoxia o con hipercapnia</data>
+      <data key="v_label">Insuficiencia respiratoria, no</data>
+      <data key="v_title">Insuficiencia respiratoria, no especificada, sin especificar si con hipoxia o con hipercapnia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">J98.01</data>
+      <data key="v_Freq">236</data>
+      <data key="v_str">Broncoespasmo agudo</data>
+      <data key="v_label">Broncoespasmo agudo</data>
+      <data key="v_title">Broncoespasmo agudo</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">J98.11</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Atelectasia</data>
+      <data key="v_label">Atelectasia</data>
+      <data key="v_title">Atelectasia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">K52.9</data>
+      <data key="v_Freq">93</data>
+      <data key="v_str">Gastroenteritis y colitis no infecciosas, no especificadas</data>
+      <data key="v_label">Gastroenteritis y colitis no i</data>
+      <data key="v_title">Gastroenteritis y colitis no infecciosas, no especificadas</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">L20.9</data>
+      <data key="v_Freq">46</data>
+      <data key="v_str">Dermatitis atópica, no especificada</data>
+      <data key="v_label">Dermatitis atópica, no especi</data>
+      <data key="v_title">Dermatitis atópica, no especificada</data>
+      <data key="v_group">L</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">N10</data>
+      <data key="v_Freq">24</data>
+      <data key="v_str">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_label">Nefritis túbulo-intersticial </data>
+      <data key="v_title">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">N39.0</data>
+      <data key="v_Freq">61</data>
+      <data key="v_str">Infección de tracto urinario, localización no especificada</data>
+      <data key="v_label">Infección de tracto urinario,</data>
+      <data key="v_title">Infección de tracto urinario, localización no especificada</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">N47.5</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Adherencias de prepucio y glande del pene</data>
+      <data key="v_label">Adherencias de prepucio y glan</data>
+      <data key="v_title">Adherencias de prepucio y glande del pene</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">P03.4</data>
+      <data key="v_Freq">77</data>
+      <data key="v_str">Recién nacido (con sospecha de estar) afectado por parto por cesárea</data>
+      <data key="v_label">Recién nacido (con sospecha d</data>
+      <data key="v_title">Recién nacido (con sospecha de estar) afectado por parto por cesárea</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">P07.16</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Otro tipo de recién nacido de bajo peso al nacimiento, 1500-1749 gramos</data>
+      <data key="v_label">Otro tipo de recién nacido de</data>
+      <data key="v_title">Otro tipo de recién nacido de bajo peso al nacimiento, 1500-1749 gramos</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">P07.18</data>
+      <data key="v_Freq">90</data>
+      <data key="v_str">Otro tipo de recién nacido de bajo peso al nacimiento, 2000-2499 gramos</data>
+      <data key="v_label">Otro tipo de recién nacido de</data>
+      <data key="v_title">Otro tipo de recién nacido de bajo peso al nacimiento, 2000-2499 gramos</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">P07.37</data>
+      <data key="v_Freq">48</data>
+      <data key="v_str">Recién nacido pretérmino, edad gestacional de 34 semanas completas</data>
+      <data key="v_label">Recién nacido pretérmino, ed</data>
+      <data key="v_title">Recién nacido pretérmino, edad gestacional de 34 semanas completas</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">P07.38</data>
+      <data key="v_Freq">44</data>
+      <data key="v_str">Recién nacido pretérmino, edad gestacional de 35 semanas completas</data>
+      <data key="v_label">Recién nacido pretérmino, ed</data>
+      <data key="v_title">Recién nacido pretérmino, edad gestacional de 35 semanas completas</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">P07.39</data>
+      <data key="v_Freq">57</data>
+      <data key="v_str">Recién nacido pretérmino, edad gestacional de 36 semanas completas</data>
+      <data key="v_label">Recién nacido pretérmino, ed</data>
+      <data key="v_title">Recién nacido pretérmino, edad gestacional de 36 semanas completas</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">P22.0</data>
+      <data key="v_Freq">60</data>
+      <data key="v_str">Síndrome de distrés respiratorio del recién nacido</data>
+      <data key="v_label">Síndrome de distrés respirat</data>
+      <data key="v_title">Síndrome de distrés respiratorio del recién nacido</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">P22.1</data>
+      <data key="v_Freq">170</data>
+      <data key="v_str">Taquipnea transitoria del recién nacido</data>
+      <data key="v_label">Taquipnea transitoria del reci</data>
+      <data key="v_title">Taquipnea transitoria del recién nacido</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">P59.0</data>
+      <data key="v_Freq">67</data>
+      <data key="v_str">Ictericia neonatal asociada con parto prematuro</data>
+      <data key="v_label">Ictericia neonatal asociada co</data>
+      <data key="v_title">Ictericia neonatal asociada con parto prematuro</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">P59.9</data>
+      <data key="v_Freq">207</data>
+      <data key="v_str">Ictericia neonatal, no especificada</data>
+      <data key="v_label">Ictericia neonatal, no especif</data>
+      <data key="v_title">Ictericia neonatal, no especificada</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">P61.2</data>
+      <data key="v_Freq">21</data>
+      <data key="v_str">Anemia de la prematuridad</data>
+      <data key="v_label">Anemia de la prematuridad</data>
+      <data key="v_title">Anemia de la prematuridad</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">P70.4</data>
+      <data key="v_Freq">142</data>
+      <data key="v_str">Otros tipos de hipoglucemia neonatal</data>
+      <data key="v_label">Otros tipos de hipoglucemia ne</data>
+      <data key="v_title">Otros tipos de hipoglucemia neonatal</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">P84</data>
+      <data key="v_Freq">48</data>
+      <data key="v_str">Otros problemas del recién nacido </data>
+      <data key="v_label">Otros problemas del recién na</data>
+      <data key="v_title">Otros problemas del recién nacido </data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">Q25.0</data>
+      <data key="v_Freq">38</data>
+      <data key="v_str">Ductus arterioso permeable</data>
+      <data key="v_label">Ductus arterioso permeable</data>
+      <data key="v_title">Ductus arterioso permeable</data>
+      <data key="v_group">Q</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">R09.02</data>
+      <data key="v_Freq">144</data>
+      <data key="v_str">Hipoxemia</data>
+      <data key="v_label">Hipoxemia</data>
+      <data key="v_title">Hipoxemia</data>
+      <data key="v_group">R</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">R63.4</data>
+      <data key="v_Freq">15</data>
+      <data key="v_str">Pérdida anormal de peso</data>
+      <data key="v_label">Pérdida anormal de peso</data>
+      <data key="v_title">Pérdida anormal de peso</data>
+      <data key="v_group">R</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">Z23</data>
+      <data key="v_Freq">52</data>
+      <data key="v_str">Contacto para vacunación</data>
+      <data key="v_label">Contacto para vacunación</data>
+      <data key="v_title">Contacto para vacunación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">A08.0</data>
+      <data key="v_Freq">51</data>
+      <data key="v_str">Enteritis debida a rotavirus</data>
+      <data key="v_label">Enteritis debida a rotavirus</data>
+      <data key="v_title">Enteritis debida a rotavirus</data>
+      <data key="v_group">A</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">B96.20</data>
+      <data key="v_Freq">55</data>
+      <data key="v_str">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_label">Escherichia coli [E. coli] no </data>
+      <data key="v_title">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">B97.4</data>
+      <data key="v_Freq">40</data>
+      <data key="v_str">Virus sincitial respiratorio como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_label">Virus sincitial respiratorio c</data>
+      <data key="v_title">Virus sincitial respiratorio como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">G47.33</data>
+      <data key="v_Freq">112</data>
+      <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_group">G</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">J18.9</data>
+      <data key="v_Freq">147</data>
+      <data key="v_str">Neumonía, nmicroorganismo no especificado</data>
+      <data key="v_label">Neumonía, nmicroorganismo no </data>
+      <data key="v_title">Neumonía, nmicroorganismo no especificado</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">J20.9</data>
+      <data key="v_Freq">83</data>
+      <data key="v_str">Bronquitis aguda, no especificada</data>
+      <data key="v_label">Bronquitis aguda, no especific</data>
+      <data key="v_title">Bronquitis aguda, no especificada</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">J21.0</data>
+      <data key="v_Freq">214</data>
+      <data key="v_str">Bronquiolitis aguda por virus sincitial respiratorio</data>
+      <data key="v_label">Bronquiolitis aguda por virus </data>
+      <data key="v_title">Bronquiolitis aguda por virus sincitial respiratorio</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">J22</data>
+      <data key="v_Freq">50</data>
+      <data key="v_str">Infección aguda del tracto respiratorio inferior, no especificada</data>
+      <data key="v_label">Infección aguda del tracto re</data>
+      <data key="v_title">Infección aguda del tracto respiratorio inferior, no especificada</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">J45.901</data>
+      <data key="v_Freq">104</data>
+      <data key="v_str">Asma no especificada con exacerbación (aguda)</data>
+      <data key="v_label">Asma no especificada con exace</data>
+      <data key="v_title">Asma no especificada con exacerbación (aguda)</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">J96.91</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Insuficiencia respiratoria, no especificada con hipoxia</data>
+      <data key="v_label">Insuficiencia respiratoria, no</data>
+      <data key="v_title">Insuficiencia respiratoria, no especificada con hipoxia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">N47.1</data>
+      <data key="v_Freq">43</data>
+      <data key="v_str">Fimosis</data>
+      <data key="v_label">Fimosis</data>
+      <data key="v_title">Fimosis</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">P01.5</data>
+      <data key="v_Freq">69</data>
+      <data key="v_str">Recién nacido (con sospecha de estar) afectado por embarazo múltiple</data>
+      <data key="v_label">Recién nacido (con sospecha d</data>
+      <data key="v_title">Recién nacido (con sospecha de estar) afectado por embarazo múltiple</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">P07.14</data>
+      <data key="v_Freq">19</data>
+      <data key="v_str">Otro tipo de recién nacido de bajo peso al nacimiento, 1000-1249 gramos</data>
+      <data key="v_label">Otro tipo de recién nacido de</data>
+      <data key="v_title">Otro tipo de recién nacido de bajo peso al nacimiento, 1000-1249 gramos</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">P08.21</data>
+      <data key="v_Freq">50</data>
+      <data key="v_str">Recién nacido postérmino</data>
+      <data key="v_label">Recién nacido postérmino</data>
+      <data key="v_title">Recién nacido postérmino</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">P61.1</data>
+      <data key="v_Freq">35</data>
+      <data key="v_str">Policitemia neonatal</data>
+      <data key="v_label">Policitemia neonatal</data>
+      <data key="v_title">Policitemia neonatal</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">P92.8</data>
+      <data key="v_Freq">28</data>
+      <data key="v_str">Otros problemas de alimentación del recién nacido</data>
+      <data key="v_label">Otros problemas de alimentaci�</data>
+      <data key="v_title">Otros problemas de alimentación del recién nacido</data>
+      <data key="v_group">P</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">Q21.1</data>
+      <data key="v_Freq">109</data>
+      <data key="v_str">Defecto del tabique auricular</data>
+      <data key="v_label">Defecto del tabique auricular</data>
+      <data key="v_title">Defecto del tabique auricular</data>
+      <data key="v_group">Q</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">20.0729166666667</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_weight">3.11418998817501</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="e_weight">7.01925364258103</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_weight">7.38112175102599</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_weight">18.4181600955795</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="e_weight">11.0077284946237</data>
+    </edge>
+    <edge source="n8" target="n11">
+      <data key="e_weight">5.32516580692704</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_weight">23.1953703703704</data>
+    </edge>
+    <edge source="n17" target="n19">
+      <data key="e_weight">19.4646464646465</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_weight">9.01520467836257</data>
+    </edge>
+    <edge source="n15" target="n21">
+      <data key="e_weight">10.0103896103896</data>
+    </edge>
+    <edge source="n15" target="n22">
+      <data key="e_weight">5.00519480519481</data>
+    </edge>
+    <edge source="n16" target="n22">
+      <data key="e_weight">8.00138408304498</data>
+    </edge>
+    <edge source="n17" target="n22">
+      <data key="e_weight">5.79359477124183</data>
+    </edge>
+    <edge source="n19" target="n22">
+      <data key="e_weight">8.75909090909091</data>
+    </edge>
+    <edge source="n17" target="n23">
+      <data key="e_weight">8.94792703150912</data>
+    </edge>
+    <edge source="n18" target="n23">
+      <data key="e_weight">13.1822139303483</data>
+    </edge>
+    <edge source="n19" target="n23">
+      <data key="e_weight">14.3805970149254</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="e_weight">16.2980099502488</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="e_weight">7.10570676031607</data>
+    </edge>
+    <edge source="n17" target="n24">
+      <data key="e_weight">5.37863660762211</data>
+    </edge>
+    <edge source="n22" target="n24">
+      <data key="e_weight">2.84751349815288</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_weight">36.7047619047619</data>
+    </edge>
+    <edge source="n15" target="n26">
+      <data key="e_weight">5.28717761112127</data>
+    </edge>
+    <edge source="n17" target="n26">
+      <data key="e_weight">7.23755868544601</data>
+    </edge>
+    <edge source="n18" target="n26">
+      <data key="e_weight">7.91607981220657</data>
+    </edge>
+    <edge source="n20" target="n26">
+      <data key="e_weight">7.61848282678527</data>
+    </edge>
+    <edge source="n22" target="n26">
+      <data key="e_weight">4.62990886495443</data>
+    </edge>
+    <edge source="n23" target="n26">
+      <data key="e_weight">7.696657557284</data>
+    </edge>
+    <edge source="n24" target="n26">
+      <data key="e_weight">3.27787983942301</data>
+    </edge>
+    <edge source="n22" target="n27">
+      <data key="e_weight">7.08455882352941</data>
+    </edge>
+    <edge source="n21" target="n28">
+      <data key="e_weight">20.2842105263158</data>
+    </edge>
+    <edge source="n8" target="n29">
+      <data key="e_weight">6.46415960451977</data>
+    </edge>
+    <edge source="n26" target="n31">
+      <data key="e_weight">7.82908992416035</data>
+    </edge>
+    <edge source="n0" target="n32">
+      <data key="e_weight">22.3907044299201</data>
+    </edge>
+    <edge source="n1" target="n32">
+      <data key="e_weight">12.9883578431373</data>
+    </edge>
+    <edge source="n12" target="n33">
+      <data key="e_weight">37.9560606060606</data>
+    </edge>
+    <edge source="n13" target="n33">
+      <data key="e_weight">28.7183308494784</data>
+    </edge>
+    <edge source="n5" target="n34">
+      <data key="e_weight">6.27395348837209</data>
+    </edge>
+    <edge source="n2" target="n35">
+      <data key="e_weight">8.78571428571429</data>
+    </edge>
+    <edge source="n3" target="n35">
+      <data key="e_weight">20.4420084865629</data>
+    </edge>
+    <edge source="n4" target="n36">
+      <data key="e_weight">16.0219198790627</data>
+    </edge>
+    <edge source="n5" target="n36">
+      <data key="e_weight">3.17051099509571</data>
+    </edge>
+    <edge source="n8" target="n36">
+      <data key="e_weight">2.99948114839156</data>
+    </edge>
+    <edge source="n5" target="n37">
+      <data key="e_weight">4.53538806388344</data>
+    </edge>
+    <edge source="n7" target="n37">
+      <data key="e_weight">9.74535177748029</data>
+    </edge>
+    <edge source="n5" target="n38">
+      <data key="e_weight">5.10962834166486</data>
+    </edge>
+    <edge source="n6" target="n38">
+      <data key="e_weight">3.63346450237744</data>
+    </edge>
+    <edge source="n29" target="n38">
+      <data key="e_weight">4.75246625129803</data>
+    </edge>
+    <edge source="n8" target="n39">
+      <data key="e_weight">5.55237288135593</data>
+    </edge>
+    <edge source="n5" target="n40">
+      <data key="e_weight">5.17084078711986</data>
+    </edge>
+    <edge source="n6" target="n40">
+      <data key="e_weight">5.20107962213225</data>
+    </edge>
+    <edge source="n8" target="n41">
+      <data key="e_weight">7.32057276446522</data>
+    </edge>
+    <edge source="n14" target="n42">
+      <data key="e_weight">62.3498483316481</data>
+    </edge>
+    <edge source="n15" target="n43">
+      <data key="e_weight">11.6062488236401</data>
+    </edge>
+    <edge source="n16" target="n43">
+      <data key="e_weight">16.4279624893436</data>
+    </edge>
+    <edge source="n17" target="n43">
+      <data key="e_weight">9.92979066022544</data>
+    </edge>
+    <edge source="n21" target="n43">
+      <data key="e_weight">12.1019323671498</data>
+    </edge>
+    <edge source="n22" target="n43">
+      <data key="e_weight">5.91406649616368</data>
+    </edge>
+    <edge source="n23" target="n43">
+      <data key="e_weight">13.338524767467</data>
+    </edge>
+    <edge source="n26" target="n43">
+      <data key="e_weight">6.68687487242294</data>
+    </edge>
+    <edge source="n28" target="n43">
+      <data key="e_weight">16.1685736079329</data>
+    </edge>
+    <edge source="n21" target="n44">
+      <data key="e_weight">33.8070175438596</data>
+    </edge>
+    <edge source="n22" target="n45">
+      <data key="e_weight">6.34776470588235</data>
+    </edge>
+    <edge source="n26" target="n46">
+      <data key="e_weight">9.30543259557344</data>
+    </edge>
+    <edge source="n30" target="n47">
+      <data key="e_weight">119.290476190476</data>
+    </edge>
+    <edge source="n28" target="n48">
+      <data key="e_weight">13.0265572187349</data>
+    </edge>
+  </graph>
+</graphml>

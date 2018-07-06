@@ -1,7 +1,11 @@
 options(stringsAsFactors = FALSE)
+if(!require("dplyr")) {install.packages("dplyr")}
 library(dplyr)
+if(!require("stringr")) {install.packages("stringr")}
 library(stringr)
+if(!require("igraph")) {install.packages("igraph")}
 library(igraph)
+if(!require("visNetwork")) {install.packages("visNetwork")}
 library(visNetwork)
 
 
@@ -126,7 +130,7 @@ build_nodes<-function(edges,original_nodes,cie10){
 }
 
 
-build_igraph<-function(sex,age_min,age_max,cie10,cmbd_file="~/Documents/diseasomeCMBD2016/CMBD_HOS_ANONIMO_20160101_20161231.csv"){
+build_igraph<-function(sex,age_min,age_max,cie10,cmbd_file="CMBD_HOS_ANONIMO_20160101_20161231.csv"){
   cmbd<-generate_cmbd(sex,age_min,age_max,cmbd_file)
   l<-generate_l(cmbd)
   v<-generate_v(l)
@@ -169,7 +173,36 @@ build_summary_global<-function(sex,age_min,age_max,g.sym){
                     transitivity=transitivity(g.sym)))
 }
 
-cie10_file<-"~/Documents/diseasomeCMBD2016/CIE10.txt"
+plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,smooth) {
+  if(size_by=="betweenness"){
+    vector<-betweenness(my_igraph)
+    V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
+    # y = N + ((M-N)*((x-a)/(b-a)))
+    # N = min_size
+    # M = max_size
+    # x = value
+    # a = min(value)
+    # b = max(value)
+  } else {
+    vector<-degree(my_igraph)
+    V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
+  }
+  V(my_igraph)$size[V(my_igraph)$size<min_size]<-min_size
+  V(my_igraph)$size[V(my_igraph)$size>max_size]<-max_size
+  visIgraph(my_igraph, layout=layout, physics=physics, smooth=smooth) %>%
+    visPhysics(solver="barnesHut",
+               barnesHut=list(
+                 gravitationalConstant=-10000,
+                 centralGravity=0.5,
+                 springLength=95,
+                 springConstant=0.01,
+                 damping=0.05,
+                 avoidOverlap=0.8
+               ),
+               stabilization=F)
+}
+
+cie10_file<-"CIE10.txt"
 cie10<-generate_cie10(cie10_file)
 
 m0009.igraph<-build_igraph(1,0,9,cie10)
@@ -181,6 +214,17 @@ m5059.igraph<-build_igraph(1,50,59,cie10)
 m6069.igraph<-build_igraph(1,60,69,cie10)
 m7079.igraph<-build_igraph(1,70,79,cie10)
 m8099.igraph<-build_igraph(1,80,120,cie10)
+
+#saving graphs generated to files
+write_graph(m0009.igraph,"m0009.graphml","graphml")
+write_graph(m1019.igraph,"m1019.graphml","graphml")
+write_graph(m2029.igraph,"m2029.graphml","graphml")
+write_graph(m3039.igraph,"m3039.graphml","graphml")
+write_graph(m4049.igraph,"m4049.graphml","graphml")
+write_graph(m5059.igraph,"m5059.graphml","graphml")
+write_graph(m6069.igraph,"m6069.graphml","graphml")
+write_graph(m7079.igraph,"m7079.graphml","graphml")
+write_graph(m8099.igraph,"m8099.graphml","graphml")
 
 m0009.igraph.main<-decompose.graph(m0009.igraph)[[1]]
 m1019.igraph.main<-decompose.graph(m1019.igraph)[[1]]
@@ -248,39 +292,7 @@ m0099.summary.main.global<-rbind(m0009.summary.main.global,
                             m7079.summary.main.global,
                             m8099.summary.main.global)
 
-plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,smooth) {
-  if(size_by=="betweenness"){
-    
-    #V(my_igraph)$size<-betweenness(my_igraph)
-    vector<-betweenness(my_igraph)
-    V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
-    # y = N + ((M-N)*((x-a)/(b-a)))
-    # N = min_size
-    # M = max_size
-    # x = value
-    # a = min(value)
-    # b = max(value)
-    print("betweenness")
-  } else {
-    print("no")
-    #V(my_igraph)$size<-degree(my_igraph)
-    vector<-degree(my_igraph)
-    V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
-  }
-  V(my_igraph)$size[V(my_igraph)$size<min_size]<-min_size
-  V(my_igraph)$size[V(my_igraph)$size>max_size]<-max_size
-  visIgraph(my_igraph, layout=layout, physics=physics, smooth=smooth) %>%
-    visPhysics(solver="barnesHut",
-               barnesHut=list(
-                 gravitationalConstant=-10000,
-                 centralGravity=0.5,
-                 springLength=95,
-                 springConstant=0.01,
-                 damping=0.05,
-                 avoidOverlap=0.8
-               ),
-               stabilization=F)
-}
+
 
 plot_commorbidity(m5059.igraph.main,"layout_nicely","betweenness",10,100,T,T)
 

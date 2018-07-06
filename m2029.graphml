@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">F17.210</data>
+      <data key="v_Freq">124</data>
+      <data key="v_str">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_label">Dependencia de nicotina, cigar</data>
+      <data key="v_title">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">F10.10</data>
+      <data key="v_Freq">27</data>
+      <data key="v_str">Abuso de alcohol, sin complicaciones</data>
+      <data key="v_label">Abuso de alcohol, sin complica</data>
+      <data key="v_title">Abuso de alcohol, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">6.01702508960574</data>
+    </edge>
+  </graph>
+</graphml>

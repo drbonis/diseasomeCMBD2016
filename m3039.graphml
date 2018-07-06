@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">F17.210</data>
+      <data key="v_Freq">271</data>
+      <data key="v_str">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_label">Dependencia de nicotina, cigar</data>
+      <data key="v_title">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">G47.33</data>
+      <data key="v_Freq">41</data>
+      <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_group">G</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">J34.3</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Hipertrofia de los cornetes nasales</data>
+      <data key="v_label">Hipertrofia de los cornetes na</data>
+      <data key="v_title">Hipertrofia de los cornetes nasales</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">K44.9</data>
+      <data key="v_Freq">38</data>
+      <data key="v_str">Hernia diafragmática sin obstrucción ni gangrena</data>
+      <data key="v_label">Hernia diafragmática sin obst</data>
+      <data key="v_title">Hernia diafragmática sin obstrucción ni gangrena</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Z65.1</data>
+      <data key="v_Freq">11</data>
+      <data key="v_str">Prisión y otros tipos de encarcelamiento</data>
+      <data key="v_label">Prisión y otros tipos de enca</data>
+      <data key="v_title">Prisión y otros tipos de encarcelamiento</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Z99.89</data>
+      <data key="v_Freq">14</data>
+      <data key="v_str">Dependencia de otras máquinas y dispositivos de apoyo</data>
+      <data key="v_label">Dependencia de otras máquinas</data>
+      <data key="v_title">Dependencia de otras máquinas y dispositivos de apoyo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">B18.2</data>
+      <data key="v_Freq">17</data>
+      <data key="v_str">Hepatitis vírica crónica tipo C</data>
+      <data key="v_label">Hepatitis vírica crónica tip</data>
+      <data key="v_title">Hepatitis vírica crónica tipo C</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">E66.01</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_label">Obesidad mórbida (severa) por</data>
+      <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">F10.10</data>
+      <data key="v_Freq">54</data>
+      <data key="v_str">Abuso de alcohol, sin complicaciones</data>
+      <data key="v_label">Abuso de alcohol, sin complica</data>
+      <data key="v_title">Abuso de alcohol, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">J34.2</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Tabique nasal desviado</data>
+      <data key="v_label">Tabique nasal desviado</data>
+      <data key="v_title">Tabique nasal desviado</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">K21.9</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Enfermedad por reflujo gastroesofágico sin esofagitis</data>
+      <data key="v_label">Enfermedad por reflujo gastroe</data>
+      <data key="v_title">Enfermedad por reflujo gastroesofágico sin esofagitis</data>
+      <data key="v_group">K</data>
+    </node>
+    <edge source="n1" target="n5">
+      <data key="e_weight">46.6777003484321</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_weight">99.1925133689839</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_weight">21.8557794273595</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_weight">4.08425584255843</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_weight">41.777027027027</data>
+    </edge>
+    <edge source="n3" target="n10">
+      <data key="e_weight">18.7023593466425</data>
+    </edge>
+  </graph>
+</graphml>

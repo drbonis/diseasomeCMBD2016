@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">K03.6</data>
+      <data key="v_Freq">9</data>
+      <data key="v_str">Depósitos [acumulaciones] en los dientes</data>
+      <data key="v_label">Depósitos [acumulaciones] en </data>
+      <data key="v_title">Depósitos [acumulaciones] en los dientes</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">K02.9</data>
+      <data key="v_Freq">12</data>
+      <data key="v_str">Caries dental, no especificada</data>
+      <data key="v_label">Caries dental, no especificada</data>
+      <data key="v_title">Caries dental, no especificada</data>
+      <data key="v_group">K</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">114.5</data>
+    </edge>
+  </graph>
+</graphml>

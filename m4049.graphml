@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">B20</data>
+      <data key="v_Freq">79</data>
+      <data key="v_str">Enfermedad por virus de la inmunodeficiencia humana [VIH]</data>
+      <data key="v_label">Enfermedad por virus de la inm</data>
+      <data key="v_title">Enfermedad por virus de la inmunodeficiencia humana [VIH]</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">E55.9</data>
+      <data key="v_Freq">53</data>
+      <data key="v_str">Carencia de vitamina D, no especificada</data>
+      <data key="v_label">Carencia de vitamina D, no esp</data>
+      <data key="v_title">Carencia de vitamina D, no especificada</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">E66.01</data>
+      <data key="v_Freq">52</data>
+      <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_label">Obesidad mórbida (severa) por</data>
+      <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">E66.9</data>
+      <data key="v_Freq">112</data>
+      <data key="v_str">Obesidad,no especificada</data>
+      <data key="v_label">Obesidad,no especificada</data>
+      <data key="v_title">Obesidad,no especificada</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">E78.5</data>
+      <data key="v_Freq">275</data>
+      <data key="v_str">Hiperlipidemia, no especificada</data>
+      <data key="v_label">Hiperlipidemia, no especificad</data>
+      <data key="v_title">Hiperlipidemia, no especificada</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">F10.10</data>
+      <data key="v_Freq">131</data>
+      <data key="v_str">Abuso de alcohol, sin complicaciones</data>
+      <data key="v_label">Abuso de alcohol, sin complica</data>
+      <data key="v_title">Abuso de alcohol, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">F11.20</data>
+      <data key="v_Freq">40</data>
+      <data key="v_str">Dependencia de opiáceos, sin complicaciones</data>
+      <data key="v_label">Dependencia de opiáceos, sin </data>
+      <data key="v_title">Dependencia de opiáceos, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">F11.21</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Dependencia de opiáceos, en remisión</data>
+      <data key="v_label">Dependencia de opiáceos, en r</data>
+      <data key="v_title">Dependencia de opiáceos, en remisión</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">F14.10</data>
+      <data key="v_Freq">38</data>
+      <data key="v_str">Abuso de cocaína, sin complicaciones</data>
+      <data key="v_label">Abuso de cocaína, sin complic</data>
+      <data key="v_title">Abuso de cocaína, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">F14.20</data>
+      <data key="v_Freq">26</data>
+      <data key="v_str">Dependencia de cocaína, sin complicaciones</data>
+      <data key="v_label">Dependencia de cocaína, sin c</data>
+      <data key="v_title">Dependencia de cocaína, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">F14.21</data>
+      <data key="v_Freq">41</data>
+      <data key="v_str">Dependencia de cocaína, en remisión</data>
+      <data key="v_label">Dependencia de cocaína, en re</data>
+      <data key="v_title">Dependencia de cocaína, en remisión</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">F17.209</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Dependencia de nicotina no especificada, con trastornos inducidos por nicotina no especificados</data>
+      <data key="v_label">Dependencia de nicotina no esp</data>
+      <data key="v_title">Dependencia de nicotina no especificada, con trastornos inducidos por nicotina no especificados</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">F17.210</data>
+      <data key="v_Freq">521</data>
+      <data key="v_str">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_label">Dependencia de nicotina, cigar</data>
+      <data key="v_title">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">F19.21</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Dependencia de otra sustancia psicoactiva, en remisión</data>
+      <data key="v_label">Dependencia de otra sustancia </data>
+      <data key="v_title">Dependencia de otra sustancia psicoactiva, en remisión</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">G47.33</data>
+      <data key="v_Freq">101</data>
+      <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_group">G</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">I10</data>
+      <data key="v_Freq">390</data>
+      <data key="v_str">Hipertensión esencial (primaria)</data>
+      <data key="v_label">Hipertensión esencial (primar</data>
+      <data key="v_title">Hipertensión esencial (primaria)</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">I21.4</data>
+      <data key="v_Freq">25</data>
+      <data key="v_str">Infarto agudo de miocardio sin elevación de ST (IAMSEST) (IMNEST) (NSTEMI) </data>
+      <data key="v_label">Infarto agudo de miocardio sin</data>
+      <data key="v_title">Infarto agudo de miocardio sin elevación de ST (IAMSEST) (IMNEST) (NSTEMI) </data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">I25.10</data>
+      <data key="v_Freq">88</data>
+      <data key="v_str">Enfermedad cardiaca aterosclerótica de arteria coronaria nativa sin angina de pecho</data>
+      <data key="v_label">Enfermedad cardiaca ateroscler</data>
+      <data key="v_title">Enfermedad cardiaca aterosclerótica de arteria coronaria nativa sin angina de pecho</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">I25.2</data>
+      <data key="v_Freq">35</data>
+      <data key="v_str">Infarto de miocardio antiguo</data>
+      <data key="v_label">Infarto de miocardio antiguo</data>
+      <data key="v_title">Infarto de miocardio antiguo</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">J18.9</data>
+      <data key="v_Freq">82</data>
+      <data key="v_str">Neumonía, nmicroorganismo no especificado</data>
+      <data key="v_label">Neumonía, nmicroorganismo no </data>
+      <data key="v_title">Neumonía, nmicroorganismo no especificado</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">J34.3</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Hipertrofia de los cornetes nasales</data>
+      <data key="v_label">Hipertrofia de los cornetes na</data>
+      <data key="v_title">Hipertrofia de los cornetes nasales</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">K31.89</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Otras enfermedades de estómago y duodeno</data>
+      <data key="v_label">Otras enfermedades de estómag</data>
+      <data key="v_title">Otras enfermedades de estómago y duodeno</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">K44.9</data>
+      <data key="v_Freq">70</data>
+      <data key="v_str">Hernia diafragmática sin obstrucción ni gangrena</data>
+      <data key="v_label">Hernia diafragmática sin obst</data>
+      <data key="v_title">Hernia diafragmática sin obstrucción ni gangrena</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">K70.9</data>
+      <data key="v_Freq">45</data>
+      <data key="v_str">Enfermedad hepática alcohólica, no especificada</data>
+      <data key="v_label">Enfermedad hepática alcohóli</data>
+      <data key="v_title">Enfermedad hepática alcohólica, no especificada</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">K76.6</data>
+      <data key="v_Freq">54</data>
+      <data key="v_str">Hipertensión portal</data>
+      <data key="v_label">Hipertensión portal</data>
+      <data key="v_title">Hipertensión portal</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">K85.1</data>
+      <data key="v_Freq">14</data>
+      <data key="v_str">Pancreatitis biliar aguda</data>
+      <data key="v_label">Pancreatitis biliar aguda</data>
+      <data key="v_title">Pancreatitis biliar aguda</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">N17.9</data>
+      <data key="v_Freq">87</data>
+      <data key="v_str">Fallo renal agudo, no especificado</data>
+      <data key="v_label">Fallo renal agudo, no especifi</data>
+      <data key="v_title">Fallo renal agudo, no especificado</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">N18.6</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Enfermedad renal en estadio terminal</data>
+      <data key="v_label">Enfermedad renal en estadio te</data>
+      <data key="v_title">Enfermedad renal en estadio terminal</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">N18.9</data>
+      <data key="v_Freq">35</data>
+      <data key="v_str">Enfermedad renal crónica, no especificada</data>
+      <data key="v_label">Enfermedad renal crónica, no </data>
+      <data key="v_title">Enfermedad renal crónica, no especificada</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">N39.0</data>
+      <data key="v_Freq">63</data>
+      <data key="v_str">Infección de tracto urinario, localización no especificada</data>
+      <data key="v_label">Infección de tracto urinario,</data>
+      <data key="v_title">Infección de tracto urinario, localización no especificada</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">Z21</data>
+      <data key="v_Freq">53</data>
+      <data key="v_str">Estado de infección asintomática por virus de inmunodeficiencia humana [VIH]</data>
+      <data key="v_label">Estado de infección asintomá</data>
+      <data key="v_title">Estado de infección asintomática por virus de inmunodeficiencia humana [VIH]</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">Z65.1</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Prisión y otros tipos de encarcelamiento</data>
+      <data key="v_label">Prisión y otros tipos de enca</data>
+      <data key="v_title">Prisión y otros tipos de encarcelamiento</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">Z79.4</data>
+      <data key="v_Freq">48</data>
+      <data key="v_str">Uso (actual) prolongado de insulina</data>
+      <data key="v_label">Uso (actual) prolongado de ins</data>
+      <data key="v_title">Uso (actual) prolongado de insulina</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">Z86.11</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Historia personal de tuberculosis</data>
+      <data key="v_label">Historia personal de tuberculo</data>
+      <data key="v_title">Historia personal de tuberculosis</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">Z87.891</data>
+      <data key="v_Freq">176</data>
+      <data key="v_str">Historia personal de dependencia a nicotina</data>
+      <data key="v_label">Historia personal de dependenc</data>
+      <data key="v_title">Historia personal de dependencia a nicotina</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">Z92.3</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Historia personal de irradiación</data>
+      <data key="v_label">Historia personal de irradiaci</data>
+      <data key="v_title">Historia personal de irradiación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">Z95.5</data>
+      <data key="v_Freq">31</data>
+      <data key="v_str">Presencia de angioplastia, injertos y prótesis coronarios</data>
+      <data key="v_label">Presencia de angioplastia, inj</data>
+      <data key="v_title">Presencia de angioplastia, injertos y prótesis coronarios</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">Z99.2</data>
+      <data key="v_Freq">15</data>
+      <data key="v_str">Dependencia de diálisis renal</data>
+      <data key="v_label">Dependencia de diálisis renal</data>
+      <data key="v_title">Dependencia de diálisis renal</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">Z99.89</data>
+      <data key="v_Freq">41</data>
+      <data key="v_str">Dependencia de otras máquinas y dispositivos de apoyo</data>
+      <data key="v_label">Dependencia de otras máquinas</data>
+      <data key="v_title">Dependencia de otras máquinas y dispositivos de apoyo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">A41.9</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Sepsis, no especificada</data>
+      <data key="v_label">Sepsis, no especificada</data>
+      <data key="v_title">Sepsis, no especificada</data>
+      <data key="v_group">A</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">B18.2</data>
+      <data key="v_Freq">104</data>
+      <data key="v_str">Hepatitis vírica crónica tipo C</data>
+      <data key="v_label">Hepatitis vírica crónica tip</data>
+      <data key="v_title">Hepatitis vírica crónica tipo C</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">B96.20</data>
+      <data key="v_Freq">28</data>
+      <data key="v_str">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_label">Escherichia coli [E. coli] no </data>
+      <data key="v_title">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">E11.9</data>
+      <data key="v_Freq">158</data>
+      <data key="v_str">Diabetes mellitus tipo 2 sin complicaciones</data>
+      <data key="v_label">Diabetes mellitus tipo 2 sin c</data>
+      <data key="v_title">Diabetes mellitus tipo 2 sin complicaciones</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">E87.2</data>
+      <data key="v_Freq">42</data>
+      <data key="v_str">Acidosis</data>
+      <data key="v_label">Acidosis</data>
+      <data key="v_title">Acidosis</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">F10.20</data>
+      <data key="v_Freq">116</data>
+      <data key="v_str">Dependencia de alcohol, sin complicaciones</data>
+      <data key="v_label">Dependencia de alcohol, sin co</data>
+      <data key="v_title">Dependencia de alcohol, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">F10.21</data>
+      <data key="v_Freq">52</data>
+      <data key="v_str">Dependencia de alcohol, en remisión</data>
+      <data key="v_label">Dependencia de alcohol, en rem</data>
+      <data key="v_title">Dependencia de alcohol, en remisión</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">F10.288</data>
+      <data key="v_Freq">21</data>
+      <data key="v_str">Dependencia de alcohol, con otro trastorno inducido por alcohol</data>
+      <data key="v_label">Dependencia de alcohol, con ot</data>
+      <data key="v_title">Dependencia de alcohol, con otro trastorno inducido por alcohol</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">F12.10</data>
+      <data key="v_Freq">51</data>
+      <data key="v_str">Abuso de cannabis, sin complicaciones</data>
+      <data key="v_label">Abuso de cannabis, sin complic</data>
+      <data key="v_title">Abuso de cannabis, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">F12.20</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Dependencia de cannabis, sin complicaciones</data>
+      <data key="v_label">Dependencia de cannabis, sin c</data>
+      <data key="v_title">Dependencia de cannabis, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">I12.0</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
+      <data key="v_label">Enfermedad renal crónica hipe</data>
+      <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">I12.9</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
+      <data key="v_label">Enfermedad renal crónica hipe</data>
+      <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">I21.19</data>
+      <data key="v_Freq">19</data>
+      <data key="v_str">Infarto agudo de miocardio con elevación de ST (IAMCEST) (IMEST) (STEMI) con implicación de otra arteria coronaria de cara inferior</data>
+      <data key="v_label">Infarto agudo de miocardio con</data>
+      <data key="v_title">Infarto agudo de miocardio con elevación de ST (IAMCEST) (IMEST) (STEMI) con implicación de otra arteria coronaria de cara inferior</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">I85.10</data>
+      <data key="v_Freq">24</data>
+      <data key="v_str">Varices esofágicas secundarias sin sangrado</data>
+      <data key="v_label">Varices esofágicas secundaria</data>
+      <data key="v_title">Varices esofágicas secundarias sin sangrado</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">J34.2</data>
+      <data key="v_Freq">35</data>
+      <data key="v_str">Tabique nasal desviado</data>
+      <data key="v_label">Tabique nasal desviado</data>
+      <data key="v_title">Tabique nasal desviado</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">K21.9</data>
+      <data key="v_Freq">43</data>
+      <data key="v_str">Enfermedad por reflujo gastroesofágico sin esofagitis</data>
+      <data key="v_label">Enfermedad por reflujo gastroe</data>
+      <data key="v_title">Enfermedad por reflujo gastroesofágico sin esofagitis</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">K22.70</data>
+      <data key="v_Freq">12</data>
+      <data key="v_str">Esófago de Barrett sin displasia</data>
+      <data key="v_label">Esófago de Barrett sin displa</data>
+      <data key="v_title">Esófago de Barrett sin displasia</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">K70.31</data>
+      <data key="v_Freq">17</data>
+      <data key="v_str">Cirrosis alcohólica de hígado con ascitis</data>
+      <data key="v_label">Cirrosis alcohólica de hígad</data>
+      <data key="v_title">Cirrosis alcohólica de hígado con ascitis</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">K74.60</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Cirrosis de hígado no especificada</data>
+      <data key="v_label">Cirrosis de hígado no especif</data>
+      <data key="v_title">Cirrosis de hígado no especificada</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">K80.20</data>
+      <data key="v_Freq">58</data>
+      <data key="v_str">Cálculo de vesícula biliar sin colecistitis sin obstrucción</data>
+      <data key="v_label">Cálculo de vesícula biliar s</data>
+      <data key="v_title">Cálculo de vesícula biliar sin colecistitis sin obstrucción</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">Z79.82</data>
+      <data key="v_Freq">51</data>
+      <data key="v_str">Uso (actual) prolongado de aspirina </data>
+      <data key="v_label">Uso (actual) prolongado de asp</data>
+      <data key="v_title">Uso (actual) prolongado de aspirina </data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">Z92.21</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Historia personal de quimioterapia antineoplásica</data>
+      <data key="v_label">Historia personal de quimioter</data>
+      <data key="v_title">Historia personal de quimioterapia antineoplásica</data>
+      <data key="v_group">Z</data>
+    </node>
+    <edge source="n0" target="n6">
+      <data key="e_weight">16.4708860759494</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_weight">8.49517878666131</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_weight">30.3364418938307</data>
+    </edge>
+    <edge source="n0" target="n12">
+      <data key="e_weight">2.68718870720863</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="e_weight">1.97529924969464</data>
+    </edge>
+    <edge source="n5" target="n12">
+      <data key="e_weight">3.52701059325138</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_weight">3.43406909788868</data>
+    </edge>
+    <edge source="n8" target="n12">
+      <data key="e_weight">3.94342862915446</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_weight">17.0388476647752</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">3.87543848037594</data>
+    </edge>
+    <edge source="n2" target="n14">
+      <data key="e_weight">14.8651942117289</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_weight">4.88870226308345</data>
+    </edge>
+    <edge source="n2" target="n15">
+      <data key="e_weight">3.68929980276134</data>
+    </edge>
+    <edge source="n3" target="n15">
+      <data key="e_weight">3.05341117216117</data>
+    </edge>
+    <edge source="n4" target="n15">
+      <data key="e_weight">2.91177622377622</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="e_weight">6.62429090909091</data>
+    </edge>
+    <edge source="n4" target="n17">
+      <data key="e_weight">4.97359504132231</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="e_weight">2.6961699528878</data>
+    </edge>
+    <edge source="n15" target="n17">
+      <data key="e_weight">3.12788461538462</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_weight">31.0513636363636</data>
+    </edge>
+    <edge source="n4" target="n18">
+      <data key="e_weight">5.74555844155844</data>
+    </edge>
+    <edge source="n17" target="n18">
+      <data key="e_weight">13.7301948051948</data>
+    </edge>
+    <edge source="n21" target="n24">
+      <data key="e_weight">47.1449275362319</data>
+    </edge>
+    <edge source="n26" target="n29">
+      <data key="e_weight">7.71556285349389</data>
+    </edge>
+    <edge source="n0" target="n31">
+      <data key="e_weight">16.4708860759494</data>
+    </edge>
+    <edge source="n1" target="n31">
+      <data key="e_weight">28.6427672955975</data>
+    </edge>
+    <edge source="n12" target="n31">
+      <data key="e_weight">4.99500959692898</data>
+    </edge>
+    <edge source="n0" target="n33">
+      <data key="e_weight">18.1664184661206</data>
+    </edge>
+    <edge source="n14" target="n34">
+      <data key="e_weight">3.65999099909991</data>
+    </edge>
+    <edge source="n17" target="n36">
+      <data key="e_weight">19.0791788856305</data>
+    </edge>
+    <edge source="n18" target="n36">
+      <data key="e_weight">47.9705069124424</data>
+    </edge>
+    <edge source="n27" target="n37">
+      <data key="e_weight">132.52962962963</data>
+    </edge>
+    <edge source="n2" target="n38">
+      <data key="e_weight">22.8869606003752</data>
+    </edge>
+    <edge source="n14" target="n38">
+      <data key="e_weight">28.280125573533</data>
+    </edge>
+    <edge source="n19" target="n39">
+      <data key="e_weight">16.3350071736011</data>
+    </edge>
+    <edge source="n0" target="n40">
+      <data key="e_weight">14.6495861733203</data>
+    </edge>
+    <edge source="n1" target="n40">
+      <data key="e_weight">11.2131712626996</data>
+    </edge>
+    <edge source="n5" target="n40">
+      <data key="e_weight">4.53662654139753</data>
+    </edge>
+    <edge source="n6" target="n40">
+      <data key="e_weight">17.2033653846154</data>
+    </edge>
+    <edge source="n7" target="n40">
+      <data key="e_weight">15.6394230769231</data>
+    </edge>
+    <edge source="n12" target="n40">
+      <data key="e_weight">3.24195334416064</data>
+    </edge>
+    <edge source="n13" target="n40">
+      <data key="e_weight">18.335875331565</data>
+    </edge>
+    <edge source="n30" target="n40">
+      <data key="e_weight">8.26233671988389</data>
+    </edge>
+    <edge source="n31" target="n40">
+      <data key="e_weight">20.8525641025641</data>
+    </edge>
+    <edge source="n33" target="n40">
+      <data key="e_weight">11.9595588235294</data>
+    </edge>
+    <edge source="n29" target="n41">
+      <data key="e_weight">25.8174603174603</data>
+    </edge>
+    <edge source="n2" target="n42">
+      <data key="e_weight">5.54308666017527</data>
+    </edge>
+    <edge source="n3" target="n42">
+      <data key="e_weight">4.04419077757685</data>
+    </edge>
+    <edge source="n4" target="n42">
+      <data key="e_weight">3.44391254315305</data>
+    </edge>
+    <edge source="n15" target="n42">
+      <data key="e_weight">3.43143459915612</data>
+    </edge>
+    <edge source="n32" target="n42">
+      <data key="e_weight">11.5810917721519</data>
+    </edge>
+    <edge source="n26" target="n43">
+      <data key="e_weight">11.5733442802408</data>
+    </edge>
+    <edge source="n12" target="n44">
+      <data key="e_weight">2.79892779138262</data>
+    </edge>
+    <edge source="n23" target="n44">
+      <data key="e_weight">9.97088122605364</data>
+    </edge>
+    <edge source="n12" target="n45">
+      <data key="e_weight">3.00180865200059</data>
+    </edge>
+    <edge source="n11" target="n46">
+      <data key="e_weight">77.4523809523809</data>
+    </edge>
+    <edge source="n8" target="n47">
+      <data key="e_weight">30.2136222910217</data>
+    </edge>
+    <edge source="n12" target="n47">
+      <data key="e_weight">3.67280117421249</data>
+    </edge>
+    <edge source="n9" target="n48">
+      <data key="e_weight">48.9581939799331</data>
+    </edge>
+    <edge source="n27" target="n49">
+      <data key="e_weight">100.401234567901</data>
+    </edge>
+    <edge source="n28" target="n50">
+      <data key="e_weight">58.8638095238095</data>
+    </edge>
+    <edge source="n17" target="n51">
+      <data key="e_weight">29.1836124401914</data>
+    </edge>
+    <edge source="n21" target="n52">
+      <data key="e_weight">76.6105072463768</data>
+    </edge>
+    <edge source="n24" target="n52">
+      <data key="e_weight">50.2006172839506</data>
+    </edge>
+    <edge source="n20" target="n53">
+      <data key="e_weight">72.2888888888889</data>
+    </edge>
+    <edge source="n22" target="n54">
+      <data key="e_weight">14.0495016611296</data>
+    </edge>
+    <edge source="n22" target="n55">
+      <data key="e_weight">38.7261904761905</data>
+    </edge>
+    <edge source="n24" target="n56">
+      <data key="e_weight">42.5228758169935</data>
+    </edge>
+    <edge source="n24" target="n57">
+      <data key="e_weight">30.1203703703704</data>
+    </edge>
+    <edge source="n25" target="n58">
+      <data key="e_weight">40.0615763546798</data>
+    </edge>
+    <edge source="n36" target="n59">
+      <data key="e_weight">20.5755850727388</data>
+    </edge>
+    <edge source="n35" target="n60">
+      <data key="e_weight">65.06</data>
+    </edge>
+  </graph>
+</graphml>
