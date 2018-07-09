@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">N10</data>
+      <data key="v_Freq">24</data>
+      <data key="v_str">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_label">Nefritis túbulo-intersticial a</data>
+      <data key="v_title">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">Z37.0</data>
+      <data key="v_Freq">151</data>
+      <data key="v_str">Nacido vivo único</data>
+      <data key="v_label">Nacido vivo único</data>
+      <data key="v_title">Nacido vivo único</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">Z3A.38</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">38 semanas de gestación</data>
+      <data key="v_label">38 semanas de gestación</data>
+      <data key="v_title">38 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">Z3A.39</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">39 semanas de gestación</data>
+      <data key="v_label">39 semanas de gestación</data>
+      <data key="v_title">39 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">Z3A.40</data>
+      <data key="v_Freq">40</data>
+      <data key="v_str">40 semanas de gestación</data>
+      <data key="v_label">40 semanas de gestación</data>
+      <data key="v_title">40 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">Z3A.41</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">41 semanas de gestación</data>
+      <data key="v_label">41 semanas de gestación</data>
+      <data key="v_title">41 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">Z67.10</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Grupo sanguíneo A, Rh positivo</data>
+      <data key="v_label">Grupo sanguíneo A, Rh positivo</data>
+      <data key="v_title">Grupo sanguíneo A, Rh positivo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">Z67.40</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Grupo sanguíneo O, Rh positivo</data>
+      <data key="v_label">Grupo sanguíneo O, Rh positivo</data>
+      <data key="v_title">Grupo sanguíneo O, Rh positivo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">B96.20</data>
+      <data key="v_Freq">13</data>
+      <data key="v_str">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_label">Escherichia coli [E. coli] no </data>
+      <data key="v_title">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">O42.02</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Rotura prematura de membranas a término, inicio del trabajo de parto en las primeras 24 horas de la rotura</data>
+      <data key="v_label">Rotura prematura de membranas </data>
+      <data key="v_title">Rotura prematura de membranas a término, inicio del trabajo de parto en las primeras 24 horas de la rotura</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">O48.0</data>
+      <data key="v_Freq">48</data>
+      <data key="v_str">Embarazo postérmino</data>
+      <data key="v_label">Embarazo postérmino</data>
+      <data key="v_title">Embarazo postérmino</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">O70.0</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Desgarro perineal de primer grado en el parto</data>
+      <data key="v_label">Desgarro perineal de primer gr</data>
+      <data key="v_title">Desgarro perineal de primer grado en el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">O70.1</data>
+      <data key="v_Freq">12</data>
+      <data key="v_str">Desgarro perineal de segundo grado en el parto</data>
+      <data key="v_label">Desgarro perineal de segundo g</data>
+      <data key="v_title">Desgarro perineal de segundo grado en el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">O90.81</data>
+      <data key="v_Freq">17</data>
+      <data key="v_str">Anemia puerperal</data>
+      <data key="v_label">Anemia puerperal</data>
+      <data key="v_title">Anemia puerperal</data>
+      <data key="v_group">O</data>
+    </node>
+    <edge source="n1" target="n2">
+      <data key="e_weight">8.48504224708838</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_weight">8.07553248612851</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_weight">8.56837748344371</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_weight">8.78807947019868</data>
+    </edge>
+    <edge source="n1" target="n6">
+      <data key="e_weight">7.87896780086778</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_weight">8.40598905845091</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_weight">42.5320512820513</data>
+    </edge>
+    <edge source="n1" target="n9">
+      <data key="e_weight">8.78807947019867</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_weight">13.1504504504505</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="e_weight">8.78807947019868</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_weight">20.0432291666667</data>
+    </edge>
+    <edge source="n5" target="n10">
+      <data key="e_weight">24.88125</data>
+    </edge>
+    <edge source="n6" target="n10">
+      <data key="e_weight">10.4863505747126</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_weight">13.2219202898551</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="e_weight">8.18200502397808</data>
+    </edge>
+    <edge source="n1" target="n12">
+      <data key="e_weight">8.78807947019868</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="e_weight">7.2372419166342</data>
+    </edge>
+  </graph>
+</graphml>

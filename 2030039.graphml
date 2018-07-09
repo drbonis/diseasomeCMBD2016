@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">C77.0</data>
+      <data key="v_Freq">11</data>
+      <data key="v_str">Neoplasia maligna secundaria y no especificada de ganglios linfáticos de cabeza, cara y cuello</data>
+      <data key="v_label">Neoplasia maligna secundaria y</data>
+      <data key="v_title">Neoplasia maligna secundaria y no especificada de ganglios linfáticos de cabeza, cara y cuello</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">D25.2</data>
+      <data key="v_Freq">42</data>
+      <data key="v_str">Leiomioma subseroso de útero</data>
+      <data key="v_label">Leiomioma subseroso de útero</data>
+      <data key="v_title">Leiomioma subseroso de útero</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">N10</data>
+      <data key="v_Freq">61</data>
+      <data key="v_str">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_label">Nefritis túbulo-intersticial a</data>
+      <data key="v_title">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">O09.813</data>
+      <data key="v_Freq">103</data>
+      <data key="v_str">Supervisión de embarazo resultante de técnica de reproducción asistida, tercer trimestre</data>
+      <data key="v_label">Supervisión de embarazo result</data>
+      <data key="v_title">Supervisión de embarazo resultante de técnica de reproducción asistida, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">O24.420</data>
+      <data key="v_Freq">170</data>
+      <data key="v_str">Diabetes mellitus gestacional en el parto, con control dietético</data>
+      <data key="v_label">Diabetes mellitus gestacional </data>
+      <data key="v_title">Diabetes mellitus gestacional en el parto, con control dietético</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">O26.62</data>
+      <data key="v_Freq">22</data>
+      <data key="v_str">Trastornos hepáticos y del tracto biliar en el parto</data>
+      <data key="v_label">Trastornos hepáticos y del tra</data>
+      <data key="v_title">Trastornos hepáticos y del tracto biliar en el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">O30.043</data>
+      <data key="v_Freq">116</data>
+      <data key="v_str">Embarazo gemelar dicoriónico/ diamniótico, tercer trimestre</data>
+      <data key="v_label">Embarazo gemelar dicoriónico/ </data>
+      <data key="v_title">Embarazo gemelar dicoriónico/ diamniótico, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">O32.8XX2</data>
+      <data key="v_Freq">11</data>
+      <data key="v_str">Atención materna por otra presentación anómala del feto, feto 2</data>
+      <data key="v_label">Atención materna por otra pres</data>
+      <data key="v_title">Atención materna por otra presentación anómala del feto, feto 2</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">O34.13</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Atención materna por tumor benigno en el cuerpo del útero, tercer trimestre</data>
+      <data key="v_label">Atención materna por tumor ben</data>
+      <data key="v_title">Atención materna por tumor benigno en el cuerpo del útero, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">O34.21</data>
+      <data key="v_Freq">500</data>
+      <data key="v_str">Atención materna por cicatriz por un parto por cesárea anterior</data>
+      <data key="v_label">Atención materna por cicatriz </data>
+      <data key="v_title">Atención materna por cicatriz por un parto por cesárea anterior</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">O42.02</data>
+      <data key="v_Freq">965</data>
+      <data key="v_str">Rotura prematura de membranas a término, inicio del trabajo de parto en las primeras 24 horas de la rotura</data>
+      <data key="v_label">Rotura prematura de membranas </data>
+      <data key="v_title">Rotura prematura de membranas a término, inicio del trabajo de parto en las primeras 24 horas de la rotura</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">O48.0</data>
+      <data key="v_Freq">1971</data>
+      <data key="v_str">Embarazo postérmino</data>
+      <data key="v_label">Embarazo postérmino</data>
+      <data key="v_title">Embarazo postérmino</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">O60.14X0</data>
+      <data key="v_Freq">211</data>
+      <data key="v_str">Trabajo de parto prematuro en el tercer trimestre con parto prematuro del tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_label">Trabajo de parto prematuro en </data>
+      <data key="v_title">Trabajo de parto prematuro en el tercer trimestre con parto prematuro del tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">O60.14X1</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Trabajo de parto prematuro en el tercer trimestre con parto prematuro del tercer trimestre, feto 1</data>
+      <data key="v_label">Trabajo de parto prematuro en </data>
+      <data key="v_title">Trabajo de parto prematuro en el tercer trimestre con parto prematuro del tercer trimestre, feto 1</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">O60.14X2</data>
+      <data key="v_Freq">16</data>
+      <data key="v_str">Trabajo de parto prematuro en el tercer trimestre con parto prematuro del tercer trimestre, feto 2</data>
+      <data key="v_label">Trabajo de parto prematuro en </data>
+      <data key="v_title">Trabajo de parto prematuro en el tercer trimestre con parto prematuro del tercer trimestre, feto 2</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">O63.0</data>
+      <data key="v_Freq">19</data>
+      <data key="v_str">Primera fase (del trabajo de parto) prolongada</data>
+      <data key="v_label">Primera fase (del trabajo de p</data>
+      <data key="v_title">Primera fase (del trabajo de parto) prolongada</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">O63.1</data>
+      <data key="v_Freq">275</data>
+      <data key="v_str">Segunda fase (del trabajo de parto) prolongada</data>
+      <data key="v_label">Segunda fase (del trabajo de p</data>
+      <data key="v_title">Segunda fase (del trabajo de parto) prolongada</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">O65.4</data>
+      <data key="v_Freq">89</data>
+      <data key="v_str">Trabajo de parto obstruido debido a desproporción fetopélvica, no especificada</data>
+      <data key="v_label">Trabajo de parto obstruido deb</data>
+      <data key="v_title">Trabajo de parto obstruido debido a desproporción fetopélvica, no especificada</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">O69.81X0</data>
+      <data key="v_Freq">363</data>
+      <data key="v_str">Trabajo de parto y parto complicados por cordón alrededor del cuello, sin compresión, no aplicable o no especificado</data>
+      <data key="v_label">Trabajo de parto y parto compl</data>
+      <data key="v_title">Trabajo de parto y parto complicados por cordón alrededor del cuello, sin compresión, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">O69.82X0</data>
+      <data key="v_Freq">358</data>
+      <data key="v_str">Trabajo de parto y parto complicados por otros enredos del cordón, sin compresión, no aplicable o no especificado</data>
+      <data key="v_label">Trabajo de parto y parto compl</data>
+      <data key="v_title">Trabajo de parto y parto complicados por otros enredos del cordón, sin compresión, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">O70.0</data>
+      <data key="v_Freq">1174</data>
+      <data key="v_str">Desgarro perineal de primer grado en el parto</data>
+      <data key="v_label">Desgarro perineal de primer gr</data>
+      <data key="v_title">Desgarro perineal de primer grado en el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">O70.1</data>
+      <data key="v_Freq">744</data>
+      <data key="v_str">Desgarro perineal de segundo grado en el parto</data>
+      <data key="v_label">Desgarro perineal de segundo g</data>
+      <data key="v_title">Desgarro perineal de segundo grado en el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">O76</data>
+      <data key="v_Freq">195</data>
+      <data key="v_str">Anormalidad de la frecuencia o ritmo cardiaco fetal que complica el trabajo de parto y el parto</data>
+      <data key="v_label">Anormalidad de la frecuencia o</data>
+      <data key="v_title">Anormalidad de la frecuencia o ritmo cardiaco fetal que complica el trabajo de parto y el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">O77.0</data>
+      <data key="v_Freq">505</data>
+      <data key="v_str">Trabajo de parto y parto complicados por meconio en el líquido amniótico</data>
+      <data key="v_label">Trabajo de parto y parto compl</data>
+      <data key="v_title">Trabajo de parto y parto complicados por meconio en el líquido amniótico</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">O90.81</data>
+      <data key="v_Freq">375</data>
+      <data key="v_str">Anemia puerperal</data>
+      <data key="v_label">Anemia puerperal</data>
+      <data key="v_title">Anemia puerperal</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">O99.02</data>
+      <data key="v_Freq">59</data>
+      <data key="v_str">Anemia que complica el parto</data>
+      <data key="v_label">Anemia que complica el parto</data>
+      <data key="v_title">Anemia que complica el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">O99.03</data>
+      <data key="v_Freq">67</data>
+      <data key="v_str">Anemia que complica el puerperio</data>
+      <data key="v_label">Anemia que complica el puerper</data>
+      <data key="v_title">Anemia que complica el puerperio</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">O99.12</data>
+      <data key="v_Freq">83</data>
+      <data key="v_str">Otras enfermedades de la sangre, órganos hematopoyéticos y ciertos trastornos que afectan el mecanismo inmunitario que complican el parto</data>
+      <data key="v_label">Otras enfermedades de la sangr</data>
+      <data key="v_title">Otras enfermedades de la sangre, órganos hematopoyéticos y ciertos trastornos que afectan el mecanismo inmunitario que complican el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">O99.214</data>
+      <data key="v_Freq">59</data>
+      <data key="v_str">Obesidad que complica el parto</data>
+      <data key="v_label">Obesidad que complica el parto</data>
+      <data key="v_title">Obesidad que complica el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">O99.283</data>
+      <data key="v_Freq">127</data>
+      <data key="v_str">Enfermedades endocrinas, nutricionales y metabólicas que complican el embarazo, tercer trimestre</data>
+      <data key="v_label">Enfermedades endocrinas, nutri</data>
+      <data key="v_title">Enfermedades endocrinas, nutricionales y metabólicas que complican el embarazo, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">O99.284</data>
+      <data key="v_Freq">750</data>
+      <data key="v_str">Enfermedades endocrinas, nutricionales y metabólicas que complican el parto</data>
+      <data key="v_label">Enfermedades endocrinas, nutri</data>
+      <data key="v_title">Enfermedades endocrinas, nutricionales y metabólicas que complican el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">O99.333</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Hábito de fumar (tabaco) que complica el embarazo, tercer trimestre</data>
+      <data key="v_label">Hábito de fumar (tabaco) que c</data>
+      <data key="v_title">Hábito de fumar (tabaco) que complica el embarazo, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">O99.334</data>
+      <data key="v_Freq">296</data>
+      <data key="v_str">Hábito de fumar (tabaco) que complica el parto</data>
+      <data key="v_label">Hábito de fumar (tabaco) que c</data>
+      <data key="v_title">Hábito de fumar (tabaco) que complica el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">O99.344</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Otros trastornos mentales que complican el parto</data>
+      <data key="v_label">Otros trastornos mentales que </data>
+      <data key="v_title">Otros trastornos mentales que complican el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">O99.354</data>
+      <data key="v_Freq">42</data>
+      <data key="v_str">Enfermedades del sistema nervioso que complican el parto</data>
+      <data key="v_label">Enfermedades del sistema nervi</data>
+      <data key="v_title">Enfermedades del sistema nervioso que complican el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">O99.513</data>
+      <data key="v_Freq">24</data>
+      <data key="v_str">Enfermedades del aparato respiratorio que complican el embarazo, tercer trimestre</data>
+      <data key="v_label">Enfermedades del aparato respi</data>
+      <data key="v_title">Enfermedades del aparato respiratorio que complican el embarazo, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">O99.52</data>
+      <data key="v_Freq">90</data>
+      <data key="v_str">Enfermedades del aparato respiratorio que complican el parto</data>
+      <data key="v_label">Enfermedades del aparato respi</data>
+      <data key="v_title">Enfermedades del aparato respiratorio que complican el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">O99.62</data>
+      <data key="v_Freq">75</data>
+      <data key="v_str">Enfermedades del aparato digestivo que complican el parto</data>
+      <data key="v_label">Enfermedades del aparato diges</data>
+      <data key="v_title">Enfermedades del aparato digestivo que complican el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">O99.824</data>
+      <data key="v_Freq">541</data>
+      <data key="v_str">Estado de portadora de Estreptococo B que complica el parto</data>
+      <data key="v_label">Estado de portadora de Estrept</data>
+      <data key="v_title">Estado de portadora de Estreptococo B que complica el parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">O99.89</data>
+      <data key="v_Freq">168</data>
+      <data key="v_str">Otras enfermedades especificadas y afecciones que complican el embarazo, parto y puerperio</data>
+      <data key="v_label">Otras enfermedades especificad</data>
+      <data key="v_title">Otras enfermedades especificadas y afecciones que complican el embarazo, parto y puerperio</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">Z30.2</data>
+      <data key="v_Freq">116</data>
+      <data key="v_str">Contacto para esterilización</data>
+      <data key="v_label">Contacto para esterilización</data>
+      <data key="v_title">Contacto para esterilización</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">Z37.0</data>
+      <data key="v_Freq">5491</data>
+      <data key="v_str">Nacido vivo único</data>
+      <data key="v_label">Nacido vivo único</data>
+      <data key="v_title">Nacido vivo único</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">Z37.1</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Niño único mortinato</data>
+      <data key="v_label">Niño único mortinato</data>
+      <data key="v_title">Niño único mortinato</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">Z37.2</data>
+      <data key="v_Freq">133</data>
+      <data key="v_str">Gemelos, ambos nacidos vivos</data>
+      <data key="v_label">Gemelos, ambos nacidos vivos</data>
+      <data key="v_title">Gemelos, ambos nacidos vivos</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">Z3A.31</data>
+      <data key="v_Freq">28</data>
+      <data key="v_str">31 semanas de gestación</data>
+      <data key="v_label">31 semanas de gestación</data>
+      <data key="v_title">31 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">Z3A.33</data>
+      <data key="v_Freq">39</data>
+      <data key="v_str">33 semanas de gestación</data>
+      <data key="v_label">33 semanas de gestación</data>
+      <data key="v_title">33 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">Z3A.34</data>
+      <data key="v_Freq">60</data>
+      <data key="v_str">34 semanas de gestación</data>
+      <data key="v_label">34 semanas de gestación</data>
+      <data key="v_title">34 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">Z3A.35</data>
+      <data key="v_Freq">92</data>
+      <data key="v_str">35 semanas de gestación</data>
+      <data key="v_label">35 semanas de gestación</data>
+      <data key="v_title">35 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">Z3A.36</data>
+      <data key="v_Freq">152</data>
+      <data key="v_str">36 semanas de gestación</data>
+      <data key="v_label">36 semanas de gestación</data>
+      <data key="v_title">36 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">Z3A.37</data>
+      <data key="v_Freq">411</data>
+      <data key="v_str">37 semanas de gestación</data>
+      <data key="v_label">37 semanas de gestación</data>
+      <data key="v_title">37 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">Z3A.38</data>
+      <data key="v_Freq">895</data>
+      <data key="v_str">38 semanas de gestación</data>
+      <data key="v_label">38 semanas de gestación</data>
+      <data key="v_title">38 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">Z3A.39</data>
+      <data key="v_Freq">1553</data>
+      <data key="v_str">39 semanas de gestación</data>
+      <data key="v_label">39 semanas de gestación</data>
+      <data key="v_title">39 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">Z3A.40</data>
+      <data key="v_Freq">1622</data>
+      <data key="v_str">40 semanas de gestación</data>
+      <data key="v_label">40 semanas de gestación</data>
+      <data key="v_title">40 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">Z3A.41</data>
+      <data key="v_Freq">801</data>
+      <data key="v_str">41 semanas de gestación</data>
+      <data key="v_label">41 semanas de gestación</data>
+      <data key="v_title">41 semanas de gestación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">Z67.10</data>
+      <data key="v_Freq">947</data>
+      <data key="v_str">Grupo sanguíneo A, Rh positivo</data>
+      <data key="v_label">Grupo sanguíneo A, Rh positivo</data>
+      <data key="v_title">Grupo sanguíneo A, Rh positivo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">Z67.11</data>
+      <data key="v_Freq">168</data>
+      <data key="v_str">Grupo sanguíneo A, Rh negativo</data>
+      <data key="v_label">Grupo sanguíneo A, Rh negativo</data>
+      <data key="v_title">Grupo sanguíneo A, Rh negativo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">Z67.20</data>
+      <data key="v_Freq">260</data>
+      <data key="v_str">Grupo sanguíneo B, Rh positivo</data>
+      <data key="v_label">Grupo sanguíneo B, Rh positivo</data>
+      <data key="v_title">Grupo sanguíneo B, Rh positivo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">Z67.40</data>
+      <data key="v_Freq">1066</data>
+      <data key="v_str">Grupo sanguíneo O, Rh positivo</data>
+      <data key="v_label">Grupo sanguíneo O, Rh positivo</data>
+      <data key="v_title">Grupo sanguíneo O, Rh positivo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">Z67.41</data>
+      <data key="v_Freq">146</data>
+      <data key="v_str">Grupo sanguíneo O, Rh negativo</data>
+      <data key="v_label">Grupo sanguíneo O, Rh negativo</data>
+      <data key="v_title">Grupo sanguíneo O, Rh negativo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">Z68.41</data>
+      <data key="v_Freq">19</data>
+      <data key="v_str">Índice de masa corporal (IMC) 40,0 a 44,9, adulto</data>
+      <data key="v_label">Índice de masa corporal (IMC) </data>
+      <data key="v_title">Índice de masa corporal (IMC) 40,0 a 44,9, adulto</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">Z79.4</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Uso (actual) prolongado de insulina</data>
+      <data key="v_label">Uso (actual) prolongado de ins</data>
+      <data key="v_title">Uso (actual) prolongado de insulina</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">Z85.3</data>
+      <data key="v_Freq">35</data>
+      <data key="v_str">Historia personal de neoplasia maligna de mama</data>
+      <data key="v_label">Historia personal de neoplasia</data>
+      <data key="v_title">Historia personal de neoplasia maligna de mama</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">Z92.21</data>
+      <data key="v_Freq">44</data>
+      <data key="v_str">Historia personal de quimioterapia antineoplásica</data>
+      <data key="v_label">Historia personal de quimioter</data>
+      <data key="v_title">Historia personal de quimioterapia antineoplásica</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">Z92.3</data>
+      <data key="v_Freq">32</data>
+      <data key="v_str">Historia personal de irradiación</data>
+      <data key="v_label">Historia personal de irradiaci</data>
+      <data key="v_title">Historia personal de irradiación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">B96.20</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_label">Escherichia coli [E. coli] no </data>
+      <data key="v_title">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">C73</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Neoplasia maligna de glándula tiroides</data>
+      <data key="v_label">Neoplasia maligna de glándula </data>
+      <data key="v_title">Neoplasia maligna de glándula tiroides</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">D25.1</data>
+      <data key="v_Freq">42</data>
+      <data key="v_str">Leiomioma intramural de útero</data>
+      <data key="v_label">Leiomioma intramural de útero</data>
+      <data key="v_title">Leiomioma intramural de útero</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">D25.9</data>
+      <data key="v_Freq">55</data>
+      <data key="v_str">Leiomioma de útero, no especificado</data>
+      <data key="v_label">Leiomioma de útero, no especif</data>
+      <data key="v_title">Leiomioma de útero, no especificado</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">D56.3</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Talasemia minor</data>
+      <data key="v_label">Talasemia minor</data>
+      <data key="v_title">Talasemia minor</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">D64.9</data>
+      <data key="v_Freq">121</data>
+      <data key="v_str">Anemia, no especificada</data>
+      <data key="v_label">Anemia, no especificada</data>
+      <data key="v_title">Anemia, no especificada</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">D68.51</data>
+      <data key="v_Freq">13</data>
+      <data key="v_str">Resistencia a la proteína C activada</data>
+      <data key="v_label">Resistencia a la proteína C ac</data>
+      <data key="v_title">Resistencia a la proteína C activada</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">D68.59</data>
+      <data key="v_Freq">14</data>
+      <data key="v_str">Otras trombofilias primarias</data>
+      <data key="v_label">Otras trombofilias primarias</data>
+      <data key="v_title">Otras trombofilias primarias</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">D69.6</data>
+      <data key="v_Freq">40</data>
+      <data key="v_str">Trombocitopenia no especificada</data>
+      <data key="v_label">Trombocitopenia no especificad</data>
+      <data key="v_title">Trombocitopenia no especificada</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">E02</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Hipotiroidismo subclínico por carencia de yodo</data>
+      <data key="v_label">Hipotiroidismo subclínico por </data>
+      <data key="v_title">Hipotiroidismo subclínico por carencia de yodo</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">E03.8</data>
+      <data key="v_Freq">26</data>
+      <data key="v_str">Otros tipos de hipotiroidismo especificados</data>
+      <data key="v_label">Otros tipos de hipotiroidismo </data>
+      <data key="v_title">Otros tipos de hipotiroidismo especificados</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n75">
+      <data key="v_name">E03.9</data>
+      <data key="v_Freq">833</data>
+      <data key="v_str">Hipotiroidismo, no especificado</data>
+      <data key="v_label">Hipotiroidismo, no especificad</data>
+      <data key="v_title">Hipotiroidismo, no especificado</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n76">
+      <data key="v_name">E05.90</data>
+      <data key="v_Freq">32</data>
+      <data key="v_str">Tirotoxicosis, no especificada sin crisis tirotóxica ni tormenta tiroidea</data>
+      <data key="v_label">Tirotoxicosis, no especificada</data>
+      <data key="v_title">Tirotoxicosis, no especificada sin crisis tirotóxica ni tormenta tiroidea</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n77">
+      <data key="v_name">E11.9</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Diabetes mellitus tipo 2 sin complicaciones</data>
+      <data key="v_label">Diabetes mellitus tipo 2 sin c</data>
+      <data key="v_title">Diabetes mellitus tipo 2 sin complicaciones</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n78">
+      <data key="v_name">E66.01</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_label">Obesidad mórbida (severa) por </data>
+      <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n79">
+      <data key="v_name">E66.9</data>
+      <data key="v_Freq">93</data>
+      <data key="v_str">Obesidad,no especificada</data>
+      <data key="v_label">Obesidad,no especificada</data>
+      <data key="v_title">Obesidad,no especificada</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n80">
+      <data key="v_name">E88.9</data>
+      <data key="v_Freq">21</data>
+      <data key="v_str">Trastorno metabólico, no especificados</data>
+      <data key="v_label">Trastorno metabólico, no espec</data>
+      <data key="v_title">Trastorno metabólico, no especificados</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n81">
+      <data key="v_name">F17.210</data>
+      <data key="v_Freq">429</data>
+      <data key="v_str">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_label">Dependencia de nicotina, cigar</data>
+      <data key="v_title">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n82">
+      <data key="v_name">F41.9</data>
+      <data key="v_Freq">47</data>
+      <data key="v_str">Trastorno de ansiedad, no especificado</data>
+      <data key="v_label">Trastorno de ansiedad, no espe</data>
+      <data key="v_title">Trastorno de ansiedad, no especificado</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n83">
+      <data key="v_name">G43.909</data>
+      <data key="v_Freq">62</data>
+      <data key="v_str">Migraña, no especificada, no intratable, sin estatus migrañoso</data>
+      <data key="v_label">Migraña, no especificada, no i</data>
+      <data key="v_title">Migraña, no especificada, no intratable, sin estatus migrañoso</data>
+      <data key="v_group">G</data>
+    </node>
+    <node id="n84">
+      <data key="v_name">J45.909</data>
+      <data key="v_Freq">187</data>
+      <data key="v_str">Asma no especificada, sin complicaciones</data>
+      <data key="v_label">Asma no especificada, sin comp</data>
+      <data key="v_title">Asma no especificada, sin complicaciones</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n85">
+      <data key="v_name">K58.9</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Síndrome de intestino irritable sin diarrea</data>
+      <data key="v_label">Síndrome de intestino irritabl</data>
+      <data key="v_title">Síndrome de intestino irritable sin diarrea</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n86">
+      <data key="v_name">K83.1</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Obstrucción de conducto biliar</data>
+      <data key="v_label">Obstrucción de conducto biliar</data>
+      <data key="v_title">Obstrucción de conducto biliar</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n87">
+      <data key="v_name">K90.0</data>
+      <data key="v_Freq">19</data>
+      <data key="v_str">Enfermedad celíaca</data>
+      <data key="v_label">Enfermedad celíaca</data>
+      <data key="v_title">Enfermedad celíaca</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n88">
+      <data key="v_name">K90.4</data>
+      <data key="v_Freq">9</data>
+      <data key="v_str">Malabsorción debida a intolerancia, no clasificada bajo otro concepto</data>
+      <data key="v_label">Malabsorción debida a intolera</data>
+      <data key="v_title">Malabsorción debida a intolerancia, no clasificada bajo otro concepto</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n89">
+      <data key="v_name">O09.513</data>
+      <data key="v_Freq">634</data>
+      <data key="v_str">Supervisión de primipara añosa, tercer trimestre</data>
+      <data key="v_label">Supervisión de primipara añosa</data>
+      <data key="v_title">Supervisión de primipara añosa, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n90">
+      <data key="v_name">O09.523</data>
+      <data key="v_Freq">1217</data>
+      <data key="v_str">Supervisión de multípara añosa, tercer trimestre</data>
+      <data key="v_label">Supervisión de multípara añosa</data>
+      <data key="v_title">Supervisión de multípara añosa, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n91">
+      <data key="v_name">O24.414</data>
+      <data key="v_Freq">32</data>
+      <data key="v_str">Diabetes mellitus gestacional en el embarazo, con control con insulina</data>
+      <data key="v_label">Diabetes mellitus gestacional </data>
+      <data key="v_title">Diabetes mellitus gestacional en el embarazo, con control con insulina</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n92">
+      <data key="v_name">O24.424</data>
+      <data key="v_Freq">85</data>
+      <data key="v_str">Diabetes mellitus gestacional en el parto, con control con insulina</data>
+      <data key="v_label">Diabetes mellitus gestacional </data>
+      <data key="v_title">Diabetes mellitus gestacional en el parto, con control con insulina</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n93">
+      <data key="v_name">O30.003</data>
+      <data key="v_Freq">13</data>
+      <data key="v_str">Embarazo gemelar, no especificado el número de placentas ni de sacos amnióticos, tercer trimestre</data>
+      <data key="v_label">Embarazo gemelar, no especific</data>
+      <data key="v_title">Embarazo gemelar, no especificado el número de placentas ni de sacos amnióticos, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n94">
+      <data key="v_name">O30.033</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Embarazo gemelar monocoriónico/ diamniótico, tercer trimestre</data>
+      <data key="v_label">Embarazo gemelar monocoriónico</data>
+      <data key="v_title">Embarazo gemelar monocoriónico/ diamniótico, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n95">
+      <data key="v_name">O32.1XX2</data>
+      <data key="v_Freq">10</data>
+      <data key="v_str">Atención materna por presentación de nalgas, feto 2</data>
+      <data key="v_label">Atención materna por presentac</data>
+      <data key="v_title">Atención materna por presentación de nalgas, feto 2</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n96">
+      <data key="v_name">O32.8XX1</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Atención materna por otra presentación anómala del feto, feto 1</data>
+      <data key="v_label">Atención materna por otra pres</data>
+      <data key="v_title">Atención materna por otra presentación anómala del feto, feto 1</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n97">
+      <data key="v_name">O36.0130</data>
+      <data key="v_Freq">173</data>
+      <data key="v_str">Atención materna por los anticuerpos anti-D [RH], tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_label">Atención materna por los antic</data>
+      <data key="v_title">Atención materna por los anticuerpos anti-D [RH], tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n98">
+      <data key="v_name">O36.4XX0</data>
+      <data key="v_Freq">18</data>
+      <data key="v_str">Atención materna por muerte intrauterina, no aplicable o no especificado</data>
+      <data key="v_label">Atención materna por muerte in</data>
+      <data key="v_title">Atención materna por muerte intrauterina, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n99">
+      <data key="v_name">O36.5930</data>
+      <data key="v_Freq">115</data>
+      <data key="v_str">Atención materna por otro tipo de crecimiento fetal insuficiente, conocido o sospechado, tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_label">Atención materna por otro tipo</data>
+      <data key="v_title">Atención materna por otro tipo de crecimiento fetal insuficiente, conocido o sospechado, tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n100">
+      <data key="v_name">O36.93X0</data>
+      <data key="v_Freq">171</data>
+      <data key="v_str">Atención materna por problema fetal, no especificado, tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_label">Atención materna por problema </data>
+      <data key="v_title">Atención materna por problema fetal, no especificado, tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n101">
+      <data key="v_name">O41.03X0</data>
+      <data key="v_Freq">97</data>
+      <data key="v_str">Oligohidramnios, tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_label">Oligohidramnios, tercer trimes</data>
+      <data key="v_title">Oligohidramnios, tercer trimestre, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n102">
+      <data key="v_name">O42.013</data>
+      <data key="v_Freq">85</data>
+      <data key="v_str">Rotura prematura de membranas pretérmino, inicio del trabajo de parto en las primeras 24 horas de la rotura, tercer trimestre</data>
+      <data key="v_label">Rotura prematura de membranas </data>
+      <data key="v_title">Rotura prematura de membranas pretérmino, inicio del trabajo de parto en las primeras 24 horas de la rotura, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n103">
+      <data key="v_name">O42.913</data>
+      <data key="v_Freq">67</data>
+      <data key="v_str">Rotura prematura de membranas pretérmino, no especificado el tiempo entre la rotura y el inicio del trabajo de parto, tercer trimestre</data>
+      <data key="v_label">Rotura prematura de membranas </data>
+      <data key="v_title">Rotura prematura de membranas pretérmino, no especificado el tiempo entre la rotura y el inicio del trabajo de parto, tercer trimestre</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n104">
+      <data key="v_name">O42.92</data>
+      <data key="v_Freq">354</data>
+      <data key="v_str">Rotura prematura de membranas a término, no especificado el tiempo entre la rotura y el inicio del trabajo de parto</data>
+      <data key="v_label">Rotura prematura de membranas </data>
+      <data key="v_title">Rotura prematura de membranas a término, no especificado el tiempo entre la rotura y el inicio del trabajo de parto</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n105">
+      <data key="v_name">O61.0</data>
+      <data key="v_Freq">79</data>
+      <data key="v_str">Inducción fallida médica del trabajo de parto </data>
+      <data key="v_label">Inducción fallida médica del t</data>
+      <data key="v_title">Inducción fallida médica del trabajo de parto </data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n106">
+      <data key="v_name">O66.5</data>
+      <data key="v_Freq">76</data>
+      <data key="v_str">Intento de utilización de ventosa y fórceps</data>
+      <data key="v_label">Intento de utilización de vent</data>
+      <data key="v_title">Intento de utilización de ventosa y fórceps</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n107">
+      <data key="v_name">O69.3XX0</data>
+      <data key="v_Freq">111</data>
+      <data key="v_str">Trabajo de parto y parto complicados por cordón corto, no aplicable o no especificado</data>
+      <data key="v_label">Trabajo de parto y parto compl</data>
+      <data key="v_title">Trabajo de parto y parto complicados por cordón corto, no aplicable o no especificado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n108">
+      <data key="v_name">O72.1</data>
+      <data key="v_Freq">62</data>
+      <data key="v_str">Otras hemorragias del posparto inmediato</data>
+      <data key="v_label">Otras hemorragias del posparto</data>
+      <data key="v_title">Otras hemorragias del posparto inmediato</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n109">
+      <data key="v_name">O75.2</data>
+      <data key="v_Freq">77</data>
+      <data key="v_str">Pirexia durante el trabajo de parto, no clasificada en otro lugar</data>
+      <data key="v_label">Pirexia durante el trabajo de </data>
+      <data key="v_title">Pirexia durante el trabajo de parto, no clasificada en otro lugar</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n110">
+      <data key="v_name">O80</data>
+      <data key="v_Freq">168</data>
+      <data key="v_str">Admisión para el parto a término no complicado</data>
+      <data key="v_label">Admisión para el parto a térmi</data>
+      <data key="v_title">Admisión para el parto a término no complicado</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n111">
+      <data key="v_name">O90.2</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Hematoma de herida obstétrica</data>
+      <data key="v_label">Hematoma de herida obstétrica</data>
+      <data key="v_title">Hematoma de herida obstétrica</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n112">
+      <data key="v_name">O92.5</data>
+      <data key="v_Freq">164</data>
+      <data key="v_str">Lactancia suprimida</data>
+      <data key="v_label">Lactancia suprimida</data>
+      <data key="v_title">Lactancia suprimida</data>
+      <data key="v_group">O</data>
+    </node>
+    <node id="n113">
+      <data key="v_name">Z42.1</data>
+      <data key="v_Freq">14</data>
+      <data key="v_str">Contacto para reconstrucción mamaria después de mastectomía</data>
+      <data key="v_label">Contacto para reconstrucción m</data>
+      <data key="v_title">Contacto para reconstrucción mamaria después de mastectomía</data>
+      <data key="v_group">Z</data>
+    </node>
+    <edge source="n3" target="n6">
+      <data key="e_weight">14.7147639772347</data>
+    </edge>
+    <edge source="n6" target="n7">
+      <data key="e_weight">65.6112852664577</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_weight">33.6804597701149</data>
+    </edge>
+    <edge source="n6" target="n14">
+      <data key="e_weight">54.1293103448276</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_weight">261.625</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_weight">1.86893962455606</data>
+    </edge>
+    <edge source="n11" target="n17">
+      <data key="e_weight">2.05220643145839</data>
+    </edge>
+    <edge source="n10" target="n19">
+      <data key="e_weight">1.79329030017078</data>
+    </edge>
+    <edge source="n11" target="n19">
+      <data key="e_weight">1.566150523371</data>
+    </edge>
+    <edge source="n10" target="n20">
+      <data key="e_weight">1.67748894439982</data>
+    </edge>
+    <edge source="n11" target="n20">
+      <data key="e_weight">1.48340027502708</data>
+    </edge>
+    <edge source="n18" target="n20">
+      <data key="e_weight">2.06273670575978</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_weight">1.67323670210235</data>
+    </edge>
+    <edge source="n10" target="n21">
+      <data key="e_weight">1.53922781213438</data>
+    </edge>
+    <edge source="n11" target="n21">
+      <data key="e_weight">1.72415617856773</data>
+    </edge>
+    <edge source="n11" target="n22">
+      <data key="e_weight">1.69903602232369</data>
+    </edge>
+    <edge source="n9" target="n23">
+      <data key="e_weight">2.12201188118812</data>
+    </edge>
+    <edge source="n11" target="n23">
+      <data key="e_weight">2.10276735436101</data>
+    </edge>
+    <edge source="n16" target="n23">
+      <data key="e_weight">2.65251485148515</data>
+    </edge>
+    <edge source="n19" target="n23">
+      <data key="e_weight">2.31539355052824</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="e_weight">1.67119131267966</data>
+    </edge>
+    <edge source="n3" target="n24">
+      <data key="e_weight">5.41877022653722</data>
+    </edge>
+    <edge source="n6" target="n24">
+      <data key="e_weight">4.61903448275862</data>
+    </edge>
+    <edge source="n16" target="n24">
+      <data key="e_weight">4.05915151515152</data>
+    </edge>
+    <edge source="n4" target="n29">
+      <data key="e_weight">6.97989810097267</data>
+    </edge>
+    <edge source="n11" target="n30">
+      <data key="e_weight">1.66505530187722</data>
+    </edge>
+    <edge source="n20" target="n30">
+      <data key="e_weight">1.46426802952868</data>
+    </edge>
+    <edge source="n21" target="n30">
+      <data key="e_weight">1.66539784946237</data>
+    </edge>
+    <edge source="n11" target="n32">
+      <data key="e_weight">1.54979637171418</data>
+    </edge>
+    <edge source="n23" target="n32">
+      <data key="e_weight">2.18429221300508</data>
+    </edge>
+    <edge source="n11" target="n38">
+      <data key="e_weight">1.64093589956401</data>
+    </edge>
+    <edge source="n23" target="n38">
+      <data key="e_weight">1.807975695906</data>
+    </edge>
+    <edge source="n24" target="n38">
+      <data key="e_weight">2.02207270486753</data>
+    </edge>
+    <edge source="n30" target="n38">
+      <data key="e_weight">1.69193838570548</data>
+    </edge>
+    <edge source="n9" target="n40">
+      <data key="e_weight">11.6919310344828</data>
+    </edge>
+    <edge source="n4" target="n41">
+      <data key="e_weight">1.43498987648237</data>
+    </edge>
+    <edge source="n9" target="n41">
+      <data key="e_weight">1.45759096703697</data>
+    </edge>
+    <edge source="n10" target="n41">
+      <data key="e_weight">1.4978171534579</data>
+    </edge>
+    <edge source="n11" target="n41">
+      <data key="e_weight">1.50147009621667</data>
+    </edge>
+    <edge source="n12" target="n41">
+      <data key="e_weight">1.35847975273627</data>
+    </edge>
+    <edge source="n16" target="n41">
+      <data key="e_weight">1.42487972053443</data>
+    </edge>
+    <edge source="n18" target="n41">
+      <data key="e_weight">1.49107505243993</data>
+    </edge>
+    <edge source="n19" target="n41">
+      <data key="e_weight">1.49912350224695</data>
+    </edge>
+    <edge source="n20" target="n41">
+      <data key="e_weight">1.49740399110578</data>
+    </edge>
+    <edge source="n21" target="n41">
+      <data key="e_weight">1.48983869988623</data>
+    </edge>
+    <edge source="n22" target="n41">
+      <data key="e_weight">1.44648819280034</data>
+    </edge>
+    <edge source="n23" target="n41">
+      <data key="e_weight">1.49750428694299</data>
+    </edge>
+    <edge source="n24" target="n41">
+      <data key="e_weight">1.32545231591088</data>
+    </edge>
+    <edge source="n30" target="n41">
+      <data key="e_weight">1.46572257633704</data>
+    </edge>
+    <edge source="n32" target="n41">
+      <data key="e_weight">1.48862019914651</data>
+    </edge>
+    <edge source="n38" target="n41">
+      <data key="e_weight">1.47394812751904</data>
+    </edge>
+    <edge source="n3" target="n43">
+      <data key="e_weight">12.8339294839039</data>
+    </edge>
+    <edge source="n6" target="n43">
+      <data key="e_weight">51.0090744101633</data>
+    </edge>
+    <edge source="n7" target="n43">
+      <data key="e_weight">62.9473684210526</data>
+    </edge>
+    <edge source="n12" target="n43">
+      <data key="e_weight">4.77326016462958</data>
+    </edge>
+    <edge source="n13" target="n43">
+      <data key="e_weight">33.5719298245614</data>
+    </edge>
+    <edge source="n14" target="n43">
+      <data key="e_weight">59.0131578947369</data>
+    </edge>
+    <edge source="n24" target="n43">
+      <data key="e_weight">5.03578947368421</data>
+    </edge>
+    <edge source="n12" target="n44">
+      <data key="e_weight">15.5876777251185</data>
+    </edge>
+    <edge source="n12" target="n45">
+      <data key="e_weight">17.2954186413902</data>
+    </edge>
+    <edge source="n6" target="n46">
+      <data key="e_weight">13.2316091954023</data>
+    </edge>
+    <edge source="n12" target="n46">
+      <data key="e_weight">19.1775671406003</data>
+    </edge>
+    <edge source="n43" target="n46">
+      <data key="e_weight">11.540350877193</data>
+    </edge>
+    <edge source="n6" target="n47">
+      <data key="e_weight">11.7672413793103</data>
+    </edge>
+    <edge source="n12" target="n47">
+      <data key="e_weight">21.563981042654</data>
+    </edge>
+    <edge source="n13" target="n47">
+      <data key="e_weight">30.3333333333333</data>
+    </edge>
+    <edge source="n43" target="n47">
+      <data key="e_weight">11.6315789473684</data>
+    </edge>
+    <edge source="n12" target="n48">
+      <data key="e_weight">21.4050885507608</data>
+    </edge>
+    <edge source="n43" target="n48">
+      <data key="e_weight">6.21191135734072</data>
+    </edge>
+    <edge source="n6" target="n49">
+      <data key="e_weight">5.09245742092457</data>
+    </edge>
+    <edge source="n10" target="n49">
+      <data key="e_weight">1.85755959809891</data>
+    </edge>
+    <edge source="n40" target="n49">
+      <data key="e_weight">3.51203960063764</data>
+    </edge>
+    <edge source="n41" target="n49">
+      <data key="e_weight">1.31693490033016</data>
+    </edge>
+    <edge source="n43" target="n49">
+      <data key="e_weight">5.51363810987322</data>
+    </edge>
+    <edge source="n9" target="n50">
+      <data key="e_weight">1.75858770949721</data>
+    </edge>
+    <edge source="n10" target="n50">
+      <data key="e_weight">2.20041566561496</data>
+    </edge>
+    <edge source="n20" target="n50">
+      <data key="e_weight">1.48200965043351</data>
+    </edge>
+    <edge source="n30" target="n50">
+      <data key="e_weight">1.47172588454376</data>
+    </edge>
+    <edge source="n41" target="n50">
+      <data key="e_weight">1.44290637091269</data>
+    </edge>
+    <edge source="n10" target="n51">
+      <data key="e_weight">1.69825942768301</data>
+    </edge>
+    <edge source="n18" target="n51">
+      <data key="e_weight">1.54448778601445</data>
+    </edge>
+    <edge source="n20" target="n51">
+      <data key="e_weight">1.59337919353759</data>
+    </edge>
+    <edge source="n21" target="n51">
+      <data key="e_weight">1.43466339862493</data>
+    </edge>
+    <edge source="n38" target="n51">
+      <data key="e_weight">1.57440908003471</data>
+    </edge>
+    <edge source="n41" target="n51">
+      <data key="e_weight">1.48933330346925</data>
+    </edge>
+    <edge source="n10" target="n52">
+      <data key="e_weight">1.32648620330558</data>
+    </edge>
+    <edge source="n11" target="n52">
+      <data key="e_weight">3.0901086719204</data>
+    </edge>
+    <edge source="n16" target="n52">
+      <data key="e_weight">1.70799686133842</data>
+    </edge>
+    <edge source="n18" target="n52">
+      <data key="e_weight">1.53566151369088</data>
+    </edge>
+    <edge source="n19" target="n52">
+      <data key="e_weight">1.71570376595554</data>
+    </edge>
+    <edge source="n20" target="n52">
+      <data key="e_weight">1.48163140128178</data>
+    </edge>
+    <edge source="n21" target="n52">
+      <data key="e_weight">1.69969704201636</data>
+    </edge>
+    <edge source="n23" target="n52">
+      <data key="e_weight">1.98284479496038</data>
+    </edge>
+    <edge source="n24" target="n52">
+      <data key="e_weight">1.59663296341965</data>
+    </edge>
+    <edge source="n30" target="n52">
+      <data key="e_weight">1.54845869297164</data>
+    </edge>
+    <edge source="n38" target="n52">
+      <data key="e_weight">1.52651503928196</data>
+    </edge>
+    <edge source="n41" target="n52">
+      <data key="e_weight">1.50963677588324</data>
+    </edge>
+    <edge source="n11" target="n53">
+      <data key="e_weight">4.01956711898052</data>
+    </edge>
+    <edge source="n16" target="n53">
+      <data key="e_weight">1.97636590625355</data>
+    </edge>
+    <edge source="n20" target="n53">
+      <data key="e_weight">1.5223857741707</data>
+    </edge>
+    <edge source="n21" target="n53">
+      <data key="e_weight">1.67174768099016</data>
+    </edge>
+    <edge source="n23" target="n53">
+      <data key="e_weight">2.40084053349155</data>
+    </edge>
+    <edge source="n30" target="n53">
+      <data key="e_weight">1.75592509363296</data>
+    </edge>
+    <edge source="n38" target="n53">
+      <data key="e_weight">1.62285128801567</data>
+    </edge>
+    <edge source="n41" target="n53">
+      <data key="e_weight">1.49802821141211</data>
+    </edge>
+    <edge source="n9" target="n54">
+      <data key="e_weight">1.59129883843717</data>
+    </edge>
+    <edge source="n11" target="n54">
+      <data key="e_weight">1.52500593344788</data>
+    </edge>
+    <edge source="n16" target="n54">
+      <data key="e_weight">1.92884707689354</data>
+    </edge>
+    <edge source="n19" target="n54">
+      <data key="e_weight">1.92615315639508</data>
+    </edge>
+    <edge source="n20" target="n54">
+      <data key="e_weight">1.37804129961197</data>
+    </edge>
+    <edge source="n21" target="n54">
+      <data key="e_weight">1.46154239193378</data>
+    </edge>
+    <edge source="n23" target="n54">
+      <data key="e_weight">2.17074869049735</data>
+    </edge>
+    <edge source="n30" target="n54">
+      <data key="e_weight">1.57951143963393</data>
+    </edge>
+    <edge source="n32" target="n54">
+      <data key="e_weight">2.18027055566654</data>
+    </edge>
+    <edge source="n41" target="n54">
+      <data key="e_weight">1.44095637346088</data>
+    </edge>
+    <edge source="n51" target="n54">
+      <data key="e_weight">1.37760005330827</data>
+    </edge>
+    <edge source="n52" target="n54">
+      <data key="e_weight">1.54246325276654</data>
+    </edge>
+    <edge source="n53" target="n54">
+      <data key="e_weight">1.63345975925025</data>
+    </edge>
+    <edge source="n32" target="n55">
+      <data key="e_weight">3.53547297297297</data>
+    </edge>
+    <edge source="n41" target="n55">
+      <data key="e_weight">1.47022400291386</data>
+    </edge>
+    <edge source="n23" target="n56">
+      <data key="e_weight">2.29544554455446</data>
+    </edge>
+    <edge source="n41" target="n56">
+      <data key="e_weight">1.44844290657439</data>
+    </edge>
+    <edge source="n10" target="n57">
+      <data key="e_weight">1.42423859471755</data>
+    </edge>
+    <edge source="n11" target="n57">
+      <data key="e_weight">1.40258133174939</data>
+    </edge>
+    <edge source="n16" target="n57">
+      <data key="e_weight">1.79920177383592</data>
+    </edge>
+    <edge source="n19" target="n57">
+      <data key="e_weight">1.95244583730754</data>
+    </edge>
+    <edge source="n20" target="n57">
+      <data key="e_weight">1.5319316906968</data>
+    </edge>
+    <edge source="n23" target="n57">
+      <data key="e_weight">1.83511229171698</data>
+    </edge>
+    <edge source="n30" target="n57">
+      <data key="e_weight">1.45554471544715</data>
+    </edge>
+    <edge source="n38" target="n57">
+      <data key="e_weight">1.74203146837383</data>
+    </edge>
+    <edge source="n41" target="n57">
+      <data key="e_weight">1.45316282519955</data>
+    </edge>
+    <edge source="n50" target="n57">
+      <data key="e_weight">1.50930644501976</data>
+    </edge>
+    <edge source="n51" target="n57">
+      <data key="e_weight">1.53229783424686</data>
+    </edge>
+    <edge source="n52" target="n57">
+      <data key="e_weight">1.31701302216475</data>
+    </edge>
+    <edge source="n53" target="n57">
+      <data key="e_weight">1.60799001248439</data>
+    </edge>
+    <edge source="n41" target="n58">
+      <data key="e_weight">1.43068982120182</data>
+    </edge>
+    <edge source="n61" target="n62">
+      <data key="e_weight">65.2363636363636</data>
+    </edge>
+    <edge source="n61" target="n63">
+      <data key="e_weight">74.75</data>
+    </edge>
+    <edge source="n62" target="n63">
+      <data key="e_weight">148.650568181818</data>
+    </edge>
+    <edge source="n2" target="n64">
+      <data key="e_weight">80.7328833172613</data>
+    </edge>
+    <edge source="n0" target="n65">
+      <data key="e_weight">223.850267379679</data>
+    </edge>
+    <edge source="n1" target="n66">
+      <data key="e_weight">80.6825396825397</data>
+    </edge>
+    <edge source="n8" target="n67">
+      <data key="e_weight">86.3941031941032</data>
+    </edge>
+    <edge source="n25" target="n68">
+      <data key="e_weight">67.864406779661</data>
+    </edge>
+    <edge source="n24" target="n69">
+      <data key="e_weight">6.82675482093664</data>
+    </edge>
+    <edge source="n25" target="n69">
+      <data key="e_weight">29.3178316290797</data>
+    </edge>
+    <edge source="n26" target="n69">
+      <data key="e_weight">25.8171950166523</data>
+    </edge>
+    <edge source="n27" target="n70">
+      <data key="e_weight">77.5903614457831</data>
+    </edge>
+    <edge source="n27" target="n71">
+      <data key="e_weight">72.0481927710843</data>
+    </edge>
+    <edge source="n27" target="n72">
+      <data key="e_weight">55.4771084337349</data>
+    </edge>
+    <edge source="n30" target="n73">
+      <data key="e_weight">10.6045333333333</data>
+    </edge>
+    <edge source="n30" target="n74">
+      <data key="e_weight">8.15733333333333</data>
+    </edge>
+    <edge source="n4" target="n75">
+      <data key="e_weight">2.18744438952051</data>
+    </edge>
+    <edge source="n11" target="n75">
+      <data key="e_weight">1.42776136329722</data>
+    </edge>
+    <edge source="n29" target="n75">
+      <data key="e_weight">8.86336266790181</data>
+    </edge>
+    <edge source="n30" target="n75">
+      <data key="e_weight">7.7589243697479</data>
+    </edge>
+    <edge source="n41" target="n75">
+      <data key="e_weight">1.23182166692938</data>
+    </edge>
+    <edge source="n30" target="n76">
+      <data key="e_weight">6.97666666666667</data>
+    </edge>
+    <edge source="n60" target="n77">
+      <data key="e_weight">84.9087221095335</data>
+    </edge>
+    <edge source="n59" target="n78">
+      <data key="e_weight">154.816500711238</data>
+    </edge>
+    <edge source="n28" target="n79">
+      <data key="e_weight">50.351011481684</data>
+    </edge>
+    <edge source="n30" target="n80">
+      <data key="e_weight">10.0995555555556</data>
+    </edge>
+    <edge source="n31" target="n81">
+      <data key="e_weight">16.969696969697</data>
+    </edge>
+    <edge source="n32" target="n81">
+      <data key="e_weight">13.7133497133497</data>
+    </edge>
+    <edge source="n33" target="n82">
+      <data key="e_weight">78.5857321652065</data>
+    </edge>
+    <edge source="n34" target="n83">
+      <data key="e_weight">45.010752688172</data>
+    </edge>
+    <edge source="n35" target="n84">
+      <data key="e_weight">29.8467023172906</data>
+    </edge>
+    <edge source="n36" target="n84">
+      <data key="e_weight">41.7853832442068</data>
+    </edge>
+    <edge source="n37" target="n85">
+      <data key="e_weight">53.3866666666667</data>
+    </edge>
+    <edge source="n5" target="n86">
+      <data key="e_weight">139.533333333333</data>
+    </edge>
+    <edge source="n37" target="n87">
+      <data key="e_weight">52.8757894736842</data>
+    </edge>
+    <edge source="n37" target="n88">
+      <data key="e_weight">111.626666666667</data>
+    </edge>
+    <edge source="n3" target="n89">
+      <data key="e_weight">5.38458240176411</data>
+    </edge>
+    <edge source="n10" target="n89">
+      <data key="e_weight">1.50523855445318</data>
+    </edge>
+    <edge source="n11" target="n89">
+      <data key="e_weight">1.52752449956547</data>
+    </edge>
+    <edge source="n15" target="n89">
+      <data key="e_weight">8.34002988543915</data>
+    </edge>
+    <edge source="n16" target="n89">
+      <data key="e_weight">2.54497275595067</data>
+    </edge>
+    <edge source="n23" target="n89">
+      <data key="e_weight">1.8826998157229</data>
+    </edge>
+    <edge source="n41" target="n89">
+      <data key="e_weight">1.42367292162052</data>
+    </edge>
+    <edge source="n53" target="n89">
+      <data key="e_weight">1.82991292430204</data>
+    </edge>
+    <edge source="n54" target="n89">
+      <data key="e_weight">1.8266749722684</data>
+    </edge>
+    <edge source="n9" target="n90">
+      <data key="e_weight">3.13692029580937</data>
+    </edge>
+    <edge source="n11" target="n90">
+      <data key="e_weight">1.34024205540735</data>
+    </edge>
+    <edge source="n18" target="n90">
+      <data key="e_weight">1.68663855255325</data>
+    </edge>
+    <edge source="n19" target="n90">
+      <data key="e_weight">1.71019495691851</data>
+    </edge>
+    <edge source="n20" target="n90">
+      <data key="e_weight">1.62311882068202</data>
+    </edge>
+    <edge source="n21" target="n90">
+      <data key="e_weight">1.55337026532722</data>
+    </edge>
+    <edge source="n23" target="n90">
+      <data key="e_weight">1.77088604505479</data>
+    </edge>
+    <edge source="n30" target="n90">
+      <data key="e_weight">1.58680471103807</data>
+    </edge>
+    <edge source="n32" target="n90">
+      <data key="e_weight">1.67332163716716</data>
+    </edge>
+    <edge source="n38" target="n90">
+      <data key="e_weight">1.61489800226915</data>
+    </edge>
+    <edge source="n39" target="n90">
+      <data key="e_weight">2.17022733497672</data>
+    </edge>
+    <edge source="n40" target="n90">
+      <data key="e_weight">2.9651772306123</data>
+    </edge>
+    <edge source="n41" target="n90">
+      <data key="e_weight">1.45953032578746</data>
+    </edge>
+    <edge source="n50" target="n90">
+      <data key="e_weight">1.60643031908301</data>
+    </edge>
+    <edge source="n51" target="n90">
+      <data key="e_weight">1.49721402263808</data>
+    </edge>
+    <edge source="n52" target="n90">
+      <data key="e_weight">1.36142218691837</data>
+    </edge>
+    <edge source="n54" target="n90">
+      <data key="e_weight">1.63444827284015</data>
+    </edge>
+    <edge source="n57" target="n90">
+      <data key="e_weight">1.86500190392208</data>
+    </edge>
+    <edge source="n29" target="n91">
+      <data key="e_weight">22.6604330708661</data>
+    </edge>
+    <edge source="n28" target="n92">
+      <data key="e_weight">16.6939182452642</data>
+    </edge>
+    <edge source="n50" target="n92">
+      <data key="e_weight">2.86128162997042</data>
+    </edge>
+    <edge source="n43" target="n93">
+      <data key="e_weight">48.421052631579</data>
+    </edge>
+    <edge source="n43" target="n94">
+      <data key="e_weight">52.4561403508772</data>
+    </edge>
+    <edge source="n43" target="n95">
+      <data key="e_weight">56.6526315789474</data>
+    </edge>
+    <edge source="n43" target="n96">
+      <data key="e_weight">45.4619883040936</data>
+    </edge>
+    <edge source="n41" target="n97">
+      <data key="e_weight">1.42773197970826</data>
+    </edge>
+    <edge source="n55" target="n97">
+      <data key="e_weight">11.2341040462428</data>
+    </edge>
+    <edge source="n58" target="n97">
+      <data key="e_weight">11.9325362261462</data>
+    </edge>
+    <edge source="n42" target="n98">
+      <data key="e_weight">263.562962962963</data>
+    </edge>
+    <edge source="n12" target="n99">
+      <data key="e_weight">5.17535545023697</data>
+    </edge>
+    <edge source="n49" target="n99">
+      <data key="e_weight">3.54257907542579</data>
+    </edge>
+    <edge source="n11" target="n100">
+      <data key="e_weight">2.06169575808284</data>
+    </edge>
+    <edge source="n41" target="n100">
+      <data key="e_weight">1.50684426722729</data>
+    </edge>
+    <edge source="n53" target="n100">
+      <data key="e_weight">2.56714194975579</data>
+    </edge>
+    <edge source="n11" target="n101">
+      <data key="e_weight">2.01432105739407</data>
+    </edge>
+    <edge source="n12" target="n102">
+      <data key="e_weight">18.6718706439922</data>
+    </edge>
+    <edge source="n47" target="n102">
+      <data key="e_weight">17.1294117647059</data>
+    </edge>
+    <edge source="n48" target="n102">
+      <data key="e_weight">21.3835913312694</data>
+    </edge>
+    <edge source="n12" target="n103">
+      <data key="e_weight">7.69866308269081</data>
+    </edge>
+    <edge source="n41" target="n104">
+      <data key="e_weight">1.47729978279815</data>
+    </edge>
+    <edge source="n51" target="n104">
+      <data key="e_weight">1.79695213565143</data>
+    </edge>
+    <edge source="n54" target="n104">
+      <data key="e_weight">1.92294429629099</data>
+    </edge>
+    <edge source="n57" target="n104">
+      <data key="e_weight">1.97450737219237</data>
+    </edge>
+    <edge source="n53" target="n105">
+      <data key="e_weight">3.17527141705779</data>
+    </edge>
+    <edge source="n29" target="n106">
+      <data key="e_weight">12.1433899709905</data>
+    </edge>
+    <edge source="n41" target="n107">
+      <data key="e_weight">1.52467674376252</data>
+    </edge>
+    <edge source="n24" target="n108">
+      <data key="e_weight">9.36223655913978</data>
+    </edge>
+    <edge source="n23" target="n109">
+      <data key="e_weight">4.09072907290729</data>
+    </edge>
+    <edge source="n41" target="n110">
+      <data key="e_weight">1.42484671887331</data>
+    </edge>
+    <edge source="n50" target="n110">
+      <data key="e_weight">2.33854748603352</data>
+    </edge>
+    <edge source="n51" target="n110">
+      <data key="e_weight">2.24619016956428</data>
+    </edge>
+    <edge source="n24" target="n111">
+      <data key="e_weight">9.67431111111111</data>
+    </edge>
+    <edge source="n32" target="n112">
+      <data key="e_weight">3.79416611733685</data>
+    </edge>
+    <edge source="n61" target="n113">
+      <data key="e_weight">187.942857142857</data>
+    </edge>
+  </graph>
+</graphml>

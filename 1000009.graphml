@@ -40,7 +40,7 @@
       <data key="v_name">J35.3</data>
       <data key="v_Freq">101</data>
       <data key="v_str">Hipertrofia de las amígdalas con hipertrofia de las adenoides</data>
-      <data key="v_label">Hipertrofia de las amígdalas </data>
+      <data key="v_label">Hipertrofia de las amígdalas c</data>
       <data key="v_title">Hipertrofia de las amígdalas con hipertrofia de las adenoides</data>
       <data key="v_group">J</data>
     </node>
@@ -104,7 +104,7 @@
       <data key="v_name">L20.9</data>
       <data key="v_Freq">46</data>
       <data key="v_str">Dermatitis atópica, no especificada</data>
-      <data key="v_label">Dermatitis atópica, no especi</data>
+      <data key="v_label">Dermatitis atópica, no especif</data>
       <data key="v_title">Dermatitis atópica, no especificada</data>
       <data key="v_group">L</data>
     </node>
@@ -112,7 +112,7 @@
       <data key="v_name">N10</data>
       <data key="v_Freq">24</data>
       <data key="v_str">Nefritis túbulo-intersticial aguda</data>
-      <data key="v_label">Nefritis túbulo-intersticial </data>
+      <data key="v_label">Nefritis túbulo-intersticial a</data>
       <data key="v_title">Nefritis túbulo-intersticial aguda</data>
       <data key="v_group">N</data>
     </node>
@@ -120,7 +120,7 @@
       <data key="v_name">N39.0</data>
       <data key="v_Freq">61</data>
       <data key="v_str">Infección de tracto urinario, localización no especificada</data>
-      <data key="v_label">Infección de tracto urinario,</data>
+      <data key="v_label">Infección de tracto urinario, </data>
       <data key="v_title">Infección de tracto urinario, localización no especificada</data>
       <data key="v_group">N</data>
     </node>
@@ -136,7 +136,7 @@
       <data key="v_name">P03.4</data>
       <data key="v_Freq">77</data>
       <data key="v_str">Recién nacido (con sospecha de estar) afectado por parto por cesárea</data>
-      <data key="v_label">Recién nacido (con sospecha d</data>
+      <data key="v_label">Recién nacido (con sospecha de</data>
       <data key="v_title">Recién nacido (con sospecha de estar) afectado por parto por cesárea</data>
       <data key="v_group">P</data>
     </node>
@@ -144,7 +144,7 @@
       <data key="v_name">P07.16</data>
       <data key="v_Freq">34</data>
       <data key="v_str">Otro tipo de recién nacido de bajo peso al nacimiento, 1500-1749 gramos</data>
-      <data key="v_label">Otro tipo de recién nacido de</data>
+      <data key="v_label">Otro tipo de recién nacido de </data>
       <data key="v_title">Otro tipo de recién nacido de bajo peso al nacimiento, 1500-1749 gramos</data>
       <data key="v_group">P</data>
     </node>
@@ -152,7 +152,7 @@
       <data key="v_name">P07.18</data>
       <data key="v_Freq">90</data>
       <data key="v_str">Otro tipo de recién nacido de bajo peso al nacimiento, 2000-2499 gramos</data>
-      <data key="v_label">Otro tipo de recién nacido de</data>
+      <data key="v_label">Otro tipo de recién nacido de </data>
       <data key="v_title">Otro tipo de recién nacido de bajo peso al nacimiento, 2000-2499 gramos</data>
       <data key="v_group">P</data>
     </node>
@@ -160,7 +160,7 @@
       <data key="v_name">P07.37</data>
       <data key="v_Freq">48</data>
       <data key="v_str">Recién nacido pretérmino, edad gestacional de 34 semanas completas</data>
-      <data key="v_label">Recién nacido pretérmino, ed</data>
+      <data key="v_label">Recién nacido pretérmino, edad</data>
       <data key="v_title">Recién nacido pretérmino, edad gestacional de 34 semanas completas</data>
       <data key="v_group">P</data>
     </node>
@@ -168,7 +168,7 @@
       <data key="v_name">P07.38</data>
       <data key="v_Freq">44</data>
       <data key="v_str">Recién nacido pretérmino, edad gestacional de 35 semanas completas</data>
-      <data key="v_label">Recién nacido pretérmino, ed</data>
+      <data key="v_label">Recién nacido pretérmino, edad</data>
       <data key="v_title">Recién nacido pretérmino, edad gestacional de 35 semanas completas</data>
       <data key="v_group">P</data>
     </node>
@@ -176,7 +176,7 @@
       <data key="v_name">P07.39</data>
       <data key="v_Freq">57</data>
       <data key="v_str">Recién nacido pretérmino, edad gestacional de 36 semanas completas</data>
-      <data key="v_label">Recién nacido pretérmino, ed</data>
+      <data key="v_label">Recién nacido pretérmino, edad</data>
       <data key="v_title">Recién nacido pretérmino, edad gestacional de 36 semanas completas</data>
       <data key="v_group">P</data>
     </node>
@@ -184,7 +184,7 @@
       <data key="v_name">P22.0</data>
       <data key="v_Freq">60</data>
       <data key="v_str">Síndrome de distrés respiratorio del recién nacido</data>
-      <data key="v_label">Síndrome de distrés respirat</data>
+      <data key="v_label">Síndrome de distrés respirator</data>
       <data key="v_title">Síndrome de distrés respiratorio del recién nacido</data>
       <data key="v_group">P</data>
     </node>
@@ -232,7 +232,7 @@
       <data key="v_name">P84</data>
       <data key="v_Freq">48</data>
       <data key="v_str">Otros problemas del recién nacido </data>
-      <data key="v_label">Otros problemas del recién na</data>
+      <data key="v_label">Otros problemas del recién nac</data>
       <data key="v_title">Otros problemas del recién nacido </data>
       <data key="v_group">P</data>
     </node>
@@ -296,7 +296,7 @@
       <data key="v_name">G47.33</data>
       <data key="v_Freq">112</data>
       <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
-      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_label">Apnea obstructiva del sueño (d</data>
       <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
       <data key="v_group">G</data>
     </node>
@@ -304,7 +304,7 @@
       <data key="v_name">J18.9</data>
       <data key="v_Freq">147</data>
       <data key="v_str">Neumonía, nmicroorganismo no especificado</data>
-      <data key="v_label">Neumonía, nmicroorganismo no </data>
+      <data key="v_label">Neumonía, nmicroorganismo no e</data>
       <data key="v_title">Neumonía, nmicroorganismo no especificado</data>
       <data key="v_group">J</data>
     </node>
@@ -328,7 +328,7 @@
       <data key="v_name">J22</data>
       <data key="v_Freq">50</data>
       <data key="v_str">Infección aguda del tracto respiratorio inferior, no especificada</data>
-      <data key="v_label">Infección aguda del tracto re</data>
+      <data key="v_label">Infección aguda del tracto res</data>
       <data key="v_title">Infección aguda del tracto respiratorio inferior, no especificada</data>
       <data key="v_group">J</data>
     </node>
@@ -360,7 +360,7 @@
       <data key="v_name">P01.5</data>
       <data key="v_Freq">69</data>
       <data key="v_str">Recién nacido (con sospecha de estar) afectado por embarazo múltiple</data>
-      <data key="v_label">Recién nacido (con sospecha d</data>
+      <data key="v_label">Recién nacido (con sospecha de</data>
       <data key="v_title">Recién nacido (con sospecha de estar) afectado por embarazo múltiple</data>
       <data key="v_group">P</data>
     </node>
@@ -368,7 +368,7 @@
       <data key="v_name">P07.14</data>
       <data key="v_Freq">19</data>
       <data key="v_str">Otro tipo de recién nacido de bajo peso al nacimiento, 1000-1249 gramos</data>
-      <data key="v_label">Otro tipo de recién nacido de</data>
+      <data key="v_label">Otro tipo de recién nacido de </data>
       <data key="v_title">Otro tipo de recién nacido de bajo peso al nacimiento, 1000-1249 gramos</data>
       <data key="v_group">P</data>
     </node>
@@ -392,7 +392,7 @@
       <data key="v_name">P92.8</data>
       <data key="v_Freq">28</data>
       <data key="v_str">Otros problemas de alimentación del recién nacido</data>
-      <data key="v_label">Otros problemas de alimentaci�</data>
+      <data key="v_label">Otros problemas de alimentació</data>
       <data key="v_title">Otros problemas de alimentación del recién nacido</data>
       <data key="v_group">P</data>
     </node>

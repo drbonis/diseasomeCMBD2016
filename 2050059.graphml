@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Freq" for="node" attr.name="Freq" attr.type="double"/>
+  <key id="v_str" for="node" attr.name="str" attr.type="string"/>
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_title" for="node" attr.name="title" attr.type="string"/>
+  <key id="v_group" for="node" attr.name="group" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">B20</data>
+      <data key="v_Freq">30</data>
+      <data key="v_str">Enfermedad por virus de la inmunodeficiencia humana [VIH]</data>
+      <data key="v_label">Enfermedad por virus de la inm</data>
+      <data key="v_title">Enfermedad por virus de la inmunodeficiencia humana [VIH]</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">C78.7</data>
+      <data key="v_Freq">59</data>
+      <data key="v_str">Neoplasia maligna secundaria de hígado y vías biliares intrahepáticas</data>
+      <data key="v_label">Neoplasia maligna secundaria d</data>
+      <data key="v_title">Neoplasia maligna secundaria de hígado y vías biliares intrahepáticas</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">C79.31</data>
+      <data key="v_Freq">26</data>
+      <data key="v_str">Neoplasia maligna secundaria de cerebro</data>
+      <data key="v_label">Neoplasia maligna secundaria d</data>
+      <data key="v_title">Neoplasia maligna secundaria de cerebro</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">C79.51</data>
+      <data key="v_Freq">47</data>
+      <data key="v_str">Neoplasia maligna secundaria de hueso</data>
+      <data key="v_label">Neoplasia maligna secundaria d</data>
+      <data key="v_title">Neoplasia maligna secundaria de hueso</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">D25.2</data>
+      <data key="v_Freq">16</data>
+      <data key="v_str">Leiomioma subseroso de útero</data>
+      <data key="v_label">Leiomioma subseroso de útero</data>
+      <data key="v_title">Leiomioma subseroso de útero</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">E66.9</data>
+      <data key="v_Freq">171</data>
+      <data key="v_str">Obesidad,no especificada</data>
+      <data key="v_label">Obesidad,no especificada</data>
+      <data key="v_title">Obesidad,no especificada</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">E78.5</data>
+      <data key="v_Freq">402</data>
+      <data key="v_str">Hiperlipidemia, no especificada</data>
+      <data key="v_label">Hiperlipidemia, no especificad</data>
+      <data key="v_title">Hiperlipidemia, no especificada</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">F32.9</data>
+      <data key="v_Freq">184</data>
+      <data key="v_str">Trastorno depresivo mayor, episodio único, no especificado</data>
+      <data key="v_label">Trastorno depresivo mayor, epi</data>
+      <data key="v_title">Trastorno depresivo mayor, episodio único, no especificado</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">G47.33</data>
+      <data key="v_Freq">85</data>
+      <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_label">Apnea obstructiva del sueño (d</data>
+      <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
+      <data key="v_group">G</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">I10</data>
+      <data key="v_Freq">726</data>
+      <data key="v_str">Hipertensión esencial (primaria)</data>
+      <data key="v_label">Hipertensión esencial (primari</data>
+      <data key="v_title">Hipertensión esencial (primaria)</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">I50.9</data>
+      <data key="v_Freq">53</data>
+      <data key="v_str">Insuficiencia cardiaca, no especificada</data>
+      <data key="v_label">Insuficiencia cardiaca, no esp</data>
+      <data key="v_title">Insuficiencia cardiaca, no especificada</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">J22</data>
+      <data key="v_Freq">63</data>
+      <data key="v_str">Infección aguda del tracto respiratorio inferior, no especificada</data>
+      <data key="v_label">Infección aguda del tracto res</data>
+      <data key="v_title">Infección aguda del tracto respiratorio inferior, no especificada</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">J44.0</data>
+      <data key="v_Freq">28</data>
+      <data key="v_str">Enfermedad pulmonar obstructiva crónica con infección aguda de las vías respiratorias inferiores</data>
+      <data key="v_label">Enfermedad pulmonar obstructiv</data>
+      <data key="v_title">Enfermedad pulmonar obstructiva crónica con infección aguda de las vías respiratorias inferiores</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">J44.1</data>
+      <data key="v_Freq">54</data>
+      <data key="v_str">Enfermedad pulmonar obstructiva crónica con exacerbación (aguda)</data>
+      <data key="v_label">Enfermedad pulmonar obstructiv</data>
+      <data key="v_title">Enfermedad pulmonar obstructiva crónica con exacerbación (aguda)</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">J44.9</data>
+      <data key="v_Freq">69</data>
+      <data key="v_str">Enfermedad pulmonar obstructiva crónica, no especificada</data>
+      <data key="v_label">Enfermedad pulmonar obstructiv</data>
+      <data key="v_title">Enfermedad pulmonar obstructiva crónica, no especificada</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">J96.00</data>
+      <data key="v_Freq">79</data>
+      <data key="v_str">Insuficiencia respiratoria aguda no especificada si con hipoxia o con hipercapnia</data>
+      <data key="v_label">Insuficiencia respiratoria agu</data>
+      <data key="v_title">Insuficiencia respiratoria aguda no especificada si con hipoxia o con hipercapnia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">J96.01</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Insuficiencia respiratoria aguda con hipoxia</data>
+      <data key="v_label">Insuficiencia respiratoria agu</data>
+      <data key="v_title">Insuficiencia respiratoria aguda con hipoxia</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">K44.9</data>
+      <data key="v_Freq">114</data>
+      <data key="v_str">Hernia diafragmática sin obstrucción ni gangrena</data>
+      <data key="v_label">Hernia diafragmática sin obstr</data>
+      <data key="v_title">Hernia diafragmática sin obstrucción ni gangrena</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">K74.60</data>
+      <data key="v_Freq">13</data>
+      <data key="v_str">Cirrosis de hígado no especificada</data>
+      <data key="v_label">Cirrosis de hígado no especifi</data>
+      <data key="v_title">Cirrosis de hígado no especificada</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">K76.0</data>
+      <data key="v_Freq">94</data>
+      <data key="v_str">Hígado graso (degeneración grasa) de hígado, no clasificado bajo otro concepto</data>
+      <data key="v_label">Hígado graso (degeneración gra</data>
+      <data key="v_title">Hígado graso (degeneración grasa) de hígado, no clasificado bajo otro concepto</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">K76.6</data>
+      <data key="v_Freq">25</data>
+      <data key="v_str">Hipertensión portal</data>
+      <data key="v_label">Hipertensión portal</data>
+      <data key="v_title">Hipertensión portal</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">M77.41</data>
+      <data key="v_Freq">19</data>
+      <data key="v_str">Metatarsalgia, pie derecho</data>
+      <data key="v_label">Metatarsalgia, pie derecho</data>
+      <data key="v_title">Metatarsalgia, pie derecho</data>
+      <data key="v_group">M</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">M77.42</data>
+      <data key="v_Freq">26</data>
+      <data key="v_str">Metatarsalgia, pie izquierdo</data>
+      <data key="v_label">Metatarsalgia, pie izquierdo</data>
+      <data key="v_title">Metatarsalgia, pie izquierdo</data>
+      <data key="v_group">M</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">N10</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_label">Nefritis túbulo-intersticial a</data>
+      <data key="v_title">Nefritis túbulo-intersticial aguda</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">N17.9</data>
+      <data key="v_Freq">66</data>
+      <data key="v_str">Fallo renal agudo, no especificado</data>
+      <data key="v_label">Fallo renal agudo, no especifi</data>
+      <data key="v_title">Fallo renal agudo, no especificado</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">N18.6</data>
+      <data key="v_Freq">22</data>
+      <data key="v_str">Enfermedad renal en estadio terminal</data>
+      <data key="v_label">Enfermedad renal en estadio te</data>
+      <data key="v_title">Enfermedad renal en estadio terminal</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">N18.9</data>
+      <data key="v_Freq">33</data>
+      <data key="v_str">Enfermedad renal crónica, no especificada</data>
+      <data key="v_label">Enfermedad renal crónica, no e</data>
+      <data key="v_title">Enfermedad renal crónica, no especificada</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">N39.0</data>
+      <data key="v_Freq">107</data>
+      <data key="v_str">Infección de tracto urinario, localización no especificada</data>
+      <data key="v_label">Infección de tracto urinario, </data>
+      <data key="v_title">Infección de tracto urinario, localización no especificada</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">N81.6</data>
+      <data key="v_Freq">15</data>
+      <data key="v_str">Rectocele</data>
+      <data key="v_label">Rectocele</data>
+      <data key="v_title">Rectocele</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">R09.02</data>
+      <data key="v_Freq">27</data>
+      <data key="v_str">Hipoxemia</data>
+      <data key="v_label">Hipoxemia</data>
+      <data key="v_title">Hipoxemia</data>
+      <data key="v_group">R</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">Z17.0</data>
+      <data key="v_Freq">57</data>
+      <data key="v_str">Estado de receptor de estrógeno positivo [RE+]</data>
+      <data key="v_label">Estado de receptor de estrógen</data>
+      <data key="v_title">Estado de receptor de estrógeno positivo [RE+]</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">Z79.01</data>
+      <data key="v_Freq">70</data>
+      <data key="v_str">Uso (actual) prolongado de anticoagulantes</data>
+      <data key="v_label">Uso (actual) prolongado de ant</data>
+      <data key="v_title">Uso (actual) prolongado de anticoagulantes</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">Z79.4</data>
+      <data key="v_Freq">43</data>
+      <data key="v_str">Uso (actual) prolongado de insulina</data>
+      <data key="v_label">Uso (actual) prolongado de ins</data>
+      <data key="v_title">Uso (actual) prolongado de insulina</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">Z80.3</data>
+      <data key="v_Freq">50</data>
+      <data key="v_str">Historia familiar de neoplasia maligna de mama</data>
+      <data key="v_label">Historia familiar de neoplasia</data>
+      <data key="v_title">Historia familiar de neoplasia maligna de mama</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">Z85.3</data>
+      <data key="v_Freq">186</data>
+      <data key="v_str">Historia personal de neoplasia maligna de mama</data>
+      <data key="v_label">Historia personal de neoplasia</data>
+      <data key="v_title">Historia personal de neoplasia maligna de mama</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">Z86.73</data>
+      <data key="v_Freq">41</data>
+      <data key="v_str">Historia personal de ataque isquémico transitorio (AIT) e infarto cerebral sin déficits residuales</data>
+      <data key="v_label">Historia personal de ataque is</data>
+      <data key="v_title">Historia personal de ataque isquémico transitorio (AIT) e infarto cerebral sin déficits residuales</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">Z88.1</data>
+      <data key="v_Freq">52</data>
+      <data key="v_str">Estado de alergia a otros antibióticos</data>
+      <data key="v_label">Estado de alergia a otros anti</data>
+      <data key="v_title">Estado de alergia a otros antibióticos</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">Z90.10</data>
+      <data key="v_Freq">25</data>
+      <data key="v_str">Ausencia adquirida de mama y pezón no especificados</data>
+      <data key="v_label">Ausencia adquirida de mama y p</data>
+      <data key="v_title">Ausencia adquirida de mama y pezón no especificados</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">Z90.11</data>
+      <data key="v_Freq">27</data>
+      <data key="v_str">Ausencia adquirida de mama y pezón derechos</data>
+      <data key="v_label">Ausencia adquirida de mama y p</data>
+      <data key="v_title">Ausencia adquirida de mama y pezón derechos</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">Z90.12</data>
+      <data key="v_Freq">33</data>
+      <data key="v_str">Ausencia adquirida de mama y pezón izquierdos</data>
+      <data key="v_label">Ausencia adquirida de mama y p</data>
+      <data key="v_title">Ausencia adquirida de mama y pezón izquierdos</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">Z90.710</data>
+      <data key="v_Freq">164</data>
+      <data key="v_str">Ausencia adquirida de ambos, de cuello uterino y de útero</data>
+      <data key="v_label">Ausencia adquirida de ambos, d</data>
+      <data key="v_title">Ausencia adquirida de ambos, de cuello uterino y de útero</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">Z90.722</data>
+      <data key="v_Freq">71</data>
+      <data key="v_str">Ausencia adquirida de ovarios, bilateral</data>
+      <data key="v_label">Ausencia adquirida de ovarios,</data>
+      <data key="v_title">Ausencia adquirida de ovarios, bilateral</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">Z90.79</data>
+      <data key="v_Freq">23</data>
+      <data key="v_str">Ausencia adquirida de otro (-s) órgano (-s) genital (-es)</data>
+      <data key="v_label">Ausencia adquirida de otro (-s</data>
+      <data key="v_title">Ausencia adquirida de otro (-s) órgano (-s) genital (-es)</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">Z92.21</data>
+      <data key="v_Freq">147</data>
+      <data key="v_str">Historia personal de quimioterapia antineoplásica</data>
+      <data key="v_label">Historia personal de quimioter</data>
+      <data key="v_title">Historia personal de quimioterapia antineoplásica</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">Z92.3</data>
+      <data key="v_Freq">120</data>
+      <data key="v_str">Historia personal de irradiación</data>
+      <data key="v_label">Historia personal de irradiaci</data>
+      <data key="v_title">Historia personal de irradiación</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">Z99.2</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Dependencia de diálisis renal</data>
+      <data key="v_label">Dependencia de diálisis renal</data>
+      <data key="v_title">Dependencia de diálisis renal</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">Z99.89</data>
+      <data key="v_Freq">47</data>
+      <data key="v_str">Dependencia de otras máquinas y dispositivos de apoyo</data>
+      <data key="v_label">Dependencia de otras máquinas </data>
+      <data key="v_title">Dependencia de otras máquinas y dispositivos de apoyo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">B18.2</data>
+      <data key="v_Freq">47</data>
+      <data key="v_str">Hepatitis vírica crónica tipo C</data>
+      <data key="v_label">Hepatitis vírica crónica tipo </data>
+      <data key="v_title">Hepatitis vírica crónica tipo C</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">B96.20</data>
+      <data key="v_Freq">40</data>
+      <data key="v_str">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_label">Escherichia coli [E. coli] no </data>
+      <data key="v_title">Escherichia coli [E. coli] no especificado como causa de enfermedades clasificadas bajo otro concepto</data>
+      <data key="v_group">B</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">C34.90</data>
+      <data key="v_Freq">22</data>
+      <data key="v_str">Neoplasia maligna de parte no especificada, no especificado de bronquio o pulmón</data>
+      <data key="v_label">Neoplasia maligna de parte no </data>
+      <data key="v_title">Neoplasia maligna de parte no especificada, no especificado de bronquio o pulmón</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">C50.912</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Neoplasia maligna de localización no especificada de mama femenina izquierda</data>
+      <data key="v_label">Neoplasia maligna de localizac</data>
+      <data key="v_title">Neoplasia maligna de localización no especificada de mama femenina izquierda</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">C78.00</data>
+      <data key="v_Freq">26</data>
+      <data key="v_str">Neoplasia maligna secundaria de pulmón no especificado</data>
+      <data key="v_label">Neoplasia maligna secundaria d</data>
+      <data key="v_title">Neoplasia maligna secundaria de pulmón no especificado</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">C78.2</data>
+      <data key="v_Freq">13</data>
+      <data key="v_str">Neoplasia maligna secundaria de pleura</data>
+      <data key="v_label">Neoplasia maligna secundaria d</data>
+      <data key="v_title">Neoplasia maligna secundaria de pleura</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">C78.6</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Neoplasia maligna secundaria de retroperitoneo y peritoneo</data>
+      <data key="v_label">Neoplasia maligna secundaria d</data>
+      <data key="v_title">Neoplasia maligna secundaria de retroperitoneo y peritoneo</data>
+      <data key="v_group">C</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">D25.1</data>
+      <data key="v_Freq">33</data>
+      <data key="v_str">Leiomioma intramural de útero</data>
+      <data key="v_label">Leiomioma intramural de útero</data>
+      <data key="v_title">Leiomioma intramural de útero</data>
+      <data key="v_group">D</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">E11.9</data>
+      <data key="v_Freq">221</data>
+      <data key="v_str">Diabetes mellitus tipo 2 sin complicaciones</data>
+      <data key="v_label">Diabetes mellitus tipo 2 sin c</data>
+      <data key="v_title">Diabetes mellitus tipo 2 sin complicaciones</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">E66.01</data>
+      <data key="v_Freq">71</data>
+      <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_label">Obesidad mórbida (severa) por </data>
+      <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">E87.2</data>
+      <data key="v_Freq">34</data>
+      <data key="v_str">Acidosis</data>
+      <data key="v_label">Acidosis</data>
+      <data key="v_title">Acidosis</data>
+      <data key="v_group">E</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">F17.210</data>
+      <data key="v_Freq">509</data>
+      <data key="v_str">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_label">Dependencia de nicotina, cigar</data>
+      <data key="v_title">Dependencia de nicotina, cigarrillos, sin complicaciones</data>
+      <data key="v_group">F</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">I12.0</data>
+      <data key="v_Freq">13</data>
+      <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
+      <data key="v_label">Enfermedad renal crónica hiper</data>
+      <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">I12.9</data>
+      <data key="v_Freq">28</data>
+      <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
+      <data key="v_label">Enfermedad renal crónica hiper</data>
+      <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">I27.2</data>
+      <data key="v_Freq">33</data>
+      <data key="v_str">Otra hipertensión pulmonar secundaria</data>
+      <data key="v_label">Otra hipertensión pulmonar sec</data>
+      <data key="v_title">Otra hipertensión pulmonar secundaria</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">I48.2</data>
+      <data key="v_Freq">17</data>
+      <data key="v_str">Fibrilación crónica auricular</data>
+      <data key="v_label">Fibrilación crónica auricular</data>
+      <data key="v_title">Fibrilación crónica auricular</data>
+      <data key="v_group">I</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">J18.9</data>
+      <data key="v_Freq">67</data>
+      <data key="v_str">Neumonía, nmicroorganismo no especificado</data>
+      <data key="v_label">Neumonía, nmicroorganismo no e</data>
+      <data key="v_title">Neumonía, nmicroorganismo no especificado</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">J20.9</data>
+      <data key="v_Freq">26</data>
+      <data key="v_str">Bronquitis aguda, no especificada</data>
+      <data key="v_label">Bronquitis aguda, no especific</data>
+      <data key="v_title">Bronquitis aguda, no especificada</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">J45.901</data>
+      <data key="v_Freq">39</data>
+      <data key="v_str">Asma no especificada con exacerbación (aguda)</data>
+      <data key="v_label">Asma no especificada con exace</data>
+      <data key="v_title">Asma no especificada con exacerbación (aguda)</data>
+      <data key="v_group">J</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">K21.9</data>
+      <data key="v_Freq">67</data>
+      <data key="v_str">Enfermedad por reflujo gastroesofágico sin esofagitis</data>
+      <data key="v_label">Enfermedad por reflujo gastroe</data>
+      <data key="v_title">Enfermedad por reflujo gastroesofágico sin esofagitis</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">K31.89</data>
+      <data key="v_Freq">20</data>
+      <data key="v_str">Otras enfermedades de estómago y duodeno</data>
+      <data key="v_label">Otras enfermedades de estómago</data>
+      <data key="v_title">Otras enfermedades de estómago y duodeno</data>
+      <data key="v_group">K</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">M20.11</data>
+      <data key="v_Freq">24</data>
+      <data key="v_str">Hallux valgus (adquirido), pie derecho</data>
+      <data key="v_label">Hallux valgus (adquirido), pie</data>
+      <data key="v_title">Hallux valgus (adquirido), pie derecho</data>
+      <data key="v_group">M</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">M20.12</data>
+      <data key="v_Freq">37</data>
+      <data key="v_str">Hallux valgus (adquirido), pie izquierdo</data>
+      <data key="v_label">Hallux valgus (adquirido), pie</data>
+      <data key="v_title">Hallux valgus (adquirido), pie izquierdo</data>
+      <data key="v_group">M</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">N81.10</data>
+      <data key="v_Freq">29</data>
+      <data key="v_str">Cistocele, no especificado</data>
+      <data key="v_label">Cistocele, no especificado</data>
+      <data key="v_title">Cistocele, no especificado</data>
+      <data key="v_group">N</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">Z42.1</data>
+      <data key="v_Freq">67</data>
+      <data key="v_str">Contacto para reconstrucción mamaria después de mastectomía</data>
+      <data key="v_label">Contacto para reconstrucción m</data>
+      <data key="v_title">Contacto para reconstrucción mamaria después de mastectomía</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">Z79.82</data>
+      <data key="v_Freq">70</data>
+      <data key="v_str">Uso (actual) prolongado de aspirina </data>
+      <data key="v_label">Uso (actual) prolongado de asp</data>
+      <data key="v_title">Uso (actual) prolongado de aspirina </data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">Z80.0</data>
+      <data key="v_Freq">50</data>
+      <data key="v_str">Historia familiar de neoplasia maligna de órganos digestivos</data>
+      <data key="v_label">Historia familiar de neoplasia</data>
+      <data key="v_title">Historia familiar de neoplasia maligna de órganos digestivos</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">Z88.0</data>
+      <data key="v_Freq">121</data>
+      <data key="v_str">Estado de alergia a penicilina</data>
+      <data key="v_label">Estado de alergia a penicilina</data>
+      <data key="v_title">Estado de alergia a penicilina</data>
+      <data key="v_group">Z</data>
+    </node>
+    <node id="n75">
+      <data key="v_name">Z90.49</data>
+      <data key="v_Freq">71</data>
+      <data key="v_str">Ausencia adquirida de otras partes especificadas del tracto digestivo</data>
+      <data key="v_label">Ausencia adquirida de otras pa</data>
+      <data key="v_title">Ausencia adquirida de otras partes especificadas del tracto digestivo</data>
+      <data key="v_group">Z</data>
+    </node>
+    <edge source="n1" target="n3">
+      <data key="e_weight">30.1254958528669</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_weight">2.43047918303221</data>
+    </edge>
+    <edge source="n5" target="n8">
+      <data key="e_weight">4.92631578947368</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="e_weight">3.14328358208955</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_weight">2.53139045962012</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_weight">2.30350314542988</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_weight">2.38512396694215</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_weight">38.3367346938776</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_weight">18.7089947089947</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_weight">60.5119047619048</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="e_weight">12.1223628691983</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_weight">18.7722007722008</data>
+    </edge>
+    <edge source="n24" target="n27">
+      <data key="e_weight">8.44944774851317</data>
+    </edge>
+    <edge source="n6" target="n32">
+      <data key="e_weight">4.14231169732732</data>
+    </edge>
+    <edge source="n9" target="n32">
+      <data key="e_weight">3.5679415721699</data>
+    </edge>
+    <edge source="n34" target="n37">
+      <data key="e_weight">15.3987096774194</data>
+    </edge>
+    <edge source="n34" target="n38">
+      <data key="e_weight">14.258064516129</data>
+    </edge>
+    <edge source="n34" target="n39">
+      <data key="e_weight">16.2023460410557</data>
+    </edge>
+    <edge source="n40" target="n41">
+      <data key="e_weight">19.4732050841635</data>
+    </edge>
+    <edge source="n40" target="n42">
+      <data key="e_weight">17.9284199363733</data>
+    </edge>
+    <edge source="n34" target="n43">
+      <data key="e_weight">8.72942725477288</data>
+    </edge>
+    <edge source="n38" target="n43">
+      <data key="e_weight">11.0249433106576</data>
+    </edge>
+    <edge source="n39" target="n43">
+      <data key="e_weight">11.4805194805195</data>
+    </edge>
+    <edge source="n34" target="n44">
+      <data key="e_weight">10.5153225806452</data>
+    </edge>
+    <edge source="n38" target="n44">
+      <data key="e_weight">14.7333333333333</data>
+    </edge>
+    <edge source="n39" target="n44">
+      <data key="e_weight">12.0545454545455</data>
+    </edge>
+    <edge source="n43" target="n44">
+      <data key="e_weight">19.3938775510204</data>
+    </edge>
+    <edge source="n25" target="n45">
+      <data key="e_weight">144.654545454545</data>
+    </edge>
+    <edge source="n8" target="n46">
+      <data key="e_weight">31.863829787234</data>
+    </edge>
+    <edge source="n0" target="n47">
+      <data key="e_weight">50.7829787234043</data>
+    </edge>
+    <edge source="n18" target="n47">
+      <data key="e_weight">58.5957446808511</data>
+    </edge>
+    <edge source="n23" target="n48">
+      <data key="e_weight">26.8783783783784</data>
+    </edge>
+    <edge source="n27" target="n48">
+      <data key="e_weight">18.588785046729</data>
+    </edge>
+    <edge source="n2" target="n49">
+      <data key="e_weight">69.5454545454545</data>
+    </edge>
+    <edge source="n30" target="n50">
+      <data key="e_weight">24.5206258890469</data>
+    </edge>
+    <edge source="n1" target="n51">
+      <data key="e_weight">33.7118644067797</data>
+    </edge>
+    <edge source="n3" target="n51">
+      <data key="e_weight">32.5531914893617</data>
+    </edge>
+    <edge source="n1" target="n52">
+      <data key="e_weight">46.6779661016949</data>
+    </edge>
+    <edge source="n1" target="n53">
+      <data key="e_weight">19.8305084745763</data>
+    </edge>
+    <edge source="n4" target="n54">
+      <data key="e_weight">75.3409090909091</data>
+    </edge>
+    <edge source="n5" target="n55">
+      <data key="e_weight">3.36842105263158</data>
+    </edge>
+    <edge source="n6" target="n55">
+      <data key="e_weight">3.17910447761194</data>
+    </edge>
+    <edge source="n9" target="n55">
+      <data key="e_weight">3.24793388429752</data>
+    </edge>
+    <edge source="n32" target="n55">
+      <data key="e_weight">8.79069767441861</data>
+    </edge>
+    <edge source="n8" target="n56">
+      <data key="e_weight">12.5239436619718</data>
+    </edge>
+    <edge source="n9" target="n56">
+      <data key="e_weight">2.62390874170644</data>
+    </edge>
+    <edge source="n19" target="n56">
+      <data key="e_weight">7.74857656577765</data>
+    </edge>
+    <edge source="n24" target="n57">
+      <data key="e_weight">19.5</data>
+    </edge>
+    <edge source="n7" target="n58">
+      <data key="e_weight">1.95383104125737</data>
+    </edge>
+    <edge source="n11" target="n58">
+      <data key="e_weight">2.97726634858266</data>
+    </edge>
+    <edge source="n13" target="n58">
+      <data key="e_weight">3.90766208251473</data>
+    </edge>
+    <edge source="n14" target="n58">
+      <data key="e_weight">3.05817032544631</data>
+    </edge>
+    <edge source="n25" target="n59">
+      <data key="e_weight">125.181818181818</data>
+    </edge>
+    <edge source="n26" target="n60">
+      <data key="e_weight">55.9675324675325</data>
+    </edge>
+    <edge source="n10" target="n61">
+      <data key="e_weight">27.2933104631218</data>
+    </edge>
+    <edge source="n31" target="n62">
+      <data key="e_weight">40.1142857142857</data>
+    </edge>
+    <edge source="n15" target="n63">
+      <data key="e_weight">12.7764972605328</data>
+    </edge>
+    <edge source="n15" target="n64">
+      <data key="e_weight">23.2405063291139</data>
+    </edge>
+    <edge source="n29" target="n65">
+      <data key="e_weight">41.5555555555556</data>
+    </edge>
+    <edge source="n17" target="n66">
+      <data key="e_weight">10.9371563236449</data>
+    </edge>
+    <edge source="n20" target="n67">
+      <data key="e_weight">87.516</data>
+    </edge>
+    <edge source="n21" target="n68">
+      <data key="e_weight">95.9605263157895</data>
+    </edge>
+    <edge source="n22" target="n69">
+      <data key="e_weight">74.4324324324324</data>
+    </edge>
+    <edge source="n28" target="n70">
+      <data key="e_weight">82.3034482758621</data>
+    </edge>
+    <edge source="n34" target="n71">
+      <data key="e_weight">15.9605199807415</data>
+    </edge>
+    <edge source="n39" target="n71">
+      <data key="e_weight">17.9918588873813</data>
+    </edge>
+    <edge source="n43" target="n71">
+      <data key="e_weight">6.86628084069449</data>
+    </edge>
+    <edge source="n35" target="n72">
+      <data key="e_weight">15.2466898954704</data>
+    </edge>
+    <edge source="n33" target="n73">
+      <data key="e_weight">20.6856</data>
+    </edge>
+    <edge source="n36" target="n74">
+      <data key="e_weight">8.85123966942149</data>
+    </edge>
+    <edge source="n40" target="n75">
+      <data key="e_weight">5.80779800755754</data>
+    </edge>
+    <edge source="n41" target="n75">
+      <data key="e_weight">10.2586788335648</data>
+    </edge>
+  </graph>
+</graphml>

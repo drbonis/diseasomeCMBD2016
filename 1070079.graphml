@@ -80,7 +80,7 @@
       <data key="v_name">D68.9</data>
       <data key="v_Freq">58</data>
       <data key="v_str">Defecto de coagulación, no especificado</data>
-      <data key="v_label">Defecto de coagulación, no es</data>
+      <data key="v_label">Defecto de coagulación, no esp</data>
       <data key="v_title">Defecto de coagulación, no especificado</data>
       <data key="v_group">D</data>
     </node>
@@ -96,7 +96,7 @@
       <data key="v_name">E46</data>
       <data key="v_Freq">126</data>
       <data key="v_str">Malnutrición calórico-proteica no especificada</data>
-      <data key="v_label">Malnutrición calórico-protei</data>
+      <data key="v_label">Malnutrición calórico-proteica</data>
       <data key="v_title">Malnutrición calórico-proteica no especificada</data>
       <data key="v_group">E</data>
     </node>
@@ -160,7 +160,7 @@
       <data key="v_name">F05</data>
       <data key="v_Freq">119</data>
       <data key="v_str">Delirio debido a afección fisiológica conocida</data>
-      <data key="v_label">Delirio debido a afección fis</data>
+      <data key="v_label">Delirio debido a afección fisi</data>
       <data key="v_title">Delirio debido a afección fisiológica conocida</data>
       <data key="v_group">F</data>
     </node>
@@ -216,7 +216,7 @@
       <data key="v_name">G47.30</data>
       <data key="v_Freq">105</data>
       <data key="v_str">Apnea del sueño, no especificada</data>
-      <data key="v_label">Apnea del sueño, no especific</data>
+      <data key="v_label">Apnea del sueño, no especifica</data>
       <data key="v_title">Apnea del sueño, no especificada</data>
       <data key="v_group">G</data>
     </node>
@@ -224,7 +224,7 @@
       <data key="v_name">G47.33</data>
       <data key="v_Freq">439</data>
       <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
-      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_label">Apnea obstructiva del sueño (d</data>
       <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
       <data key="v_group">G</data>
     </node>
@@ -232,7 +232,7 @@
       <data key="v_name">G89.3</data>
       <data key="v_Freq">44</data>
       <data key="v_str">Dolor (agudo) (crónico) relacionado con neoplasia</data>
-      <data key="v_label">Dolor (agudo) (crónico) relac</data>
+      <data key="v_label">Dolor (agudo) (crónico) relaci</data>
       <data key="v_title">Dolor (agudo) (crónico) relacionado con neoplasia</data>
       <data key="v_group">G</data>
     </node>
@@ -240,7 +240,7 @@
       <data key="v_name">I10</data>
       <data key="v_Freq">2909</data>
       <data key="v_str">Hipertensión esencial (primaria)</data>
-      <data key="v_label">Hipertensión esencial (primar</data>
+      <data key="v_label">Hipertensión esencial (primari</data>
       <data key="v_title">Hipertensión esencial (primaria)</data>
       <data key="v_group">I</data>
     </node>
@@ -248,7 +248,7 @@
       <data key="v_name">I12.0</data>
       <data key="v_Freq">75</data>
       <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
-      <data key="v_label">Enfermedad renal crónica hipe</data>
+      <data key="v_label">Enfermedad renal crónica hiper</data>
       <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
       <data key="v_group">I</data>
     </node>
@@ -256,7 +256,7 @@
       <data key="v_name">I12.9</data>
       <data key="v_Freq">517</data>
       <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
-      <data key="v_label">Enfermedad renal crónica hipe</data>
+      <data key="v_label">Enfermedad renal crónica hiper</data>
       <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
       <data key="v_group">I</data>
     </node>
@@ -288,7 +288,7 @@
       <data key="v_name">I25.82</data>
       <data key="v_Freq">40</data>
       <data key="v_str">Oclusión total crónica de arteria coronaria</data>
-      <data key="v_label">Oclusión total crónica de ar</data>
+      <data key="v_label">Oclusión total crónica de arte</data>
       <data key="v_title">Oclusión total crónica de arteria coronaria</data>
       <data key="v_group">I</data>
     </node>
@@ -312,7 +312,7 @@
       <data key="v_name">I25.9</data>
       <data key="v_Freq">267</data>
       <data key="v_str">Enfermedad isquémica crónica cardiaca, no especificada</data>
-      <data key="v_label">Enfermedad isquémica crónica</data>
+      <data key="v_label">Enfermedad isquémica crónica c</data>
       <data key="v_title">Enfermedad isquémica crónica cardiaca, no especificada</data>
       <data key="v_group">I</data>
     </node>
@@ -320,7 +320,7 @@
       <data key="v_name">I27.2</data>
       <data key="v_Freq">170</data>
       <data key="v_str">Otra hipertensión pulmonar secundaria</data>
-      <data key="v_label">Otra hipertensión pulmonar se</data>
+      <data key="v_label">Otra hipertensión pulmonar sec</data>
       <data key="v_title">Otra hipertensión pulmonar secundaria</data>
       <data key="v_group">I</data>
     </node>
@@ -328,7 +328,7 @@
       <data key="v_name">I34.0</data>
       <data key="v_Freq">143</data>
       <data key="v_str">Insuficiencia (de la válvula) mitral no reumática</data>
-      <data key="v_label">Insuficiencia (de la válvula)</data>
+      <data key="v_label">Insuficiencia (de la válvula) </data>
       <data key="v_title">Insuficiencia (de la válvula) mitral no reumática</data>
       <data key="v_group">I</data>
     </node>
@@ -336,7 +336,7 @@
       <data key="v_name">I35.0</data>
       <data key="v_Freq">94</data>
       <data key="v_str">Estenosis (de la válvula) aórtica no reumática</data>
-      <data key="v_label">Estenosis (de la válvula) aó</data>
+      <data key="v_label">Estenosis (de la válvula) aórt</data>
       <data key="v_title">Estenosis (de la válvula) aórtica no reumática</data>
       <data key="v_group">I</data>
     </node>
@@ -344,7 +344,7 @@
       <data key="v_name">I35.1</data>
       <data key="v_Freq">68</data>
       <data key="v_str">Insuficiencia (de la válvula) aórtica no reumática</data>
-      <data key="v_label">Insuficiencia (de la válvula)</data>
+      <data key="v_label">Insuficiencia (de la válvula) </data>
       <data key="v_title">Insuficiencia (de la válvula) aórtica no reumática</data>
       <data key="v_group">I</data>
     </node>
@@ -360,7 +360,7 @@
       <data key="v_name">I48.2</data>
       <data key="v_Freq">259</data>
       <data key="v_str">Fibrilación crónica auricular</data>
-      <data key="v_label">Fibrilación crónica auricula</data>
+      <data key="v_label">Fibrilación crónica auricular</data>
       <data key="v_title">Fibrilación crónica auricular</data>
       <data key="v_group">I</data>
     </node>
@@ -368,7 +368,7 @@
       <data key="v_name">I48.91</data>
       <data key="v_Freq">440</data>
       <data key="v_str">Fibrilación auricular no especificada</data>
-      <data key="v_label">Fibrilación auricular no espe</data>
+      <data key="v_label">Fibrilación auricular no espec</data>
       <data key="v_title">Fibrilación auricular no especificada</data>
       <data key="v_group">I</data>
     </node>
@@ -408,7 +408,7 @@
       <data key="v_name">J18.9</data>
       <data key="v_Freq">327</data>
       <data key="v_str">Neumonía, nmicroorganismo no especificado</data>
-      <data key="v_label">Neumonía, nmicroorganismo no </data>
+      <data key="v_label">Neumonía, nmicroorganismo no e</data>
       <data key="v_title">Neumonía, nmicroorganismo no especificado</data>
       <data key="v_group">J</data>
     </node>
@@ -416,7 +416,7 @@
       <data key="v_name">J22</data>
       <data key="v_Freq">287</data>
       <data key="v_str">Infección aguda del tracto respiratorio inferior, no especificada</data>
-      <data key="v_label">Infección aguda del tracto re</data>
+      <data key="v_label">Infección aguda del tracto res</data>
       <data key="v_title">Infección aguda del tracto respiratorio inferior, no especificada</data>
       <data key="v_group">J</data>
     </node>
@@ -456,7 +456,7 @@
       <data key="v_name">J47.0</data>
       <data key="v_Freq">43</data>
       <data key="v_str">Bronquiectasias con infección aguda de vías respiratorias bajas</data>
-      <data key="v_label">Bronquiectasias con infección</data>
+      <data key="v_label">Bronquiectasias con infección </data>
       <data key="v_title">Bronquiectasias con infección aguda de vías respiratorias bajas</data>
       <data key="v_group">J</data>
     </node>
@@ -472,7 +472,7 @@
       <data key="v_name">J69.0</data>
       <data key="v_Freq">93</data>
       <data key="v_str">Neumonitis debida a inhalación de alimentos y vómito</data>
-      <data key="v_label">Neumonitis debida a inhalació</data>
+      <data key="v_label">Neumonitis debida a inhalación</data>
       <data key="v_title">Neumonitis debida a inhalación de alimentos y vómito</data>
       <data key="v_group">J</data>
     </node>
@@ -504,7 +504,7 @@
       <data key="v_name">J96.10</data>
       <data key="v_Freq">88</data>
       <data key="v_str">Insuficiencia respiratoria crónica no especificada si con hipoxia o con hipercapnia</data>
-      <data key="v_label">Insuficiencia respiratoria cr�</data>
+      <data key="v_label">Insuficiencia respiratoria cró</data>
       <data key="v_title">Insuficiencia respiratoria crónica no especificada si con hipoxia o con hipercapnia</data>
       <data key="v_group">J</data>
     </node>
@@ -568,7 +568,7 @@
       <data key="v_name">K31.89</data>
       <data key="v_Freq">28</data>
       <data key="v_str">Otras enfermedades de estómago y duodeno</data>
-      <data key="v_label">Otras enfermedades de estómag</data>
+      <data key="v_label">Otras enfermedades de estómago</data>
       <data key="v_title">Otras enfermedades de estómago y duodeno</data>
       <data key="v_group">K</data>
     </node>
@@ -576,7 +576,7 @@
       <data key="v_name">K44.9</data>
       <data key="v_Freq">246</data>
       <data key="v_str">Hernia diafragmática sin obstrucción ni gangrena</data>
-      <data key="v_label">Hernia diafragmática sin obst</data>
+      <data key="v_label">Hernia diafragmática sin obstr</data>
       <data key="v_title">Hernia diafragmática sin obstrucción ni gangrena</data>
       <data key="v_group">K</data>
     </node>
@@ -600,7 +600,7 @@
       <data key="v_name">K70.30</data>
       <data key="v_Freq">33</data>
       <data key="v_str">Cirrosis alcohólica de hígado sin ascitis</data>
-      <data key="v_label">Cirrosis alcohólica de hígad</data>
+      <data key="v_label">Cirrosis alcohólica de hígado </data>
       <data key="v_title">Cirrosis alcohólica de hígado sin ascitis</data>
       <data key="v_group">K</data>
     </node>
@@ -608,7 +608,7 @@
       <data key="v_name">K70.9</data>
       <data key="v_Freq">55</data>
       <data key="v_str">Enfermedad hepática alcohólica, no especificada</data>
-      <data key="v_label">Enfermedad hepática alcohóli</data>
+      <data key="v_label">Enfermedad hepática alcohólica</data>
       <data key="v_title">Enfermedad hepática alcohólica, no especificada</data>
       <data key="v_group">K</data>
     </node>
@@ -624,7 +624,7 @@
       <data key="v_name">K80.20</data>
       <data key="v_Freq">164</data>
       <data key="v_str">Cálculo de vesícula biliar sin colecistitis sin obstrucción</data>
-      <data key="v_label">Cálculo de vesícula biliar s</data>
+      <data key="v_label">Cálculo de vesícula biliar sin</data>
       <data key="v_title">Cálculo de vesícula biliar sin colecistitis sin obstrucción</data>
       <data key="v_group">K</data>
     </node>
@@ -656,7 +656,7 @@
       <data key="v_name">N18.2</data>
       <data key="v_Freq">58</data>
       <data key="v_str">Enfermedad renal crónica, estadio 2 (leve)</data>
-      <data key="v_label">Enfermedad renal crónica, est</data>
+      <data key="v_label">Enfermedad renal crónica, esta</data>
       <data key="v_title">Enfermedad renal crónica, estadio 2 (leve)</data>
       <data key="v_group">N</data>
     </node>
@@ -664,7 +664,7 @@
       <data key="v_name">N18.3</data>
       <data key="v_Freq">175</data>
       <data key="v_str">Enfermedad renal crónica, estadio 3 (moderada)</data>
-      <data key="v_label">Enfermedad renal crónica, est</data>
+      <data key="v_label">Enfermedad renal crónica, esta</data>
       <data key="v_title">Enfermedad renal crónica, estadio 3 (moderada)</data>
       <data key="v_group">N</data>
     </node>
@@ -672,7 +672,7 @@
       <data key="v_name">N18.4</data>
       <data key="v_Freq">34</data>
       <data key="v_str">Enfermedad renal crónica, estadio 4 (grave)</data>
-      <data key="v_label">Enfermedad renal crónica, est</data>
+      <data key="v_label">Enfermedad renal crónica, esta</data>
       <data key="v_title">Enfermedad renal crónica, estadio 4 (grave)</data>
       <data key="v_group">N</data>
     </node>
@@ -680,7 +680,7 @@
       <data key="v_name">N18.5</data>
       <data key="v_Freq">33</data>
       <data key="v_str">Enfermedad renal crónica, estadio fase 5</data>
-      <data key="v_label">Enfermedad renal crónica, est</data>
+      <data key="v_label">Enfermedad renal crónica, esta</data>
       <data key="v_title">Enfermedad renal crónica, estadio fase 5</data>
       <data key="v_group">N</data>
     </node>
@@ -696,7 +696,7 @@
       <data key="v_name">N18.9</data>
       <data key="v_Freq">396</data>
       <data key="v_str">Enfermedad renal crónica, no especificada</data>
-      <data key="v_label">Enfermedad renal crónica, no </data>
+      <data key="v_label">Enfermedad renal crónica, no e</data>
       <data key="v_title">Enfermedad renal crónica, no especificada</data>
       <data key="v_group">N</data>
     </node>
@@ -712,7 +712,7 @@
       <data key="v_name">N39.0</data>
       <data key="v_Freq">322</data>
       <data key="v_str">Infección de tracto urinario, localización no especificada</data>
-      <data key="v_label">Infección de tracto urinario,</data>
+      <data key="v_label">Infección de tracto urinario, </data>
       <data key="v_title">Infección de tracto urinario, localización no especificada</data>
       <data key="v_group">N</data>
     </node>
@@ -720,7 +720,7 @@
       <data key="v_name">N40.0</data>
       <data key="v_Freq">810</data>
       <data key="v_str">Hipertrofia de próstata sin síntomas de tracto urinario inferior</data>
-      <data key="v_label">Hipertrofia de próstata sin s</data>
+      <data key="v_label">Hipertrofia de próstata sin sí</data>
       <data key="v_title">Hipertrofia de próstata sin síntomas de tracto urinario inferior</data>
       <data key="v_group">N</data>
     </node>
@@ -728,7 +728,7 @@
       <data key="v_name">N40.1</data>
       <data key="v_Freq">195</data>
       <data key="v_str">Hipertrofia de próstata con síntomas de tracto urinario inferior</data>
-      <data key="v_label">Hipertrofia de próstata con s</data>
+      <data key="v_label">Hipertrofia de próstata con sí</data>
       <data key="v_title">Hipertrofia de próstata con síntomas de tracto urinario inferior</data>
       <data key="v_group">N</data>
     </node>
@@ -760,7 +760,7 @@
       <data key="v_name">R33.8</data>
       <data key="v_Freq">35</data>
       <data key="v_str">Otro tipo de retención urinaria</data>
-      <data key="v_label">Otro tipo de retención urinar</data>
+      <data key="v_label">Otro tipo de retención urinari</data>
       <data key="v_title">Otro tipo de retención urinaria</data>
       <data key="v_group">R</data>
     </node>
@@ -768,7 +768,7 @@
       <data key="v_name">R33.9</data>
       <data key="v_Freq">86</data>
       <data key="v_str">Retención urinaria, no especificada</data>
-      <data key="v_label">Retención urinaria, no especi</data>
+      <data key="v_label">Retención urinaria, no especif</data>
       <data key="v_title">Retención urinaria, no especificada</data>
       <data key="v_group">R</data>
     </node>
@@ -816,7 +816,7 @@
       <data key="v_name">R65.20</data>
       <data key="v_Freq">46</data>
       <data key="v_str">Sepsis grave sin shock séptico</data>
-      <data key="v_label">Sepsis grave sin shock séptic</data>
+      <data key="v_label">Sepsis grave sin shock séptico</data>
       <data key="v_title">Sepsis grave sin shock séptico</data>
       <data key="v_group">R</data>
     </node>
@@ -824,7 +824,7 @@
       <data key="v_name">R65.21</data>
       <data key="v_Freq">51</data>
       <data key="v_str">Sepsis grave con shock séptico</data>
-      <data key="v_label">Sepsis grave con shock séptic</data>
+      <data key="v_label">Sepsis grave con shock séptico</data>
       <data key="v_title">Sepsis grave con shock séptico</data>
       <data key="v_group">R</data>
     </node>
@@ -856,7 +856,7 @@
       <data key="v_name">T45.1X5A</data>
       <data key="v_Freq">56</data>
       <data key="v_str">Efecto adverso de fármacos antineoplásicos e inmunosupresores, contacto inicial</data>
-      <data key="v_label">Efecto adverso de fármacos an</data>
+      <data key="v_label">Efecto adverso de fármacos ant</data>
       <data key="v_title">Efecto adverso de fármacos antineoplásicos e inmunosupresores, contacto inicial</data>
       <data key="v_group">T</data>
     </node>
@@ -952,7 +952,7 @@
       <data key="v_name">Z86.010</data>
       <data key="v_Freq">81</data>
       <data key="v_str">Historia personal de pólipos colónicos</data>
-      <data key="v_label">Historia personal de pólipos </data>
+      <data key="v_label">Historia personal de pólipos c</data>
       <data key="v_title">Historia personal de pólipos colónicos</data>
       <data key="v_group">Z</data>
     </node>
@@ -1072,7 +1072,7 @@
       <data key="v_name">Z95.1</data>
       <data key="v_Freq">144</data>
       <data key="v_str">Presencia de injerto derivación aortocoronaria</data>
-      <data key="v_label">Presencia de injerto derivaci�</data>
+      <data key="v_label">Presencia de injerto derivació</data>
       <data key="v_title">Presencia de injerto derivación aortocoronaria</data>
       <data key="v_group">Z</data>
     </node>
@@ -1080,7 +1080,7 @@
       <data key="v_name">Z95.2</data>
       <data key="v_Freq">113</data>
       <data key="v_str">Presencia de válvula cardiaca protésica</data>
-      <data key="v_label">Presencia de válvula cardiaca</data>
+      <data key="v_label">Presencia de válvula cardiaca </data>
       <data key="v_title">Presencia de válvula cardiaca protésica</data>
       <data key="v_group">Z</data>
     </node>
@@ -1104,7 +1104,7 @@
       <data key="v_name">Z98.0</data>
       <data key="v_Freq">30</data>
       <data key="v_str">Estado de derivación intestinal y anastomosis</data>
-      <data key="v_label">Estado de derivación intestin</data>
+      <data key="v_label">Estado de derivación intestina</data>
       <data key="v_title">Estado de derivación intestinal y anastomosis</data>
       <data key="v_group">Z</data>
     </node>
@@ -1112,7 +1112,7 @@
       <data key="v_name">Z98.41</data>
       <data key="v_Freq">69</data>
       <data key="v_str">Estado de extracción de catarata, ojo derecho</data>
-      <data key="v_label">Estado de extracción de catar</data>
+      <data key="v_label">Estado de extracción de catara</data>
       <data key="v_title">Estado de extracción de catarata, ojo derecho</data>
       <data key="v_group">Z</data>
     </node>
@@ -1120,7 +1120,7 @@
       <data key="v_name">Z98.42</data>
       <data key="v_Freq">75</data>
       <data key="v_str">Estado de extracción de catarata, ojo izquierdo</data>
-      <data key="v_label">Estado de extracción de catar</data>
+      <data key="v_label">Estado de extracción de catara</data>
       <data key="v_title">Estado de extracción de catarata, ojo izquierdo</data>
       <data key="v_group">Z</data>
     </node>
@@ -1128,7 +1128,7 @@
       <data key="v_name">Z98.49</data>
       <data key="v_Freq">76</data>
       <data key="v_str">Estado de extracción de catarata, ojo no especificado</data>
-      <data key="v_label">Estado de extracción de catar</data>
+      <data key="v_label">Estado de extracción de catara</data>
       <data key="v_title">Estado de extracción de catarata, ojo no especificado</data>
       <data key="v_group">Z</data>
     </node>
@@ -1160,7 +1160,7 @@
       <data key="v_name">Z99.81</data>
       <data key="v_Freq">221</data>
       <data key="v_str">Dependencia de oxígeno suplementario</data>
-      <data key="v_label">Dependencia de oxígeno suplem</data>
+      <data key="v_label">Dependencia de oxígeno supleme</data>
       <data key="v_title">Dependencia de oxígeno suplementario</data>
       <data key="v_group">Z</data>
     </node>
@@ -1168,7 +1168,7 @@
       <data key="v_name">Z99.89</data>
       <data key="v_Freq">302</data>
       <data key="v_str">Dependencia de otras máquinas y dispositivos de apoyo</data>
-      <data key="v_label">Dependencia de otras máquinas</data>
+      <data key="v_label">Dependencia de otras máquinas </data>
       <data key="v_title">Dependencia de otras máquinas y dispositivos de apoyo</data>
       <data key="v_group">Z</data>
     </node>
@@ -1192,7 +1192,7 @@
       <data key="v_name">B18.2</data>
       <data key="v_Freq">48</data>
       <data key="v_str">Hepatitis vírica crónica tipo C</data>
-      <data key="v_label">Hepatitis vírica crónica tip</data>
+      <data key="v_label">Hepatitis vírica crónica tipo </data>
       <data key="v_title">Hepatitis vírica crónica tipo C</data>
       <data key="v_group">B</data>
     </node>
@@ -1256,7 +1256,7 @@
       <data key="v_name">C22.0</data>
       <data key="v_Freq">49</data>
       <data key="v_str">Carcinoma de células hepáticas</data>
-      <data key="v_label">Carcinoma de células hepátic</data>
+      <data key="v_label">Carcinoma de células hepáticas</data>
       <data key="v_title">Carcinoma de células hepáticas</data>
       <data key="v_group">C</data>
     </node>
@@ -1264,7 +1264,7 @@
       <data key="v_name">C34.11</data>
       <data key="v_Freq">62</data>
       <data key="v_str">Neoplasia maligna de lóbulo superior, bronquio o pulmón derecho</data>
-      <data key="v_label">Neoplasia maligna de lóbulo s</data>
+      <data key="v_label">Neoplasia maligna de lóbulo su</data>
       <data key="v_title">Neoplasia maligna de lóbulo superior, bronquio o pulmón derecho</data>
       <data key="v_group">C</data>
     </node>
@@ -1304,7 +1304,7 @@
       <data key="v_name">D50.9</data>
       <data key="v_Freq">186</data>
       <data key="v_str">Anemia ferropénica, no especificada</data>
-      <data key="v_label">Anemia ferropénica, no especi</data>
+      <data key="v_label">Anemia ferropénica, no especif</data>
       <data key="v_title">Anemia ferropénica, no especificada</data>
       <data key="v_group">D</data>
     </node>
@@ -1312,7 +1312,7 @@
       <data key="v_name">D63.1</data>
       <data key="v_Freq">31</data>
       <data key="v_str">Anemia en enfermedad renal crónica</data>
-      <data key="v_label">Anemia en enfermedad renal cr�</data>
+      <data key="v_label">Anemia en enfermedad renal cró</data>
       <data key="v_title">Anemia en enfermedad renal crónica</data>
       <data key="v_group">D</data>
     </node>
@@ -1328,7 +1328,7 @@
       <data key="v_name">D65</data>
       <data key="v_Freq">15</data>
       <data key="v_str">Coagulación intravascular diseminada [síndrome de desfibrinación]</data>
-      <data key="v_label">Coagulación intravascular dis</data>
+      <data key="v_label">Coagulación intravascular dise</data>
       <data key="v_title">Coagulación intravascular diseminada [síndrome de desfibrinación]</data>
       <data key="v_group">D</data>
     </node>
@@ -1416,7 +1416,7 @@
       <data key="v_name">E66.01</data>
       <data key="v_Freq">33</data>
       <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
-      <data key="v_label">Obesidad mórbida (severa) por</data>
+      <data key="v_label">Obesidad mórbida (severa) por </data>
       <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
       <data key="v_group">E</data>
     </node>
@@ -1424,7 +1424,7 @@
       <data key="v_name">E66.2</data>
       <data key="v_Freq">19</data>
       <data key="v_str">Obesidad mórbida (severa) con hipoventilación alveolar</data>
-      <data key="v_label">Obesidad mórbida (severa) con</data>
+      <data key="v_label">Obesidad mórbida (severa) con </data>
       <data key="v_title">Obesidad mórbida (severa) con hipoventilación alveolar</data>
       <data key="v_group">E</data>
     </node>
@@ -1520,7 +1520,7 @@
       <data key="v_name">I07.1</data>
       <data key="v_Freq">38</data>
       <data key="v_str">Insuficiencia tricuspídea reumática</data>
-      <data key="v_label">Insuficiencia tricuspídea reu</data>
+      <data key="v_label">Insuficiencia tricuspídea reum</data>
       <data key="v_title">Insuficiencia tricuspídea reumática</data>
       <data key="v_group">I</data>
     </node>
@@ -1528,7 +1528,7 @@
       <data key="v_name">I11.0</data>
       <data key="v_Freq">28</data>
       <data key="v_str">Enfermedad cardíaca hipertensiva con insuficiencia cardiaca</data>
-      <data key="v_label">Enfermedad cardíaca hipertens</data>
+      <data key="v_label">Enfermedad cardíaca hipertensi</data>
       <data key="v_title">Enfermedad cardíaca hipertensiva con insuficiencia cardiaca</data>
       <data key="v_group">I</data>
     </node>
@@ -1592,7 +1592,7 @@
       <data key="v_name">I48.0</data>
       <data key="v_Freq">188</data>
       <data key="v_str">Fibrilación paroxística auricular</data>
-      <data key="v_label">Fibrilación paroxística auri</data>
+      <data key="v_label">Fibrilación paroxística auricu</data>
       <data key="v_title">Fibrilación paroxística auricular</data>
       <data key="v_group">I</data>
     </node>
@@ -1600,7 +1600,7 @@
       <data key="v_name">I48.1</data>
       <data key="v_Freq">54</data>
       <data key="v_str">Fibrilación persistente auricular</data>
-      <data key="v_label">Fibrilación persistente auric</data>
+      <data key="v_label">Fibrilación persistente auricu</data>
       <data key="v_title">Fibrilación persistente auricular</data>
       <data key="v_group">I</data>
     </node>
@@ -1608,7 +1608,7 @@
       <data key="v_name">I65.23</data>
       <data key="v_Freq">53</data>
       <data key="v_str">Oclusión y estenosis de arteria carótida bilateral</data>
-      <data key="v_label">Oclusión y estenosis de arter</data>
+      <data key="v_label">Oclusión y estenosis de arteri</data>
       <data key="v_title">Oclusión y estenosis de arteria carótida bilateral</data>
       <data key="v_group">I</data>
     </node>
@@ -1616,7 +1616,7 @@
       <data key="v_name">I85.10</data>
       <data key="v_Freq">35</data>
       <data key="v_str">Varices esofágicas secundarias sin sangrado</data>
-      <data key="v_label">Varices esofágicas secundaria</data>
+      <data key="v_label">Varices esofágicas secundarias</data>
       <data key="v_title">Varices esofágicas secundarias sin sangrado</data>
       <data key="v_group">I</data>
     </node>
@@ -1624,7 +1624,7 @@
       <data key="v_name">J96.11</data>
       <data key="v_Freq">19</data>
       <data key="v_str">Insuficiencia respiratoria crónica con hipoxia</data>
-      <data key="v_label">Insuficiencia respiratoria cr�</data>
+      <data key="v_label">Insuficiencia respiratoria cró</data>
       <data key="v_title">Insuficiencia respiratoria crónica con hipoxia</data>
       <data key="v_group">J</data>
     </node>
@@ -1640,7 +1640,7 @@
       <data key="v_name">K22.70</data>
       <data key="v_Freq">37</data>
       <data key="v_str">Esófago de Barrett sin displasia</data>
-      <data key="v_label">Esófago de Barrett sin displa</data>
+      <data key="v_label">Esófago de Barrett sin displas</data>
       <data key="v_title">Esófago de Barrett sin displasia</data>
       <data key="v_group">K</data>
     </node>
@@ -1648,7 +1648,7 @@
       <data key="v_name">K29.50</data>
       <data key="v_Freq">84</data>
       <data key="v_str">Gastritis crónica no especificada sin hemorragia</data>
-      <data key="v_label">Gastritis crónica no especifi</data>
+      <data key="v_label">Gastritis crónica no especific</data>
       <data key="v_title">Gastritis crónica no especificada sin hemorragia</data>
       <data key="v_group">K</data>
     </node>
@@ -1664,7 +1664,7 @@
       <data key="v_name">K70.31</data>
       <data key="v_Freq">17</data>
       <data key="v_str">Cirrosis alcohólica de hígado con ascitis</data>
-      <data key="v_label">Cirrosis alcohólica de hígad</data>
+      <data key="v_label">Cirrosis alcohólica de hígado </data>
       <data key="v_title">Cirrosis alcohólica de hígado con ascitis</data>
       <data key="v_group">K</data>
     </node>
@@ -1672,7 +1672,7 @@
       <data key="v_name">K74.60</data>
       <data key="v_Freq">30</data>
       <data key="v_str">Cirrosis de hígado no especificada</data>
-      <data key="v_label">Cirrosis de hígado no especif</data>
+      <data key="v_label">Cirrosis de hígado no especifi</data>
       <data key="v_title">Cirrosis de hígado no especificada</data>
       <data key="v_group">K</data>
     </node>
@@ -1680,7 +1680,7 @@
       <data key="v_name">K76.0</data>
       <data key="v_Freq">127</data>
       <data key="v_str">Hígado graso (degeneración grasa) de hígado, no clasificado bajo otro concepto</data>
-      <data key="v_label">Hígado graso (degeneración g</data>
+      <data key="v_label">Hígado graso (degeneración gra</data>
       <data key="v_title">Hígado graso (degeneración grasa) de hígado, no clasificado bajo otro concepto</data>
       <data key="v_group">K</data>
     </node>
@@ -1696,7 +1696,7 @@
       <data key="v_name">N13.8</data>
       <data key="v_Freq">20</data>
       <data key="v_str">Otros tipos de uropatía obstructiva y por reflujo</data>
-      <data key="v_label">Otros tipos de uropatía obstr</data>
+      <data key="v_label">Otros tipos de uropatía obstru</data>
       <data key="v_title">Otros tipos de uropatía obstructiva y por reflujo</data>
       <data key="v_group">N</data>
     </node>
@@ -1704,7 +1704,7 @@
       <data key="v_name">N13.9</data>
       <data key="v_Freq">40</data>
       <data key="v_str">Uropatía obstructiva y por reflujo, no especificada</data>
-      <data key="v_label">Uropatía obstructiva y por re</data>
+      <data key="v_label">Uropatía obstructiva y por ref</data>
       <data key="v_title">Uropatía obstructiva y por reflujo, no especificada</data>
       <data key="v_group">N</data>
     </node>

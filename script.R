@@ -11,17 +11,18 @@ library(visNetwork)
 
 
 generate_cie10<-function(path="~/Documents/diseasomeCMBD2016/CIE10.txt"){
-  cie10<-read.csv(path, sep=";", header=FALSE)
+  cie10<-read.csv(path, sep=";", header=FALSE, encoding = "UTF-8")
   cie10$V1<-NULL
   cie10$V4<-NULL
   names(cie10)[1]<-"id"
   names(cie10)[2]<-"str"
+  cie10$str<-enc2utf8(cie10$str)
   return(cie10)
 }
 
 
 generate_cmbd<-function(sex,age_min,age_max,path="~/Downloads/cmbd_madrid/CMBD_HOS_ANONIMO_20160101_20161231.csv"){
-  cmbd <- read.csv(path, sep=";")
+  cmbd <- read.csv(path, sep=";", encoding = "UTF-8")
   cmbd<-cmbd[!duplicated(cmbd$HISTORIA_Anonimo),]
   cmbd$age<-as.numeric(format(as.Date(cmbd$FECING,"%d/%m/%Y"),"%Y"))-as.numeric(format(as.Date(cmbd$FECNAC,"%d/%m/%Y"),"%Y"))
   cmbd<-cmbd[cmbd$SEXO==sex&cmbd$age>=age_min&cmbd$age<=age_max,]
@@ -131,6 +132,8 @@ build_nodes<-function(edges,original_nodes,cie10){
 
 
 build_igraph<-function(sex,age_min,age_max,cie10,cmbd_file="CMBD_HOS_ANONIMO_20160101_20161231.csv"){
+  age_min<-max(age_min,0)
+  age_max<-min(age_max,120)
   cmbd<-generate_cmbd(sex,age_min,age_max,cmbd_file)
   l<-generate_l(cmbd)
   v<-generate_v(l)
@@ -139,9 +142,13 @@ build_igraph<-function(sex,age_min,age_max,cie10,cmbd_file="CMBD_HOS_ANONIMO_201
   vertex<-build_nodes(edges,v,cie10)
   g<-graph.data.frame(edges,vertices=vertex)
   g.sym <- as.undirected(g, mode= "collapse")
+  write_graph(g.sym,paste0(sex,formatC(age_min,width=3,format="d",flag="0"),formatC(age_max,width=3,format="d",flag="0"),".graphml"),"graphml")
   return(g.sym)
 }
 
+load_igraph<-function(sex,age_min,age_max) {
+  return(read_graph(paste0(sex,formatC(age_min,width=3,format="d",flag="0"),formatC(age_max,width=3,format="d",flag="0"),".graphml"),"graphml"))
+}
 
 build_summary_edges<-function(sex,age_min,age_max,g.sym){
   r.degree <- degree(g.sym)
@@ -202,29 +209,22 @@ plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,s
                stabilization=F)
 }
 
+
 cie10_file<-"CIE10.txt"
 cie10<-generate_cie10(cie10_file)
 
-m0009.igraph<-build_igraph(1,0,9,cie10)
-m1019.igraph<-build_igraph(1,10,19,cie10)
-m2029.igraph<-build_igraph(1,20,29,cie10)
-m3039.igraph<-build_igraph(1,30,39,cie10)
-m4049.igraph<-build_igraph(1,40,49,cie10)
-m5059.igraph<-build_igraph(1,50,59,cie10)
-m6069.igraph<-build_igraph(1,60,69,cie10)
-m7079.igraph<-build_igraph(1,70,79,cie10)
-m8099.igraph<-build_igraph(1,80,120,cie10)
+for(sex in c(1,2)) {
+  for(age_min in c(0,10,20,30,40,50,60,70,80)) {
+    if(age_min<80){
+      print(c(sex,age_min,age_min+9))
+      build_igraph(sex,age_min,age_min+9,cie10)  
+    } else {
+      print(c(sex,age_min,age_min+9))
+      build_igraph(sex,age_min,120,cie10)  
+    }
+  }
+}
 
-#saving graphs generated to files
-write_graph(m0009.igraph,"m0009.graphml","graphml")
-write_graph(m1019.igraph,"m1019.graphml","graphml")
-write_graph(m2029.igraph,"m2029.graphml","graphml")
-write_graph(m3039.igraph,"m3039.graphml","graphml")
-write_graph(m4049.igraph,"m4049.graphml","graphml")
-write_graph(m5059.igraph,"m5059.graphml","graphml")
-write_graph(m6069.igraph,"m6069.graphml","graphml")
-write_graph(m7079.igraph,"m7079.graphml","graphml")
-write_graph(m8099.igraph,"m8099.graphml","graphml")
 
 m0009.igraph.main<-decompose.graph(m0009.igraph)[[1]]
 m1019.igraph.main<-decompose.graph(m1019.igraph)[[1]]

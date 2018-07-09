@@ -16,7 +16,7 @@
       <data key="v_name">B18.2</data>
       <data key="v_Freq">181</data>
       <data key="v_str">Hepatitis vírica crónica tipo C</data>
-      <data key="v_label">Hepatitis vírica crónica tip</data>
+      <data key="v_label">Hepatitis vírica crónica tipo </data>
       <data key="v_title">Hepatitis vírica crónica tipo C</data>
       <data key="v_group">B</data>
     </node>
@@ -32,7 +32,7 @@
       <data key="v_name">C22.0</data>
       <data key="v_Freq">38</data>
       <data key="v_str">Carcinoma de células hepáticas</data>
-      <data key="v_label">Carcinoma de células hepátic</data>
+      <data key="v_label">Carcinoma de células hepáticas</data>
       <data key="v_title">Carcinoma de células hepáticas</data>
       <data key="v_group">C</data>
     </node>
@@ -96,7 +96,7 @@
       <data key="v_name">F11.20</data>
       <data key="v_Freq">39</data>
       <data key="v_str">Dependencia de opiáceos, sin complicaciones</data>
-      <data key="v_label">Dependencia de opiáceos, sin </data>
+      <data key="v_label">Dependencia de opiáceos, sin c</data>
       <data key="v_title">Dependencia de opiáceos, sin complicaciones</data>
       <data key="v_group">F</data>
     </node>
@@ -104,7 +104,7 @@
       <data key="v_name">F11.21</data>
       <data key="v_Freq">37</data>
       <data key="v_str">Dependencia de opiáceos, en remisión</data>
-      <data key="v_label">Dependencia de opiáceos, en r</data>
+      <data key="v_label">Dependencia de opiáceos, en re</data>
       <data key="v_title">Dependencia de opiáceos, en remisión</data>
       <data key="v_group">F</data>
     </node>
@@ -112,7 +112,7 @@
       <data key="v_name">F14.21</data>
       <data key="v_Freq">26</data>
       <data key="v_str">Dependencia de cocaína, en remisión</data>
-      <data key="v_label">Dependencia de cocaína, en re</data>
+      <data key="v_label">Dependencia de cocaína, en rem</data>
       <data key="v_title">Dependencia de cocaína, en remisión</data>
       <data key="v_group">F</data>
     </node>
@@ -152,7 +152,7 @@
       <data key="v_name">G47.33</data>
       <data key="v_Freq">194</data>
       <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
-      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_label">Apnea obstructiva del sueño (d</data>
       <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
       <data key="v_group">G</data>
     </node>
@@ -160,7 +160,7 @@
       <data key="v_name">G89.3</data>
       <data key="v_Freq">32</data>
       <data key="v_str">Dolor (agudo) (crónico) relacionado con neoplasia</data>
-      <data key="v_label">Dolor (agudo) (crónico) relac</data>
+      <data key="v_label">Dolor (agudo) (crónico) relaci</data>
       <data key="v_title">Dolor (agudo) (crónico) relacionado con neoplasia</data>
       <data key="v_group">G</data>
     </node>
@@ -168,7 +168,7 @@
       <data key="v_name">I10</data>
       <data key="v_Freq">1174</data>
       <data key="v_str">Hipertensión esencial (primaria)</data>
-      <data key="v_label">Hipertensión esencial (primar</data>
+      <data key="v_label">Hipertensión esencial (primari</data>
       <data key="v_title">Hipertensión esencial (primaria)</data>
       <data key="v_group">I</data>
     </node>
@@ -192,7 +192,7 @@
       <data key="v_name">I25.82</data>
       <data key="v_Freq">20</data>
       <data key="v_str">Oclusión total crónica de arteria coronaria</data>
-      <data key="v_label">Oclusión total crónica de ar</data>
+      <data key="v_label">Oclusión total crónica de arte</data>
       <data key="v_title">Oclusión total crónica de arteria coronaria</data>
       <data key="v_group">I</data>
     </node>
@@ -208,7 +208,7 @@
       <data key="v_name">I25.9</data>
       <data key="v_Freq">60</data>
       <data key="v_str">Enfermedad isquémica crónica cardiaca, no especificada</data>
-      <data key="v_label">Enfermedad isquémica crónica</data>
+      <data key="v_label">Enfermedad isquémica crónica c</data>
       <data key="v_title">Enfermedad isquémica crónica cardiaca, no especificada</data>
       <data key="v_group">I</data>
     </node>
@@ -216,7 +216,7 @@
       <data key="v_name">I34.0</data>
       <data key="v_Freq">36</data>
       <data key="v_str">Insuficiencia (de la válvula) mitral no reumática</data>
-      <data key="v_label">Insuficiencia (de la válvula)</data>
+      <data key="v_label">Insuficiencia (de la válvula) </data>
       <data key="v_title">Insuficiencia (de la válvula) mitral no reumática</data>
       <data key="v_group">I</data>
     </node>
@@ -248,7 +248,7 @@
       <data key="v_name">I85.10</data>
       <data key="v_Freq">55</data>
       <data key="v_str">Varices esofágicas secundarias sin sangrado</data>
-      <data key="v_label">Varices esofágicas secundaria</data>
+      <data key="v_label">Varices esofágicas secundarias</data>
       <data key="v_title">Varices esofágicas secundarias sin sangrado</data>
       <data key="v_group">I</data>
     </node>
@@ -312,7 +312,7 @@
       <data key="v_name">K31.89</data>
       <data key="v_Freq">51</data>
       <data key="v_str">Otras enfermedades de estómago y duodeno</data>
-      <data key="v_label">Otras enfermedades de estómag</data>
+      <data key="v_label">Otras enfermedades de estómago</data>
       <data key="v_title">Otras enfermedades de estómago y duodeno</data>
       <data key="v_group">K</data>
     </node>
@@ -320,7 +320,7 @@
       <data key="v_name">K44.9</data>
       <data key="v_Freq">162</data>
       <data key="v_str">Hernia diafragmática sin obstrucción ni gangrena</data>
-      <data key="v_label">Hernia diafragmática sin obst</data>
+      <data key="v_label">Hernia diafragmática sin obstr</data>
       <data key="v_title">Hernia diafragmática sin obstrucción ni gangrena</data>
       <data key="v_group">K</data>
     </node>
@@ -328,7 +328,7 @@
       <data key="v_name">K70.30</data>
       <data key="v_Freq">65</data>
       <data key="v_str">Cirrosis alcohólica de hígado sin ascitis</data>
-      <data key="v_label">Cirrosis alcohólica de hígad</data>
+      <data key="v_label">Cirrosis alcohólica de hígado </data>
       <data key="v_title">Cirrosis alcohólica de hígado sin ascitis</data>
       <data key="v_group">K</data>
     </node>
@@ -336,7 +336,7 @@
       <data key="v_name">K70.31</data>
       <data key="v_Freq">32</data>
       <data key="v_str">Cirrosis alcohólica de hígado con ascitis</data>
-      <data key="v_label">Cirrosis alcohólica de hígad</data>
+      <data key="v_label">Cirrosis alcohólica de hígado </data>
       <data key="v_title">Cirrosis alcohólica de hígado con ascitis</data>
       <data key="v_group">K</data>
     </node>
@@ -344,7 +344,7 @@
       <data key="v_name">K70.9</data>
       <data key="v_Freq">64</data>
       <data key="v_str">Enfermedad hepática alcohólica, no especificada</data>
-      <data key="v_label">Enfermedad hepática alcohóli</data>
+      <data key="v_label">Enfermedad hepática alcohólica</data>
       <data key="v_title">Enfermedad hepática alcohólica, no especificada</data>
       <data key="v_group">K</data>
     </node>
@@ -352,7 +352,7 @@
       <data key="v_name">K74.60</data>
       <data key="v_Freq">48</data>
       <data key="v_str">Cirrosis de hígado no especificada</data>
-      <data key="v_label">Cirrosis de hígado no especif</data>
+      <data key="v_label">Cirrosis de hígado no especifi</data>
       <data key="v_title">Cirrosis de hígado no especificada</data>
       <data key="v_group">K</data>
     </node>
@@ -384,7 +384,7 @@
       <data key="v_name">N18.3</data>
       <data key="v_Freq">23</data>
       <data key="v_str">Enfermedad renal crónica, estadio 3 (moderada)</data>
-      <data key="v_label">Enfermedad renal crónica, est</data>
+      <data key="v_label">Enfermedad renal crónica, esta</data>
       <data key="v_title">Enfermedad renal crónica, estadio 3 (moderada)</data>
       <data key="v_group">N</data>
     </node>
@@ -400,7 +400,7 @@
       <data key="v_name">N18.9</data>
       <data key="v_Freq">73</data>
       <data key="v_str">Enfermedad renal crónica, no especificada</data>
-      <data key="v_label">Enfermedad renal crónica, no </data>
+      <data key="v_label">Enfermedad renal crónica, no e</data>
       <data key="v_title">Enfermedad renal crónica, no especificada</data>
       <data key="v_group">N</data>
     </node>
@@ -408,7 +408,7 @@
       <data key="v_name">N39.0</data>
       <data key="v_Freq">104</data>
       <data key="v_str">Infección de tracto urinario, localización no especificada</data>
-      <data key="v_label">Infección de tracto urinario,</data>
+      <data key="v_label">Infección de tracto urinario, </data>
       <data key="v_title">Infección de tracto urinario, localización no especificada</data>
       <data key="v_group">N</data>
     </node>
@@ -432,7 +432,7 @@
       <data key="v_name">R65.21</data>
       <data key="v_Freq">37</data>
       <data key="v_str">Sepsis grave con shock séptico</data>
-      <data key="v_label">Sepsis grave con shock séptic</data>
+      <data key="v_label">Sepsis grave con shock séptico</data>
       <data key="v_title">Sepsis grave con shock séptico</data>
       <data key="v_group">R</data>
     </node>
@@ -448,7 +448,7 @@
       <data key="v_name">Z21</data>
       <data key="v_Freq">62</data>
       <data key="v_str">Estado de infección asintomática por virus de inmunodeficiencia humana [VIH]</data>
-      <data key="v_label">Estado de infección asintomá</data>
+      <data key="v_label">Estado de infección asintomáti</data>
       <data key="v_title">Estado de infección asintomática por virus de inmunodeficiencia humana [VIH]</data>
       <data key="v_group">Z</data>
     </node>
@@ -456,7 +456,7 @@
       <data key="v_name">Z65.1</data>
       <data key="v_Freq">20</data>
       <data key="v_str">Prisión y otros tipos de encarcelamiento</data>
-      <data key="v_label">Prisión y otros tipos de enca</data>
+      <data key="v_label">Prisión y otros tipos de encar</data>
       <data key="v_title">Prisión y otros tipos de encarcelamiento</data>
       <data key="v_group">Z</data>
     </node>
@@ -568,7 +568,7 @@
       <data key="v_name">Z99.89</data>
       <data key="v_Freq">113</data>
       <data key="v_str">Dependencia de otras máquinas y dispositivos de apoyo</data>
-      <data key="v_label">Dependencia de otras máquinas</data>
+      <data key="v_label">Dependencia de otras máquinas </data>
       <data key="v_title">Dependencia de otras máquinas y dispositivos de apoyo</data>
       <data key="v_group">Z</data>
     </node>
@@ -584,7 +584,7 @@
       <data key="v_name">B18.1</data>
       <data key="v_Freq">25</data>
       <data key="v_str">Hepatitis vírica crónica tipo B, sin agente delta</data>
-      <data key="v_label">Hepatitis vírica crónica tip</data>
+      <data key="v_label">Hepatitis vírica crónica tipo </data>
       <data key="v_title">Hepatitis vírica crónica tipo B, sin agente delta</data>
       <data key="v_group">B</data>
     </node>
@@ -648,7 +648,7 @@
       <data key="v_name">E46</data>
       <data key="v_Freq">70</data>
       <data key="v_str">Malnutrición calórico-proteica no especificada</data>
-      <data key="v_label">Malnutrición calórico-protei</data>
+      <data key="v_label">Malnutrición calórico-proteica</data>
       <data key="v_title">Malnutrición calórico-proteica no especificada</data>
       <data key="v_group">E</data>
     </node>
@@ -656,7 +656,7 @@
       <data key="v_name">E66.01</data>
       <data key="v_Freq">48</data>
       <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
-      <data key="v_label">Obesidad mórbida (severa) por</data>
+      <data key="v_label">Obesidad mórbida (severa) por </data>
       <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
       <data key="v_group">E</data>
     </node>
@@ -704,7 +704,7 @@
       <data key="v_name">G47.30</data>
       <data key="v_Freq">39</data>
       <data key="v_str">Apnea del sueño, no especificada</data>
-      <data key="v_label">Apnea del sueño, no especific</data>
+      <data key="v_label">Apnea del sueño, no especifica</data>
       <data key="v_title">Apnea del sueño, no especificada</data>
       <data key="v_group">G</data>
     </node>
@@ -712,7 +712,7 @@
       <data key="v_name">I12.0</data>
       <data key="v_Freq">27</data>
       <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
-      <data key="v_label">Enfermedad renal crónica hipe</data>
+      <data key="v_label">Enfermedad renal crónica hiper</data>
       <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 5 o con enfermedad renal en estadio terminal</data>
       <data key="v_group">I</data>
     </node>
@@ -720,7 +720,7 @@
       <data key="v_name">I12.9</data>
       <data key="v_Freq">71</data>
       <data key="v_str">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
-      <data key="v_label">Enfermedad renal crónica hipe</data>
+      <data key="v_label">Enfermedad renal crónica hiper</data>
       <data key="v_title">Enfermedad renal crónica hipertensiva con enfermedad renal crónica en estadio 1 a 4 o con enfermedad renal crónica no especificada</data>
       <data key="v_group">I</data>
     </node>
@@ -768,7 +768,7 @@
       <data key="v_name">I27.2</data>
       <data key="v_Freq">42</data>
       <data key="v_str">Otra hipertensión pulmonar secundaria</data>
-      <data key="v_label">Otra hipertensión pulmonar se</data>
+      <data key="v_label">Otra hipertensión pulmonar sec</data>
       <data key="v_title">Otra hipertensión pulmonar secundaria</data>
       <data key="v_group">I</data>
     </node>
@@ -784,7 +784,7 @@
       <data key="v_name">I48.0</data>
       <data key="v_Freq">43</data>
       <data key="v_str">Fibrilación paroxística auricular</data>
-      <data key="v_label">Fibrilación paroxística auri</data>
+      <data key="v_label">Fibrilación paroxística auricu</data>
       <data key="v_title">Fibrilación paroxística auricular</data>
       <data key="v_group">I</data>
     </node>
@@ -792,7 +792,7 @@
       <data key="v_name">I48.2</data>
       <data key="v_Freq">25</data>
       <data key="v_str">Fibrilación crónica auricular</data>
-      <data key="v_label">Fibrilación crónica auricula</data>
+      <data key="v_label">Fibrilación crónica auricular</data>
       <data key="v_title">Fibrilación crónica auricular</data>
       <data key="v_group">I</data>
     </node>
@@ -800,7 +800,7 @@
       <data key="v_name">I48.91</data>
       <data key="v_Freq">78</data>
       <data key="v_str">Fibrilación auricular no especificada</data>
-      <data key="v_label">Fibrilación auricular no espe</data>
+      <data key="v_label">Fibrilación auricular no espec</data>
       <data key="v_title">Fibrilación auricular no especificada</data>
       <data key="v_group">I</data>
     </node>
@@ -808,7 +808,7 @@
       <data key="v_name">J18.9</data>
       <data key="v_Freq">125</data>
       <data key="v_str">Neumonía, nmicroorganismo no especificado</data>
-      <data key="v_label">Neumonía, nmicroorganismo no </data>
+      <data key="v_label">Neumonía, nmicroorganismo no e</data>
       <data key="v_title">Neumonía, nmicroorganismo no especificado</data>
       <data key="v_group">J</data>
     </node>
@@ -816,7 +816,7 @@
       <data key="v_name">J22</data>
       <data key="v_Freq">67</data>
       <data key="v_str">Infección aguda del tracto respiratorio inferior, no especificada</data>
-      <data key="v_label">Infección aguda del tracto re</data>
+      <data key="v_label">Infección aguda del tracto res</data>
       <data key="v_title">Infección aguda del tracto respiratorio inferior, no especificada</data>
       <data key="v_group">J</data>
     </node>
@@ -832,7 +832,7 @@
       <data key="v_name">K29.50</data>
       <data key="v_Freq">37</data>
       <data key="v_str">Gastritis crónica no especificada sin hemorragia</data>
-      <data key="v_label">Gastritis crónica no especifi</data>
+      <data key="v_label">Gastritis crónica no especific</data>
       <data key="v_title">Gastritis crónica no especificada sin hemorragia</data>
       <data key="v_group">K</data>
     </node>
@@ -856,7 +856,7 @@
       <data key="v_name">Z99.81</data>
       <data key="v_Freq">37</data>
       <data key="v_str">Dependencia de oxígeno suplementario</data>
-      <data key="v_label">Dependencia de oxígeno suplem</data>
+      <data key="v_label">Dependencia de oxígeno supleme</data>
       <data key="v_title">Dependencia de oxígeno suplementario</data>
       <data key="v_group">Z</data>
     </node>

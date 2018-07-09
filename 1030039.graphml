@@ -24,7 +24,7 @@
       <data key="v_name">G47.33</data>
       <data key="v_Freq">41</data>
       <data key="v_str">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
-      <data key="v_label">Apnea obstructiva del sueño (</data>
+      <data key="v_label">Apnea obstructiva del sueño (d</data>
       <data key="v_title">Apnea obstructiva del sueño (del adulto) (pediátrica)</data>
       <data key="v_group">G</data>
     </node>
@@ -40,7 +40,7 @@
       <data key="v_name">K44.9</data>
       <data key="v_Freq">38</data>
       <data key="v_str">Hernia diafragmática sin obstrucción ni gangrena</data>
-      <data key="v_label">Hernia diafragmática sin obst</data>
+      <data key="v_label">Hernia diafragmática sin obstr</data>
       <data key="v_title">Hernia diafragmática sin obstrucción ni gangrena</data>
       <data key="v_group">K</data>
     </node>
@@ -48,7 +48,7 @@
       <data key="v_name">Z65.1</data>
       <data key="v_Freq">11</data>
       <data key="v_str">Prisión y otros tipos de encarcelamiento</data>
-      <data key="v_label">Prisión y otros tipos de enca</data>
+      <data key="v_label">Prisión y otros tipos de encar</data>
       <data key="v_title">Prisión y otros tipos de encarcelamiento</data>
       <data key="v_group">Z</data>
     </node>
@@ -56,7 +56,7 @@
       <data key="v_name">Z99.89</data>
       <data key="v_Freq">14</data>
       <data key="v_str">Dependencia de otras máquinas y dispositivos de apoyo</data>
-      <data key="v_label">Dependencia de otras máquinas</data>
+      <data key="v_label">Dependencia de otras máquinas </data>
       <data key="v_title">Dependencia de otras máquinas y dispositivos de apoyo</data>
       <data key="v_group">Z</data>
     </node>
@@ -64,7 +64,7 @@
       <data key="v_name">B18.2</data>
       <data key="v_Freq">17</data>
       <data key="v_str">Hepatitis vírica crónica tipo C</data>
-      <data key="v_label">Hepatitis vírica crónica tip</data>
+      <data key="v_label">Hepatitis vírica crónica tipo </data>
       <data key="v_title">Hepatitis vírica crónica tipo C</data>
       <data key="v_group">B</data>
     </node>
@@ -72,7 +72,7 @@
       <data key="v_name">E66.01</data>
       <data key="v_Freq">23</data>
       <data key="v_str">Obesidad mórbida (severa) por exceso de calorías</data>
-      <data key="v_label">Obesidad mórbida (severa) por</data>
+      <data key="v_label">Obesidad mórbida (severa) por </data>
       <data key="v_title">Obesidad mórbida (severa) por exceso de calorías</data>
       <data key="v_group">E</data>
     </node>
