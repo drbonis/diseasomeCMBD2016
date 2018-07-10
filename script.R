@@ -196,6 +196,7 @@ plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,s
   }
   V(my_igraph)$size[V(my_igraph)$size<min_size]<-min_size
   V(my_igraph)$size[V(my_igraph)$size>max_size]<-max_size
+  main<-"Red de comorbilidad (Autor: Julio Bonis)"
   visIgraph(my_igraph, layout=layout, physics=physics, smooth=smooth) %>%
     visPhysics(solver="barnesHut",
                barnesHut=list(
@@ -209,92 +210,113 @@ plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,s
                stabilization=F)
 }
 
+precalculate<-function(){
+  cie10_file<-"CIE10.txt"
+  cie10<-generate_cie10(cie10_file)
+  
+  for(sex in c(1,2)) {
+    for(age_min in c(0,10,20,30,40,50,60,70,80)) {
+      if(age_min<80){
+        print(c(sex,age_min,age_min+9))
+        build_igraph(sex,age_min,age_min+9,cie10)  
+      } else {
+        print(c(sex,age_min,age_min+9))
+        build_igraph(sex,age_min,120,cie10)  
+      }
+    }
+  }
+}
 
+
+
+
+
+
+setwd("C:/Users/jbonis_fcsai/Developer/trusty32/code/diseasomeCMBD2016")
 cie10_file<-"CIE10.txt"
 cie10<-generate_cie10(cie10_file)
 
 for(sex in c(1,2)) {
   for(age_min in c(0,10,20,30,40,50,60,70,80)) {
     if(age_min<80){
-      print(c(sex,age_min,age_min+9))
-      build_igraph(sex,age_min,age_min+9,cie10)  
+      age_max<-age_min+9
     } else {
-      print(c(sex,age_min,age_min+9))
-      build_igraph(sex,age_min,120,cie10)  
+      age_max<-120
     }
+    print(c(sex,age_min,120))
+    var_name<-paste0(sex,formatC(age_min,width=3,format="d",flag="0"),formatC(age_max,width=3,format="d",flag="0"))
+    mygraph<-read_graph(paste0(var_name,".graphml"),"graphml") 
+    assign(paste0("igraph.",var_name),mygraph)
+    assign(paste0("igraph.",var_name,".main"),decompose.graph(mygraph)[[which.max(components(mygraph)$csize)]])
   }
 }
 
 
-m0009.igraph.main<-decompose.graph(m0009.igraph)[[1]]
-m1019.igraph.main<-decompose.graph(m1019.igraph)[[1]]
-m2029.igraph.main<-decompose.graph(m2029.igraph)[[1]]
-m3039.igraph.main<-decompose.graph(m3039.igraph)[[1]]
-m4049.igraph.main<-decompose.graph(m4049.igraph)[[1]]
-m5059.igraph.main<-decompose.graph(m5059.igraph)[[1]]
-m6069.igraph.main<-decompose.graph(m6069.igraph)[[1]]
-m7079.igraph.main<-decompose.graph(m7079.igraph)[[1]]
-m8099.igraph.main<-decompose.graph(m8099.igraph)[[1]]
 
-
-m0009.summary.edges<-build_summary_edges(1,0,9,m0009.igraph)
-m1019.summary.edges<-build_summary_edges(1,10,19,m1019.igraph)
-m2029.summary.edges<-build_summary_edges(1,20,29,m2029.igraph)
-m3039.summary.edges<-build_summary_edges(1,30,39,m3039.igraph)
-m4049.summary.edges<-build_summary_edges(1,40,49,m4049.igraph)
-m5059.summary.edges<-build_summary_edges(1,50,59,m5059.igraph)
-m6069.summary.edges<-build_summary_edges(1,60,69,m6069.igraph)
-m7079.summary.edges<-build_summary_edges(1,70,79,m7079.igraph)
-m8099.summary.edges<-build_summary_edges(1,80,89,m8099.igraph)
-
-m7099.summary.edges<-merge(m7079.summary.edges,m8099.summary.edges,by=c("id","str"),suffixes = c(".m7079", ".m8099"))
-m6099.summary.edges<-merge(m6069.summary.edges,m7099.summary.edges,by=c("id","str"))
-m5099.summary.edges<-merge(m5059.summary.edges,m6099.summary.edges,by=c("id","str"),suffixes = c(".m5059", ".m6069"))
-
-
-m0009.summary.global<-build_summary_global(1,0,9,m0009.igraph)
-m1019.summary.global<-build_summary_global(1,10,19,m1019.igraph)
-m2029.summary.global<-build_summary_global(1,20,29,m2029.igraph)
-m3039.summary.global<-build_summary_global(1,30,39,m3039.igraph)
-m4049.summary.global<-build_summary_global(1,40,49,m4049.igraph)
-m5059.summary.global<-build_summary_global(1,50,59,m5059.igraph)
-m6069.summary.global<-build_summary_global(1,60,69,m6069.igraph)
-m7079.summary.global<-build_summary_global(1,70,79,m7079.igraph)
-m8099.summary.global<-build_summary_global(1,80,120,m8099.igraph)
-
-m0099.summary.global<-rbind(m0009.summary.global,
-      m1019.summary.global,
-      m2029.summary.global,
-      m3039.summary.global,
-      m4049.summary.global,
-      m5059.summary.global,
-      m6069.summary.global,
-      m7079.summary.global,
-      m8099.summary.global)
-
-m0009.summary.main.global<-build_summary_global(1,0,9,m0009.igraph.main)
-m1019.summary.main.global<-build_summary_global(1,10,19,m1019.igraph.main)
-m2029.summary.main.global<-build_summary_global(1,20,29,m2029.igraph.main)
-m3039.summary.main.global<-build_summary_global(1,30,39,m3039.igraph.main)
-m4049.summary.main.global<-build_summary_global(1,40,49,m4049.igraph.main)
-m5059.summary.main.global<-build_summary_global(1,50,59,m5059.igraph.main)
-m6069.summary.main.global<-build_summary_global(1,60,69,m6069.igraph.main)
-m7079.summary.main.global<-build_summary_global(1,70,79,m7079.igraph.main)
-m8099.summary.main.global<-build_summary_global(1,80,120,m8099.igraph.main)
-
-m0099.summary.main.global<-rbind(m0009.summary.main.global,
-                            m1019.summary.main.global,
-                            m2029.summary.main.global,
-                            m3039.summary.main.global,
-                            m4049.summary.main.global,
-                            m5059.summary.main.global,
-                            m6069.summary.main.global,
-                            m7079.summary.main.global,
-                            m8099.summary.main.global)
+if(exists("summary.global.main")){remove("summary.global.main")}
+for(sex in c(1,2)) {
+  for(age_min in c(0,10,20,30,40,50,60,70,80)) {
+    if(age_min<80){
+      age_max<-age_min+9
+    } else {
+      age_max<-120
+    }
+    print(c(sex,age_min,age_max))
+    var_name<-paste0(sex,formatC(age_min,width=3,format="d",flag="0"),formatC(age_max,width=3,format="d",flag="0"))
+    mygraph<-get(paste0("igraph.",var_name))
+    mygraph.main<-get(paste0("igraph.",var_name,".main"))
+    assign(paste0("igraph.",var_name,".summary.edges"),build_summary_edges(sex,age_min,age_max,mygraph))
+    assign(paste0("igraph.",var_name,".summary.global"),build_summary_global(sex,age_min,age_max,mygraph))
+    
+    
+    if(exists("summary.global.main")){
+      print(c("añado summary.global.main",sex,age_min,age_max))
+      new_row<-build_summary_global(sex,age_min,age_max,mygraph.main)
+      summary.global.main<-rbind(summary.global.main,new_row)  
+    } else {
+      print(c("Creo summary.global.main",sex,age_min,age_max))
+      
+      summary.global.main<-build_summary_global(sex,age_min,age_max,mygraph.main)
+    }
+    
+    assign(paste0("igraph.",var_name,".main.summary.edges"),build_summary_edges(sex,age_min,age_max,mygraph.main))
+    assign(paste0("igraph.",var_name,".main.summary.global"),build_summary_global(sex,age_min,age_max,mygraph.main))
+  }
+}
 
 
 
-plot_commorbidity(m5059.igraph.main,"layout_nicely","betweenness",10,100,T,T)
+
+
+
+
+
+
+
+plot_commorbidity(igraph.1000009,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1010019,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1020029,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1030039,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1040049,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1050059,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1060069,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1070079,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1080120,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2000009,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2010019,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2020029,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2030039,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2040049,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2050059,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2060069,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2070079,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
+
+
+
+
+
+
 
 
 
