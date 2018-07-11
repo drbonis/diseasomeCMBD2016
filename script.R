@@ -7,6 +7,7 @@ if(!require("igraph")) {install.packages("igraph")}
 library(igraph)
 if(!require("visNetwork")) {install.packages("visNetwork")}
 library(visNetwork)
+library(ggplot2)
 
 
 
@@ -254,6 +255,7 @@ for(sex in c(1,2)) {
 
 
 if(exists("summary.global.main")){remove("summary.global.main")}
+if(exists("summary.global")){remove("summary.global")}
 for(sex in c(1,2)) {
   for(age_min in c(0,10,20,30,40,50,60,70,80)) {
     if(age_min<80){
@@ -271,16 +273,23 @@ for(sex in c(1,2)) {
     
     if(exists("summary.global.main")){
       print(c("añado summary.global.main",sex,age_min,age_max))
-      new_row<-build_summary_global(sex,age_min,age_max,mygraph.main)
-      summary.global.main<-rbind(summary.global.main,new_row)  
+      new_row.main<-build_summary_global(sex,age_min,age_max,mygraph.main)
+      summary.global.main<-rbind(summary.global.main,new_row.main)  
+      
+      new_row<-build_summary_global(sex,age_min,age_max,mygraph)
+      summary.global<-rbind(summary.global.main,new_row) 
     } else {
       print(c("Creo summary.global.main",sex,age_min,age_max))
       
       summary.global.main<-build_summary_global(sex,age_min,age_max,mygraph.main)
+      summary.global<-build_summary_global(sex,age_min,age_max,mygraph)
     }
     
     assign(paste0("igraph.",var_name,".main.summary.edges"),build_summary_edges(sex,age_min,age_max,mygraph.main))
     assign(paste0("igraph.",var_name,".main.summary.global"),build_summary_global(sex,age_min,age_max,mygraph.main))
+    
+    assign(paste0("igraph.",var_name,".summary.edges"),build_summary_edges(sex,age_min,age_max,mygraph))
+    assign(paste0("igraph.",var_name,".summary.global"),build_summary_global(sex,age_min,age_max,mygraph))
   }
 }
 
@@ -338,6 +347,18 @@ visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>%
              selectedBy="group",
              collapse=FALSE)
   
+plot_global_summary<-function(summary,metric){
+  ggplot(data=summary, aes(x=age_min, y=get(metric), group=sex))+
+    geom_line(aes(color=factor(sex)))+
+    geom_point(aes(color=factor(sex)))+
+    labs(title=paste0(metric," by age and sex"),x="age_min", y = metric)+
+    theme_light()
+}
 
-
-
+plot_global_summary(summary.global,"num_vertex")
+plot_global_summary(summary.global,"num_edges")
+plot_global_summary(summary.global,"diameter")
+plot_global_summary(summary.global,"w_diameter")
+plot_global_summary(summary.global,"mean_distance")
+plot_global_summary(summary.global,"edge_density")
+plot_global_summary(summary.global,"transitivity")
