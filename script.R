@@ -324,8 +324,6 @@ plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
 
 
 
-
-<<<<<<< HEAD
 visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>% 
   visLayout(improvedLayout=TRUE) %>%
   visEdges(shadow=T,smooth=F,dashes=F) %>%
@@ -359,5 +357,4 @@ plot_global_summary(summary.global,"w_diameter")
 plot_global_summary(summary.global,"mean_distance")
 plot_global_summary(summary.global,"edge_density")
 plot_global_summary(summary.global,"transitivity")
-=======
->>>>>>> be6924dd9d9a80f0048d9f26b68e5afea430dd55
+
