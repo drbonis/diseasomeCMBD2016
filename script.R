@@ -222,6 +222,53 @@ precalculate<-function(){
   }
 }
 
+plot_nice_commorbidity_network<-function(sex,age_min,age_max,only_main,node_size_by){
+  age_min<-max(0,age_min)
+  age_max<-min(120,age_max)
+  if(sex==1) {sex_label<-"men"} else {sex_label<-"women"}
+  if(only_main) {
+    igraph<-get(paste0("igraph.",sex,formatC(age_min,width=3,format="d",flag="0"),formatC(age_max,width=3,format="d",flag="0"),".main"))
+  } else {
+    igraph<-get(paste0("igraph.",sex,formatC(age_min,width=3,format="d",flag="0"),formatC(age_max,width=3,format="d",flag="0")))
+  }
+  
+  vertex<-as.data.frame(vertex_attr(igraph))
+  vertex$id<-vertex$name
+  if(node_size_by=="degree") {
+    vertex$size<-eval(10 + ((100-10)*((degree(igraph)-min(degree(igraph)))/(max(degree(igraph))-min(degree(igraph))))))
+  } else {
+    if(node_size_by=="betweenness") {
+      vertex$size<-eval(10 + ((100-10)*((betweenness(igraph)-min(betweenness(igraph)))/(max(betweenness(igraph))-min(betweenness(igraph))))))
+    } else {
+      vertex$size<-eval(10 + ((100-10)*((vertex$Freq-min(vertex$Freq))/(max(vertex$Freq)-min(vertex$Freq)))))
+    }
+  }
+  
+
+  edges<-data.frame(
+    from=ends(igraph,E(igraph))[,1],
+    to=ends(igraph,E(igraph))[,2],
+    width=eval(1 + ((30-1)*((edge_attr(igraph)$weight-min(edge_attr(igraph)$weight))/(max(edge_attr(igraph)$weight)-min(edge_attr(igraph)$weight))))),
+    label=round(edge_attr(igraph)$weight,1)
+    )
+  visNetwork(vertex,edges,main=paste0("Commorbidity network for ",sex_label," ",age_min," to ",age_max," years (Author: Julio Bonis drbonis@gmail.com)")) %>% 
+    visLayout(improvedLayout=TRUE) %>%
+    visEdges(shadow=T,smooth=T,dashes=F) %>%
+    visPhysics(solver="barnesHut",
+               barnesHut=list(
+                 gravitationalConstant=-10000,
+                 centralGravity=0.1,
+                 springLength=95,
+                 springConstant=0.01,
+                 damping=0.5,
+                 avoidOverlap=0.8
+               ),
+               stabilization=F) %>%
+    visNodes(shadow=T) %>%
+    visOptions(highlightNearest = list(enabled = T, degree = 1, hover = F),
+               selectedBy="group",
+               collapse=FALSE)
+}
 
 
 
@@ -317,6 +364,25 @@ plot_commorbidity(igraph.2060069,"layout_nicely","betweenness",10,100,T,T)
 plot_commorbidity(igraph.2070079,"layout_nicely","betweenness",10,100,T,T)
 plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
 
+#plotting the nice graphs by age and sex
+plot_commorbidity(igraph.1000009,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1010019,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1020029,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1030039,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1040049,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1050059,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1060069,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1070079,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.1080120,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2000009,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2010019,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2020029,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2030039,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2040049,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2050059,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2060069,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2070079,"layout_nicely","betweenness",10,100,T,T)
+plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
 
 
 
@@ -324,23 +390,6 @@ plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
 
 
 
-visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>% 
-  visLayout(improvedLayout=TRUE) %>%
-  visEdges(shadow=T,smooth=F,dashes=F) %>%
-  visPhysics(solver="barnesHut",
-             barnesHut=list(
-               gravitationalConstant=-10000,
-               centralGravity=0.1,
-               springLength=95,
-               springConstant=0.01,
-               damping=0.5,
-               avoidOverlap=0.8
-             ),
-             stabilization=F) %>%
-  visNodes(shadow=T) %>%
-  visOptions(highlightNearest = list(enabled = T, degree = 1, hover = F),
-             selectedBy="group",
-             collapse=FALSE)
   
 plot_global_summary<-function(summary,metric){
   ggplot(data=summary, aes(x=age_min, y=get(metric), group=sex))+
