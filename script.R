@@ -273,7 +273,7 @@ for(sex in c(1,2)) {
       summary.global.main<-rbind(summary.global.main,new_row.main)  
       
       new_row<-build_summary_global(sex,age_min,age_max,mygraph)
-      summary.global<-rbind(summary.global.main,new_row) 
+      summary.global<-rbind(summary.global,new_row) 
     } else {
       print(c("Creo summary.global.main",sex,age_min,age_max))
       
