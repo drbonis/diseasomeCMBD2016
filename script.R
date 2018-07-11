@@ -185,12 +185,6 @@ plot_commorbidity<-function(my_igraph,layout,size_by,min_size,max_size,physics,s
   if(size_by=="betweenness"){
     vector<-betweenness(my_igraph)
     V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
-    # y = N + ((M-N)*((x-a)/(b-a)))
-    # N = min_size
-    # M = max_size
-    # x = value
-    # a = min(value)
-    # b = max(value)
   } else {
     vector<-degree(my_igraph)
     V(my_igraph)$size<- min_size + ((max_size-min_size)*((vector-min(vector))/(max(vector)-min(vector))))
@@ -237,6 +231,7 @@ setwd("C:/Users/jbonis_fcsai/Developer/trusty32/code/diseasomeCMBD2016")
 cie10_file<-"CIE10.txt"
 cie10<-generate_cie10(cie10_file)
 
+#loadin the precalculated graphs by age and sex and 
 for(sex in c(1,2)) {
   for(age_min in c(0,10,20,30,40,50,60,70,80)) {
     if(age_min<80){
@@ -254,6 +249,7 @@ for(sex in c(1,2)) {
 
 
 
+# launching the summary calculations for graphs by age and sex
 if(exists("summary.global.main")){remove("summary.global.main")}
 if(exists("summary.global")){remove("summary.global")}
 for(sex in c(1,2)) {
@@ -301,7 +297,7 @@ for(sex in c(1,2)) {
 
 
 
-
+#plotting the graphs by age and sex
 plot_commorbidity(igraph.1000009,"layout_nicely","betweenness",10,100,T,T)
 plot_commorbidity(igraph.1010019,"layout_nicely","betweenness",10,100,T,T)
 plot_commorbidity(igraph.1020029,"layout_nicely","betweenness",10,100,T,T)
@@ -329,6 +325,7 @@ plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
 
 
 
+<<<<<<< HEAD
 visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>% 
   visLayout(improvedLayout=TRUE) %>%
   visEdges(shadow=T,smooth=F,dashes=F) %>%
@@ -362,3 +359,5 @@ plot_global_summary(summary.global,"w_diameter")
 plot_global_summary(summary.global,"mean_distance")
 plot_global_summary(summary.global,"edge_density")
 plot_global_summary(summary.global,"transitivity")
+=======
+>>>>>>> be6924dd9d9a80f0048d9f26b68e5afea430dd55
