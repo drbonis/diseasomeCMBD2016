@@ -324,8 +324,6 @@ plot_commorbidity(igraph.2080120,"layout_nicely","betweenness",10,100,T,T)
 
 
 
-
-
 visNetwork(vertex,edges,main="Red de comorbilidad (Autor: Julio Bonis)") %>% 
   visLayout(improvedLayout=TRUE) %>%
   visEdges(shadow=T,smooth=F,dashes=F) %>%
